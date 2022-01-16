@@ -2,17 +2,19 @@
 
 Also known as "Rochut" studies, after the ubiquitous editions of Melodious Etudes transcribed and arranged for trombone by Joannes Rochut in the 1920s.
 
-If you find mistakes in these transcriptions, please let me know, so that I may correct and update the scores. Alternatively, pull requests are welcome. 
+If you find mistakes in these transcriptions, please let me know, so that I may correct and update the scores. Alternatively, pull requests are always welcome. 
 
 ## Formats
 
-These files were transcribed into [musescore](https://musescore.org/) format. They are also available in my [public set](https://musescore.com/user/35220672/sets/5110656) on the musescore site, where you can playback synthesized audio of each score to hear an approximation of what these sound like. If you download the musescore files and open them locally in the [musescore software](https://musescore.org/en/download), you will be able to edit the scores to fit your preferences, as well as view the individual parts. 
+These [files](musescore) were transcribed into [musescore](https://musescore.org/) format. They are also available in my [public set](https://musescore.com/user/35220672/sets/5110656) on the musescore site. If you download the musescore files and open them locally in the [musescore software](https://musescore.org/en/download), you will be able to view the individual parts, transpose to different keys, clefs, etc, and generally edit them to suit your preferences. 
 
-If you prefer to use the transcriptions as they are, the PDF versions of the parts should display nicely either in hardcopy or on digital tablet displays. For iOS devices, the [forScore](https://forscore.co/) application works very well for digital scores, but of course there are many other options to suit various use cases.
+If you prefer to use the transcriptions as they are, the [PDF versions](PDF) of the parts should display nicely either in hardcopy or on digital tablet displays. For iOS devices, the [forScore](https://forscore.co/) application works very well for digital score management, but of course there are many other options to suit various use cases.
+
+The [mp3s](mp3) are simple synth exports from musescore. The [full score](mp3/Full%20Score) versions are both trombone and piano parts together, which might be helpful for students approaching these vocalises for the first time, to get a sense of how the lines sound at tempo. The [accompaniment only](mp3/Accompaniment%20Only) versions are just piano, plus two (2) full measures of wood block intro. I haven't adjusted tempos, dynamics, ornaments, etc. for most of these, so they may sound a bit odd or mechanical in places. But, hopefully, they are helpful for sessions where you lack a live accompanist. If you do spend time tuning any of these for personal use, please consider a pull request that I can incorporate here so that everyone may benefit. 
 
 ## Sources
 
-Versions available here have been transcribed from Public Domain sources, with very little editing/correction in order to avoid infringing on copyrighted arrangements. If you have access to one of the modern, edited editions, I highly recommend a close comparison of the differences to the originals. In many cases, original articulation markings, dynamics and breath marks, and even the actual notes themselves will vary from modern editions (i.e. these may not be the precise examples you want to take into lessons or performances). Where tempo ranges differ from originals, I have included those suggested by Rochut and/or Douglas Yeo.
+Versions available here have been transcribed from Public Domain [sources](Sources), with very little editing/correction in order to avoid infringing on copyrighted arrangements. If you have access to one of the modern, edited editions, I highly recommend a close comparison of the differences to the originals. In many cases, original articulation markings, dynamics and breath marks, and even the actual notes themselves will vary from modern editions (i.e. these may not be the precise examples you want to take into lessons or performances). Where tempo ranges differ from originals, I have included those suggested by Rochut and/or Douglas Yeo.
 
 ### Solo Vocalises
 
