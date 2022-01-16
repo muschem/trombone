@@ -27,4 +27,4 @@ Versions available here have been transcribed from Public Domain sources, with v
 
 I'm unaware of a numbering convention for these in context of the larger set, as I do not believe Rochut arranged these with the other progressive solo vocalises. So, I continue the numbering for the duets at 121, and proceed in the order they appear in the source material.
 
-# 121 - 132: [Douze nouvelles vocalises à 2 voix pour soprano et mezzo-soprano ou ténor et mezzo-soprano, livre 7e](https://gallica.bnf.fr/ark:/12148/bpt6k97518711/f12.item#)
+* #121 - 132: [Douze nouvelles vocalises à 2 voix pour soprano et mezzo-soprano ou ténor et mezzo-soprano, livre 7e](https://gallica.bnf.fr/ark:/12148/bpt6k97518711/f12.item#)
