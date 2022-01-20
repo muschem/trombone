@@ -42,6 +42,7 @@ This table cross-maps the numbering and tempos from original sources to those us
 | 22     | 19    | D   |                  | [T](PDF/Trombone/Bordogni_Vocalise-22_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-22_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-22_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-22_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-22_Accompaniment.mp3)   | 1/4                 | 96   | 112               | 108            | [19_pp40-41.pdf](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/19_pp40-41.pdf)  | [1](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
 | 23     | 22    | Ab  |                  | [T](PDF/Trombone/Bordogni_Vocalise-23_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-23_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-23_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-23_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-23_Accompaniment.mp3)   | 1/8                 | 58   | 58                | 72             | [22_pp46-47.pdf](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/22_pp46-47.pdf)  | [1](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
 | 24     | 24    | a   |                  | [T](PDF/Trombone/Bordogni_Vocalise-24_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-24_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-24_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-24_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-24_Accompaniment.mp3)   | 1/2                 | 120  | 120               | 100            | [24_pp50-51.pdf](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/24_pp50-51.pdf)  | [1](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
+| 25
 
 The original documents referenced in the table are as follows:
 
@@ -55,6 +56,6 @@ The original documents referenced in the table are as follows:
 
 \*   Note: Rochut's Vocalise #1 was not composed by Bordogni, so a key is not referenced in this table.
 \
-\*\*  Link abbreviations: T = Trombone part, P = Piano part, S = Score
+\*\*  Link abbreviations: **T** = Trombone part, **P** = Piano part, **S** = Score
 \
-\*\*\* Link abbreviations: S = Score, A = Accompaniment only
+\*\*\* Link abbreviations: **S** = Score, **A** = Accompaniment only
