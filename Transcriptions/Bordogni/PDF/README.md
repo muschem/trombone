@@ -1,0 +1,5 @@
+# Transcription Notes
+
+Versions available here have been transcribed from Public Domain [sources](Sources), with very little editing/correction in order to avoid infringing on copyrighted arrangements. If you have access to one of the modern, edited editions of these vocalises, I highly recommend a close comparison of the differences to the originals. In many cases, original articulation markings, dynamics and breath marks, and even the actual notes themselves will vary from modern editions (i.e. these may not be the precise examples you want to take into lessons or performances). Where tempo ranges differ from originals, I have included those suggested by Rochut and/or Douglas Yeo.
+
+I'm unaware of a common numbering convention for the duets in context of the larger set, as I do not believe Rochut arranged these with the other progressive solo vocalises. So, I continue the numbering for the duets at 121, and proceed in the order they appear in the source material.
