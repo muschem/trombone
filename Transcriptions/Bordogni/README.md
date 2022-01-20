@@ -44,27 +44,27 @@ This table cross-maps the numbering and tempos from original sources to those us
 | 24     | 24    | a   |                  | [T](PDF/Trombone/Bordogni_Vocalise-24_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-24_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-24_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-24_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-24_Accompaniment.mp3)   | 1/2                 | 120              | 120               | 100            | [24_pp50-51.pdf](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/24_pp50-51.pdf)  | [1](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
 | 25     | 23    | A   |                  | [T](PDF/Trombone/Bordogni_Vocalise-25_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-25_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-25_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-25_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-25_Accompaniment.mp3)   | 1/4                 | 112              | 112               | 98             | [23_pp48-49.pdf](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/23_pp48-49.pdf)  | [1](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
 | 26     | 3     | F   |                  | [T](PDF/Trombone/Bordogni_Vocalise-26_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-26_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-26_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-26_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-26_Accompaniment.mp3)   | 1/2                 | 56               | 56                | 62             | [03_pp7-9.pdf](Sources/02-24_nouvelles_vocalises_pour_mezzo-soprano_ou_contralto-12e_livre/03_pp7-9.pdf)    | [2](Sources/02-24_nouvelles_vocalises_pour_mezzo-soprano_ou_contralto-12e_livre/00-BnF_CompleteSource.pdf)                  | 1855      |
-| 27
-| 28
-| 29
-| 30
-| 31
-| 32
-| 33
-| 34
-| 35
-| 36
-| 37
-| 38
-| 39
-| 40
-| 41
-| 42
-| 43
-| 44
-| 45
-| 46
-| 47
+| 27     | 4     | D   | E                | [T](PDF/Trombone/Bordogni_Vocalise-27_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-27_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-27_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-27_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-27_Rochut_Accompaniment.mp3)   |
+| 28     | 5     | D   | E                | [T](PDF/Trombone/Bordogni_Vocalise-28_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-28_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-28_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-28_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-28_Rochut_Accompaniment.mp3)   |
+| 29     | 7     | Ab  |                  | [T](PDF/Trombone/Bordogni_Vocalise-29_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-29_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-29_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-29_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-29_Accompaniment.mp3)   |
+| 30     | 1     | C   | D                | [T](PDF/Trombone/Bordogni_Vocalise-30_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-30_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-30_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-30_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-30_Rochut_Accompaniment.mp3)   |
+| 31     | 6     | Eb  |                  | [T](PDF/Trombone/Bordogni_Vocalise-31_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-31_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-31_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-31_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-31_Accompaniment.mp3)   |
+| 32     | 9     | G   |                  | [T](PDF/Trombone/Bordogni_Vocalise-32_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-32_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-32_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-32_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-32_Accompaniment.mp3)   |
+| 33     | 8     | G   | A                | [T](PDF/Trombone/Bordogni_Vocalise-33_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-33_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-33_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-33_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-33_Rochut_Accompaniment.mp3)   |
+| 34     | 10    | e/E |                  | [T](PDF/Trombone/Bordogni_Vocalise-34_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-34_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-34_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-34_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-34_Accompaniment.mp3)   |
+| 35     | 11    | F   | G                | [T](PDF/Trombone/Bordogni_Vocalise-35_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-35_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-35_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-35_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-35_Rochut_Accompaniment.mp3)   |
+| 36     | 13    | E   |                  | [T](PDF/Trombone/Bordogni_Vocalise-36_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-36_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-36_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-36_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-36_Accompaniment.mp3)   |
+| 37     | 12    | C   |                  | [T](PDF/Trombone/Bordogni_Vocalise-37_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-37_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-37_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-37_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-37_Accompaniment.mp3)   |
+| 38     | 14    | G   | A                | [T](PDF/Trombone/Bordogni_Vocalise-38_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-38_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-38_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-38_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-38_Rochut_Accompaniment.mp3)   |
+| 39     | 15    | Eb  |                  | [T](PDF/Trombone/Bordogni_Vocalise-39_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-39_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-39_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-39_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-39_Accompaniment.mp3)   |
+| 40     | 16    | D   | E                | [T](PDF/Trombone/Bordogni_Vocalise-40_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-40_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-40_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-40_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-40_Rochut_Accompaniment.mp3)   |
+| 41     | 17    | e/E | f#/F#            | [T](PDF/Trombone/Bordogni_Vocalise-41_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-41_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-41_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-41_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-41_Rochut_Accompaniment.mp3)   |
+| 42     | 18    | F   |                  | [T](PDF/Trombone/Bordogni_Vocalise-42_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-42_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-42_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-42_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-42_Accompaniment.mp3)   |
+| 43     | 19    | C   | Db               | [T](PDF/Trombone/Bordogni_Vocalise-43_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-43_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-43_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-43_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-43_Rochut_Accompaniment.mp3)   |
+| 44     | 20    | Ab  |                  | [T](PDF/Trombone/Bordogni_Vocalise-44_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-44_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-44_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-44_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-44_Accompaniment.mp3)   |
+| 45     | 21    | C   | D                | [T](PDF/Trombone/Bordogni_Vocalise-45_Rochut_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-45_Rochut_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-45_Rochut_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-45_Rochut_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-45_Rochut_Accompaniment.mp3)   |
+| 46     | 2     | A   |                  | [T](PDF/Trombone/Bordogni_Vocalise-46_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-46_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-46_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-46_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-46_Accompaniment.mp3)   |
+| 47     | 3     | Bb  |                  | [T](PDF/Trombone/Bordogni_Vocalise-47_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-47_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-47_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-47_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-47_Accompaniment.mp3)   |
 
 The original documents referenced in the table are as follows:
 
