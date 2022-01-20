@@ -54,5 +54,7 @@ The original documents referenced in the table are as follows:
 7. [Douze nouvelles vocalises à 2 voix pour soprano et mezzo-soprano ou ténor et mezzo-soprano, livre 7e](Sources/07-Douze_nouvelles_vocalises_à_2_voix_pour_soprano_et_mezzo-soprano_ou_ténor_et_mezzo-soprano-livre_7e/000-BnF_CompleteSource.pdf)
 
 \* Note: Rochut's Vocalise #1 was not composed by Bordogni, so a key is not referenced in this table.
+\
 \*\* Link abbreviations: T = Trombone part, P = Piano part, S = Score
+\
 \*\*\* Link abbreviations: S = Score, A = Accompaniment only
