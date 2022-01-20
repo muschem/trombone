@@ -44,6 +44,27 @@ This table cross-maps the numbering and tempos from original sources to those us
 | 24     | 24    | a   |                  | [T](PDF/Trombone/Bordogni_Vocalise-24_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-24_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-24_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-24_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-24_Accompaniment.mp3)   | 1/2                 | 120              | 120               | 100            | [24_pp50-51.pdf](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/24_pp50-51.pdf)  | [1](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
 | 25     | 23    | A   |                  | [T](PDF/Trombone/Bordogni_Vocalise-25_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-25_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-25_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-25_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-25_Accompaniment.mp3)   | 1/4                 | 112              | 112               | 98             | [23_pp48-49.pdf](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/23_pp48-49.pdf)  | [1](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
 | 26     | 3     | F   |                  | [T](PDF/Trombone/Bordogni_Vocalise-26_Trombone.pdf), [P](PDF/Piano/Bordogni_Vocalise-26_Piano.pdf), [S](PDF/Score/Bordogni_Vocalise-26_Score.pdf) | [S](mp3/Full%20Score/Bordogni_Vocalise-26_fullScore.mp3), [A](mp3/Accompaniment%20Only/Bordogni_Vocalise-26_Accompaniment.mp3)   | 1/2                 | 56               | 56                | 62             | [03_pp7-9.pdf](Sources/02-24_nouvelles_vocalises_pour_mezzo-soprano_ou_contralto-12e_livre/03_pp7-9.pdf)    | [2](Sources/02-24_nouvelles_vocalises_pour_mezzo-soprano_ou_contralto-12e_livre/00-BnF_CompleteSource.pdf)                  | 1855      |
+| 27
+| 28
+| 29
+| 30
+| 31
+| 32
+| 33
+| 34
+| 35
+| 36
+| 37
+| 38
+| 39
+| 40
+| 41
+| 42
+| 43
+| 44
+| 45
+| 46
+| 47
 
 The original documents referenced in the table are as follows:
 
@@ -55,7 +76,7 @@ The original documents referenced in the table are as follows:
 6. [Douze nouvelles vocalises pour bariton et basse-taille composées selon le goût moderne, livre Ve](Sources/06-Douze_nouvelles_vocalises_pour_bariton_et_basse-taille_composées_selon_le_goût_moderne-livre_Ve/000-BnF_CompleteSource.pdf)
 7. [Douze nouvelles vocalises à 2 voix pour soprano et mezzo-soprano ou ténor et mezzo-soprano, livre 7e](Sources/07-Douze_nouvelles_vocalises_à_2_voix_pour_soprano_et_mezzo-soprano_ou_ténor_et_mezzo-soprano-livre_7e/000-BnF_CompleteSource.pdf)
 
-\*   Note: Rochut's Vocalise #1 was not composed by Bordogni, so a key is not referenced in this table.
+\*   Note: Rochut's Vocalise #1 was not composed by Bordogni, so the number and key are not referenced in this table.
 \
 \*\*  Link abbreviations: **T** = Trombone part, **P** = Piano part, **S** = Score
 \
