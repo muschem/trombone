@@ -10,7 +10,7 @@ The original documents referenced in the table are as follows:
 6. [Douze nouvelles vocalises pour bariton et basse-taille composées selon le goût moderne, livre Ve](06-Douze_nouvelles_vocalises_pour_bariton_et_basse-taille_composées_selon_le_goût_moderne-livre_Ve/000-BnF_CompleteSource.pdf)
 7. [Douze nouvelles vocalises à 2 voix pour soprano et mezzo-soprano ou ténor et mezzo-soprano, livre 7e](07-Douze_nouvelles_vocalises_à_2_voix_pour_soprano_et_mezzo-soprano_ou_ténor_et_mezzo-soprano-livre_7e/000-BnF_CompleteSource.pdf)
 
-| Rochut | Orig. | Key | Key <br /> Rochut | Tempo <br /> Base    | M.M. | M.M. <br />Rochut | M.M. <br />Yeo | Source Pages          | Original <br /> Document | Pub. Date |
+| Rochut | Orig. | Key | Key (Rochut) | Tempo Base    | M.M. | M.M. (Rochut) | M.M. (Yeo) | Source Pages          | Orig. Doc. | Pub. Date |
 |-------:|---- -:|:---:|:------------------|:-------------------- |-----:|------------------:|---------------:|:----------------------|:-------------------------|:---------:| 
 | *      | 1     | C   | *                 | 1/4                  | 58   | 60                | 60             | [001_p1.pdf](01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/001_p1.pdf)      | [1](01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
 | 2      | 2     | F   |                   | 1/4                  | 84   | 90                | 94             | [002_pp2-3.pdf](01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/002_pp2-3.pdf)   | [1](01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)                  | 1840      |
