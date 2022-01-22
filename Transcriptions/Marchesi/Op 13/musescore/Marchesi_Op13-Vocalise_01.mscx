@@ -27,7 +27,6 @@
       <frameSystemDistance>8.5</frameSystemDistance>
       <minMeasureWidth>3</minMeasureWidth>
       <minNoteDistance>0</minNoteDistance>
-      <smallStaffMag>0.5</smallStaffMag>
       <createMultiMeasureRests>1</createMultiMeasureRests>
       <keySigNaturals>1</keySigNaturals>
       <titleFontSize>24</titleFontSize>
@@ -78,6 +77,7 @@
       <Staff id="1">
         <StaffType group="pitched">
           <name>stdNormal</name>
+          <small>1</small>
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
@@ -281,7 +281,7 @@
           <Tempo>
             <tempo>1.6666666666666667</tempo>
             <linkedMain/>
-            <offset x="0" y="-2.9"/>
+            <offset x="0" y="-1.45"/>
             <text>Andante</text>
             </Tempo>
           <Dynamic>
@@ -386,8 +386,8 @@
               <linkedMain/>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-3.29264" y="0"/>
+                <offset x="0" y="1"/>
+                <off2 x="-1.64632" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -549,8 +549,8 @@
               <linkedMain/>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.42861"/>
-                <off2 x="-2.35188" y="0"/>
+                <offset x="0" y="1.2143"/>
+                <off2 x="-1.17594" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -631,7 +631,7 @@
               <linkedMain/>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.22861"/>
+                <offset x="0" y="1.11431"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -733,8 +733,8 @@
               <linkedMain/>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-4.75182" y="0"/>
+                <offset x="0" y="1"/>
+                <off2 x="-2.37591" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -945,7 +945,7 @@
               <linkedMain/>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.3"/>
+                <offset x="0" y="1.15"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -993,7 +993,7 @@
               <linkedMain/>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.3"/>
+                <offset x="0" y="1.15"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -1081,13 +1081,13 @@
               <linkedMain/>
               <Segment>
                 <subtype>1</subtype>
-                <offset x="0.174132" y="2.5"/>
-                <off2 x="-0.174132" y="0"/>
+                <offset x="0.087066" y="1.25"/>
+                <off2 x="-0.087066" y="0"/>
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="2.5"/>
-                <off2 x="-15.644" y="0"/>
+                <offset x="0" y="1.25"/>
+                <off2 x="-7.822" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -1268,7 +1268,7 @@
             <subtype>f</subtype>
             <velocity>96</velocity>
             <linkedMain/>
-            <offset x="-0.53" y="2.43"/>
+            <offset x="-0.265" y="1.215"/>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -2044,8 +2044,8 @@
               <linkedMain/>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2"/>
-                <off2 x="-3.69586" y="0"/>
+                <offset x="0" y="1"/>
+                <off2 x="-1.84793" y="0"/>
                 </Segment>
               </HairPin>
             <next>
