@@ -281,7 +281,7 @@
             <sigD>8</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.2</tempo>
+            <tempo>1.5</tempo>
             <linkedMain/>
             <text>Cantabile</text>
             </Tempo>
@@ -6743,7 +6743,7 @@
               <sigD>8</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>1.2</tempo>
+              <tempo>1.5</tempo>
               <linked>
                 </linked>
               <offset x="0" y="-2.89533"/>
@@ -9866,7 +9866,7 @@
               <sigD>8</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>1.2</tempo>
+              <tempo>1.5</tempo>
               <linked>
                 <location>
                   <staves>-1</staves>
