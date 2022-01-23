@@ -229,6 +229,7 @@
         <Text>
           <linkedMain/>
           <style>Title</style>
+          <size>21</size>
           <bold>1</bold>
           <italic>0</italic>
           <text><b>12 Elementary Vocalises</b></text>
@@ -236,8 +237,7 @@
         <Text>
           <linkedMain/>
           <style>Subtitle</style>
-          <offset x="0.659506" y="20.5521"/>
-          <text>3.</text>
+          <text>Opus 13</text>
           </Text>
         <Text>
           <linkedMain/>
@@ -248,16 +248,20 @@
           </Text>
         <Text>
           <linkedMain/>
+          <style>Subtitle</style>
+          <size>19</size>
+          <bold>1</bold>
+          <italic>0</italic>
+          <offset x="0.659506" y="20.5521"/>
+          <text>3.</text>
+          </Text>
+        <Text>
+          <linkedMain/>
           <style>Composer</style>
           <size>10</size>
           <bold>0</bold>
           <offset x="0" y="-0.35052"/>
           <text>Transcribed by Michael Shirley</text>
-          </Text>
-        <Text>
-          <linkedMain/>
-          <style>Subtitle</style>
-          <text>Opus 13</text>
           </Text>
         </VBox>
       <Measure>
@@ -4309,32 +4313,17 @@
       <Staff id="1">
         <VBox>
           <height>15</height>
+          <boxAutoSize>0</boxAutoSize>
           <linked>
             </linked>
           <Text>
             <linked>
               </linked>
             <style>Title</style>
+            <size>21</size>
             <bold>1</bold>
             <italic>0</italic>
             <text>12 Elementary Vocalises</text>
-            </Text>
-          <Text>
-            <linked>
-              </linked>
-            <style>Subtitle</style>
-            <bold>1</bold>
-            <italic>0</italic>
-            <offset x="0.659506" y="21.0719"/>
-            <text>3.</text>
-            </Text>
-          <Text>
-            <linked>
-              </linked>
-            <style>Composer</style>
-            <offset x="-0.824382" y="-4.5349"/>
-            <text><b>Mathilde Marchesi
-</b>(1821 - 1913) </text>
             </Text>
           <Text>
             <style>Instrument Name (Part)</style>
@@ -4343,16 +4332,35 @@
           <Text>
             <linked>
               </linked>
+            <style>Subtitle</style>
+            <text>Opus 13</text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
             <style>Composer</style>
-            <size>10</size>
-            <bold>0</bold>
-            <text>Transcribed by Michael Shirley</text>
+            <offset x="-0.824382" y="-4.87865"/>
+            <text><b>Mathilde Marchesi
+</b>(1821 - 1913) </text>
             </Text>
           <Text>
             <linked>
               </linked>
             <style>Subtitle</style>
-            <text>Opus 13</text>
+            <size>19</size>
+            <bold>1</bold>
+            <italic>0</italic>
+            <offset x="0.659506" y="20.5521"/>
+            <text>3.</text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Composer</style>
+            <size>10</size>
+            <bold>0</bold>
+            <offset x="0" y="-0.35052"/>
+            <text>Transcribed by Michael Shirley</text>
             </Text>
           </VBox>
         <Measure>
@@ -7225,6 +7233,7 @@
       <Staff id="1">
         <VBox>
           <height>15</height>
+          <boxAutoSize>0</boxAutoSize>
           <linked>
             <location>
               <staves>-1</staves>
@@ -7237,6 +7246,7 @@
                 </location>
               </linked>
             <style>Title</style>
+            <size>21</size>
             <bold>1</bold>
             <italic>0</italic>
             <text><b>12 Elementary Vocalises</b></text>
@@ -7248,8 +7258,11 @@
                 </location>
               </linked>
             <style>Subtitle</style>
-            <offset x="0.659506" y="20.5521"/>
-            <text>3.</text>
+            <text>Opus 13</text>
+            </Text>
+          <Text>
+            <style>Instrument Name (Part)</style>
+            <text>Piano</text>
             </Text>
           <Text>
             <linked>
@@ -7268,11 +7281,12 @@
                 <staves>-1</staves>
                 </location>
               </linked>
-            <style>Composer</style>
-            <size>10</size>
-            <bold>0</bold>
-            <offset x="0" y="-0.35052"/>
-            <text>Transcribed by Michael Shirley</text>
+            <style>Subtitle</style>
+            <size>19</size>
+            <bold>1</bold>
+            <italic>0</italic>
+            <offset x="0.659506" y="20.5521"/>
+            <text>3.</text>
             </Text>
           <Text>
             <linked>
@@ -7280,12 +7294,11 @@
                 <staves>-1</staves>
                 </location>
               </linked>
-            <style>Subtitle</style>
-            <text>Opus 13</text>
-            </Text>
-          <Text>
-            <style>Instrument Name (Part)</style>
-            <text>Piano</text>
+            <style>Composer</style>
+            <size>10</size>
+            <bold>0</bold>
+            <offset x="0" y="-0.35052"/>
+            <text>Transcribed by Michael Shirley</text>
             </Text>
           </VBox>
         <Measure>
