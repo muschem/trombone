@@ -227,11 +227,6 @@
         <linkedMain/>
         <Text>
           <linkedMain/>
-          <style>Title</style>
-          <text>12 Elementary Vocalises</text>
-          </Text>
-        <Text>
-          <linkedMain/>
           <style>Composer</style>
           <bold>0</bold>
           <offset x="-0.824382" y="-4.87865"/>
@@ -246,6 +241,9 @@
         <Text>
           <linkedMain/>
           <style>Subtitle</style>
+          <size>19</size>
+          <bold>1</bold>
+          <italic>0</italic>
           <offset x="0.659506" y="20.5521"/>
           <text>7.</text>
           </Text>
@@ -256,6 +254,14 @@
           <bold>0</bold>
           <offset x="0" y="-0.35052"/>
           <text>Transcribed by Michael Shirley</text>
+          </Text>
+        <Text>
+          <linkedMain/>
+          <style>Title</style>
+          <size>21</size>
+          <bold>1</bold>
+          <italic>0</italic>
+          <text><b>12 Elementary Vocalises</b></text>
           </Text>
         </VBox>
       <Measure>
@@ -4773,12 +4779,6 @@
           <Text>
             <linked>
               </linked>
-            <style>Title</style>
-            <text>12 Elementary Vocalises</text>
-            </Text>
-          <Text>
-            <linked>
-              </linked>
             <style>Composer</style>
             <bold>0</bold>
             <offset x="-0.824382" y="-4.87865"/>
@@ -4795,6 +4795,9 @@
             <linked>
               </linked>
             <style>Subtitle</style>
+            <size>19</size>
+            <bold>1</bold>
+            <italic>0</italic>
             <offset x="0.659506" y="20.5521"/>
             <text>7.</text>
             </Text>
@@ -4810,6 +4813,15 @@
           <Text>
             <style>Instrument Name (Part)</style>
             <text>Trombone</text>
+            </Text>
+          <Text>
+            <linked>
+              </linked>
+            <style>Title</style>
+            <size>21</size>
+            <bold>1</bold>
+            <italic>0</italic>
+            <text><b>12 Elementary Vocalises</b></text>
             </Text>
           </VBox>
         <Measure>
@@ -7212,15 +7224,6 @@
                 <staves>-1</staves>
                 </location>
               </linked>
-            <style>Title</style>
-            <text>12 Elementary Vocalises</text>
-            </Text>
-          <Text>
-            <linked>
-              <location>
-                <staves>-1</staves>
-                </location>
-              </linked>
             <style>Composer</style>
             <bold>0</bold>
             <offset x="-0.824382" y="-4.87865"/>
@@ -7243,6 +7246,9 @@
                 </location>
               </linked>
             <style>Subtitle</style>
+            <size>19</size>
+            <bold>1</bold>
+            <italic>0</italic>
             <offset x="0.659506" y="20.5521"/>
             <text>7.</text>
             </Text>
@@ -7261,6 +7267,18 @@
           <Text>
             <style>Instrument Name (Part)</style>
             <text>Piano</text>
+            </Text>
+          <Text>
+            <linked>
+              <location>
+                <staves>-1</staves>
+                </location>
+              </linked>
+            <style>Title</style>
+            <size>21</size>
+            <bold>1</bold>
+            <italic>0</italic>
+            <text><b>12 Elementary Vocalises</b></text>
             </Text>
           </VBox>
         <Measure>
