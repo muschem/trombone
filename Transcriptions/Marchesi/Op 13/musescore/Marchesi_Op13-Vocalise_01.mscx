@@ -224,7 +224,6 @@
     <Staff id="1">
       <VBox>
         <height>15</height>
-        <bottomGap>4.5</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <linkedMain/>
         <Text>
