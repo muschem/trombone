@@ -280,7 +280,7 @@
             <sigD>8</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.7333333333333334</tempo>
+            <tempo>1.5</tempo>
             <linkedMain/>
             <text>Allegretto</text>
             </Tempo>
@@ -7720,7 +7720,7 @@
               <sigD>8</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>1.7333333333333334</tempo>
+              <tempo>1.5</tempo>
               <linked>
                 </linked>
               <offset x="0" y="-2.79549"/>
@@ -11291,7 +11291,7 @@
               <sigD>8</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>1.7333333333333334</tempo>
+              <tempo>1.5</tempo>
               <linked>
                 <location>
                   <staves>-1</staves>
