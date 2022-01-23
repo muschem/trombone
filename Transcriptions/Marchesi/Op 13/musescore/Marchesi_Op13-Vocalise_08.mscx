@@ -281,7 +281,7 @@
             <sigD>8</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.1333333333333333</tempo>
+            <tempo>1.45</tempo>
             <linkedMain/>
             <text>Adagio</text>
             </Tempo>
@@ -6823,7 +6823,7 @@
               <sigD>8</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>1.1333333333333333</tempo>
+              <tempo>1.45</tempo>
               <linked>
                 </linked>
               <text>Adagio</text>
@@ -10231,7 +10231,7 @@
               <sigD>8</sigD>
               </TimeSig>
             <Tempo>
-              <tempo>1.1333333333333333</tempo>
+              <tempo>1.45</tempo>
               <linked>
                 <location>
                   <staves>-1</staves>
