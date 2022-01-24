@@ -1,6 +1,6 @@
 # Bordogni
 
-![Guilio Marco Bordogni](Bordogni.jpg)
+![Guilio Marco Bordogni](Bordogni.jpg){ width=60% margin=auto 
 
 ## Vocalises
 
