@@ -73,13 +73,13 @@ This table cross-maps the numbering and tempos from original sources to those us
 
 The original documents referenced in the table are as follows:
 
-1. [24 nouvelles vocalises à la portée de toutes les voix, 11e livre](Sources/01-24_nouvelles_vocalises_à_la_portée_de_toutes_les_voix-11e_livre/00-BnF_CompleteSource.pdf)
-2. [24 nouvelles vocalises pour mezzo-soprano ou contralto, 12e livre](Sources/02-24_nouvelles_vocalises_pour_mezzo-soprano_ou_contralto-12e_livre/00-BnF_CompleteSource.pdf)
-3. [12 nouvelles vocalises pour mezzo-soprano, 8e livre](Sources/03-12_nouvelles_vocalises_pour_mezzo-soprano-8e_livre/00-BnF_CompleteSource.pdf)
-4. [12 nouvelles vocalises dont 6 avec paroles italiennes pour mezzo-soprano, 6e livre](Sources/04-12_nouvelles_vocalises_dont_6_avec_paroles_italiennes_pour_mezzo-soprano-6e_livre/00-BnF_CompleteSource.pdf)
-5. [Vocalizzi_secondo_il_gusto_moderno](Sources/05-Vocalizzi_secondo_il_gusto_moderno/00-IMSLP_CompleteSource.pdf)
-6. [Douze nouvelles vocalises pour bariton et basse-taille composées selon le goût moderne, livre Ve](Sources/06-Douze_nouvelles_vocalises_pour_bariton_et_basse-taille_composées_selon_le_goût_moderne-livre_Ve/00-BnF_CompleteSource.pdf)
-7. [Douze nouvelles vocalises à 2 voix pour soprano et mezzo-soprano ou ténor et mezzo-soprano, livre 7e](Sources/07-Douze_nouvelles_vocalises_à_2_voix_pour_soprano_et_mezzo-soprano_ou_ténor_et_mezzo-soprano-livre_7e/00-BnF_CompleteSource.pdf)
+1. [24 nouvelles vocalises à la portée de toutes les voix, 11e livre](https://gallica.bnf.fr/ark:/12148/bpt6k859070q/f34.item)
+2. [24 nouvelles vocalises pour mezzo-soprano ou contralto, 12e livre](https://gallica.bnf.fr/ark:/12148/bpt6k859021c/f16.item#)
+3. [12 nouvelles vocalises pour mezzo-soprano, 8e livre](https://gallica.bnf.fr/ark:/12148/bpt6k9751345t/f24.item)
+4. [12 nouvelles vocalises dont 6 avec paroles italiennes pour mezzo-soprano, 6e livre](https://gallica.bnf.fr/ark:/12148/bpt6k9752104h)
+5. [Vocalizzi secondo il gusto moderno](https://imslp.org/wiki/Vocalizzi_secondo_il_gusto_moderno_(Bordogni,_Marco)#IMSLP39699)
+6. [Douze nouvelles vocalises pour bariton et basse-taille composées selon le goût moderne, livre Ve](https://gallica.bnf.fr/ark:/12148/bpt6k9762573d)
+7. [Douze nouvelles vocalises à 2 voix pour soprano et mezzo-soprano ou ténor et mezzo-soprano, livre 7e](https://gallica.bnf.fr/ark:/12148/bpt6k97518711/f12.item#)
 
 \*   Note: Rochut's Vocalise #1 was not composed by Bordogni, so the number and key are not referenced in this table.
 \
