@@ -1,6 +1,6 @@
 # Bordogni
 
-<img src="Bordogni.jpg" width=50% height=50%>
+<img src="Bordogni.jpg" alt="Giulio Marco Bordogni" width=50% height=50%>
 
 ## Vocalises
 
