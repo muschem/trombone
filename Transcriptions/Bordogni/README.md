@@ -1,4 +1,8 @@
-# Bordogni Vocalises
+# Bordogni
+
+![Guilio Marco Bordogni](Bordogni.jpg)
+
+## Vocalises
 
 Composed for voice and piano by Giulio Marco Bordogni (commonly, Marco Bordogni) between 1840-1855, these vocalises are also known by trombonists as "Rochut" studies, after the ubiquitous editions of Melodious Etudes transcribed and arranged for trombone by Joannes Rochut in the 1920s. 
 
