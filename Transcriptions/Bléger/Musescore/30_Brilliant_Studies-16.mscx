@@ -214,12 +214,12 @@
           <StaffText>
             <size>14</size>
             <bold>1</bold>
-            <offset x="-16.4443" y="3.02523"/>
+            <offset x="-15.3443" y="3.02523"/>
             <text>16.</text>
             </StaffText>
           <Tempo>
             <tempo>2.3999999999999999</tempo>
-            <offset x="0" y="-3.4"/>
+            <offset x="0" y="-3.9"/>
             <text>Allegro</text>
             </Tempo>
           <Dynamic>
