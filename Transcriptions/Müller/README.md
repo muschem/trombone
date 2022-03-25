@@ -4,7 +4,7 @@ Albert Robert Müller, more commonly known as Robert Müller, was a German tromb
 
 ## Technical Studies
 
-Among other works, Müller authored a series of studies for trombone in volumes of increasing difficulty. 
+Among other works, Müller authored a series of studies for trombone in volumes of increasing difficulty. As technical studies, tempos are not specified. Instead, Müller directs: "The Tempo of these Studies is entirely at the discretion of the player." Similarly, dynamics are not marked. 
 
 ### Technical Studies, Book III
 
