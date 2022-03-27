@@ -4802,6 +4802,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -4886,6 +4887,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -4970,6 +4972,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -5054,6 +5057,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -5138,6 +5142,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -5222,6 +5227,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -5306,6 +5312,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -5365,8 +5372,11 @@
               <subtype>articStaccatoAbove</subtype>
               </Articulation>
             <Note>
-              <pitch>59</pitch>
-              <tpc>19</tpc>
+              <Accidental>
+                <subtype>accidentalFlat</subtype>
+                </Accidental>
+              <pitch>58</pitch>
+              <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -5393,6 +5403,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
