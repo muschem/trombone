@@ -1,6 +1,6 @@
-# Anton Sláma
+# Anton Slama
 
-Anton Sláma (1804-1881) was a professor of the Vienna Conservatory, best known to trombonists for his "66 Etudes in All Major and Minor Keys".
+Anton Slama (1804-1881) was a professor of the Vienna Conservatory, best known to trombonists for his "66 Etudes in All Major and Minor Keys".
 
 ## 66 Etudes in All Major and Minor Keys
 
