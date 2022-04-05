@@ -884,7 +884,6 @@
               </Note>
             </Chord>
           <Chord>
-            <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -893,10 +892,9 @@
                   </location>
                 </prev>
               </Spanner>
-            <StemDirection>down</StemDirection>
             <Note>
-              <pitch>60</pitch>
-              <tpc>14</tpc>
+              <pitch>63</pitch>
+              <tpc>11</tpc>
               </Note>
             </Chord>
           </voice>
