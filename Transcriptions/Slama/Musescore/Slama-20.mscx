@@ -168,8 +168,8 @@
             <accidental>-3</accidental>
             </KeySig>
           <TimeSig>
-            <sigN>3</sigN>
-            <sigD>2</sigD>
+            <sigN>6</sigN>
+            <sigD>4</sigD>
             </TimeSig>
           <Dynamic>
             <subtype>f</subtype>
@@ -178,7 +178,7 @@
           <StaffText>
             <size>13</size>
             <bold>1</bold>
-            <offset x="-18.2814" y="3.01382"/>
+            <offset x="-18.5814" y="3.01382"/>
             <text>№ 20</text>
             </StaffText>
           <Tempo>
