@@ -262,6 +262,9 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.6</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -436,6 +439,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.7</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -610,6 +616,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
