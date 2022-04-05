@@ -165,9 +165,9 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <TimeSig>
-            <subtype>1</subtype>
-            <sigN>4</sigN>
-            <sigD>4</sigD>
+            <subtype>2</subtype>
+            <sigN>2</sigN>
+            <sigD>2</sigD>
             </TimeSig>
           <StaffText>
             <size>13</size>
@@ -238,9 +238,6 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Beam>
-            <StemDirection>down</StemDirection>
-            </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -252,6 +249,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -408,6 +408,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1812,6 +1815,11 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.2"/>
+                  <o3 x="0" y="-0.2"/>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -2033,6 +2041,11 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.2"/>
+                  <o3 x="0" y="-0.2"/>
+                  <offset x="0" y="-0.1"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -2085,6 +2098,11 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.3"/>
+                  <o3 x="0" y="-0.3"/>
+                  <offset x="0" y="-0.2"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
