@@ -273,6 +273,10 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              <offset x="0" y="1"/>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -637,6 +641,10 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              <offset x="0" y="0.8"/>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>46</pitch>
@@ -698,6 +706,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -725,6 +736,10 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              <offset x="0" y="1.1"/>
+              </Articulation>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>48</pitch>
@@ -780,6 +795,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -810,6 +828,10 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              <offset x="0" y="0.1"/>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>50</pitch>
@@ -871,6 +893,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalSharp</subtype>
@@ -901,6 +926,9 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
@@ -963,6 +991,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articAccentAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>62</pitch>
               <tpc>16</tpc>
@@ -990,6 +1021,9 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>62</pitch>
@@ -1111,6 +1145,9 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -1228,6 +1265,9 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
@@ -1363,6 +1403,9 @@
         <voice>
           <Chord>
             <durationType>quarter</durationType>
+            <Articulation>
+              <subtype>ornamentTrill</subtype>
+              </Articulation>
             <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
@@ -1661,7 +1704,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/12</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1679,6 +1722,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/12</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -1687,13 +1737,6 @@
           <endTuplet/>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1826,7 +1869,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/12</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -1844,6 +1887,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/12</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -1852,13 +1902,6 @@
           <endTuplet/>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <Spanner type="Tie">
                 <Tie>
@@ -1991,7 +2034,7 @@
                 </Slur>
               <next>
                 <location>
-                  <fractions>1/8</fractions>
+                  <fractions>1/12</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -2009,6 +2052,13 @@
             </Chord>
           <Chord>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/12</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -2017,13 +2067,6 @@
           <endTuplet/>
           <Chord>
             <durationType>eighth</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-1/8</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <Spanner type="Tie">
                 <Tie>
