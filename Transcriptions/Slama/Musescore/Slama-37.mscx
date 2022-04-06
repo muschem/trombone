@@ -270,11 +270,16 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.6"/>
+                  <o3 x="0" y="-0.6"/>
+                  <o4 x="0.233915" y="-0.0660852"/>
+                  <offset x="0" y="-0.9"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -326,6 +331,13 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -337,13 +349,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>55</pitch>
               <tpc>15</tpc>
@@ -362,11 +367,10 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <up>up</up>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -386,6 +390,13 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>54</pitch>
               <tpc>20</tpc>
@@ -394,13 +405,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>52</pitch>
               <tpc>18</tpc>
@@ -490,10 +497,16 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="2.23475e-18" y="-1"/>
+                  <o3 x="2.23475e-18" y="-1"/>
+                  <o4 x="0.333043" y="-0.299128"/>
+                  <offset x="0" y="-0.6"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
-                  <fractions>3/16</fractions>
+                  <fractions>1/8</fractions>
                   </location>
                 </next>
               </Spanner>
@@ -545,6 +558,13 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -556,13 +576,6 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
-            <Spanner type="Slur">
-              <prev>
-                <location>
-                  <fractions>-3/16</fractions>
-                  </location>
-                </prev>
-              </Spanner>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -1379,6 +1392,11 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="-3.35212e-18" y="-0.3"/>
+                  <o3 x="-3.35212e-18" y="-0.3"/>
+                  <offset x="0" y="-0.1"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1504,6 +1522,11 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.4"/>
+                  <o3 x="0" y="-0.4"/>
+                  <offset x="0" y="-0.3"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -2122,6 +2145,10 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.2"/>
+                  <o3 x="0" y="-0.2"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
