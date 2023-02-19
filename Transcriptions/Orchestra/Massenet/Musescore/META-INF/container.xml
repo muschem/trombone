@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="Le Cid Ballet (Act II) - Low Brass.mscx"/>
+    <rootfile full-path="Excerpts/Trombone 1 (Tenor Clef)/Trombone 1 (Tenor Clef).mss"/>
+    <rootfile full-path="Excerpts/Trombone 1 (Tenor Clef)/Trombone 1 (Tenor Clef).mscx"/>
+    <rootfile full-path="Excerpts/Trombone 2 (Tenor Clef)/Trombone 2 (Tenor Clef).mss"/>
+    <rootfile full-path="Excerpts/Trombone 2 (Tenor Clef)/Trombone 2 (Tenor Clef).mscx"/>
+    <rootfile full-path="Excerpts/Trombone 3/Trombone 3.mss"/>
+    <rootfile full-path="Excerpts/Trombone 3/Trombone 3.mscx"/>
+    <rootfile full-path="Excerpts/Tuba/Tuba.mss"/>
+    <rootfile full-path="Excerpts/Tuba/Tuba.mscx"/>
+    <rootfile full-path="Excerpts/Trombone 1 (Bass Clef)/Trombone 1 (Bass Clef).mss"/>
+    <rootfile full-path="Excerpts/Trombone 1 (Bass Clef)/Trombone 1 (Bass Clef).mscx"/>
+    <rootfile full-path="Excerpts/Trombone 2 (Bass Clef)/Trombone 2 (Bass Clef).mss"/>
+    <rootfile full-path="Excerpts/Trombone 2 (Bass Clef)/Trombone 2 (Bass Clef).mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone 1 (Tenor Clef)/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone 2 (Tenor Clef)/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone 3/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Tuba/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone 1 (Bass Clef)/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone 2 (Bass Clef)/viewsettings.json"/>
+    </rootfiles>
+  </container>
