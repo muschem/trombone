@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="Musescore.mscx"/>
+    <rootfile full-path="Excerpts/Trombone/Trombone.mss"/>
+    <rootfile full-path="Excerpts/Trombone/Trombone.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone/viewsettings.json"/>
+    </rootfiles>
+  </container>
