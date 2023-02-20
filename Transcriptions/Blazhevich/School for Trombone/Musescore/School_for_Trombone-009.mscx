@@ -436,9 +436,6 @@
         <voice>
           <Chord>
             <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articTenutoAbove</subtype>
-              </Articulation>
             <Note>
               <Spanner type="Tie">
                 <prev>
@@ -453,9 +450,6 @@
             </Chord>
           <Chord>
             <durationType>quarter</durationType>
-            <Articulation>
-              <subtype>articTenutoAbove</subtype>
-              </Articulation>
             <Note>
               <pitch>57</pitch>
               <tpc>17</tpc>
