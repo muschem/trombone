@@ -1,0 +1,3 @@
+# Blazhevich - School for Trombone
+
+These individual study transcriptions are based on the 1925 edition of Blazhevich's method, which is available in the Public Domain. The work can be generally divided into two parts, the first of which presents studies (numbers 1-34) in clefs beginning with a single slide position (1st), and then incrementally expanding to include additional slide positions. The second part (Study #35 onward) includes exercises in all 7 positions. While these transcriptions focus on the exercises themselves, the author's notes throughout the method are worth referencing along with the music. The full method also includes additional guidance, such as slide position charts, dynamic and rhythmic references, scale and arpeggio studies, etc.
