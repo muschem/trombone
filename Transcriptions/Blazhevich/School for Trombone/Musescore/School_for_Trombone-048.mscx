@@ -1207,6 +1207,12 @@
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o1 x="0.0940753" y="-0.188151"/>
+                  <o2 x="5.58687e-19" y="-0.5"/>
+                  <o3 x="5.58687e-19" y="-0.5"/>
+                  <o4 x="12.1357" y="-0.188151"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1836,6 +1842,16 @@
             </Clef>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <measures>1</measures>
+                  <fractions>-7/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
@@ -1856,6 +1872,14 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <measures>-1</measures>
+                  <fractions>7/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>54</pitch>
               <tpc>20</tpc>
@@ -1923,6 +1947,15 @@
             <offset x="0.5" y="0"/>
             <dots>2</dots>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>7/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
@@ -1933,6 +1966,13 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-7/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>59</pitch>
               <tpc>19</tpc>
@@ -2096,6 +2136,15 @@
             </Chord>
           <Chord>
             <durationType>eighth</durationType>
+            <Spanner type="Slur">
+              <Slur>
+                </Slur>
+              <next>
+                <location>
+                  <fractions>1/8</fractions>
+                  </location>
+                </next>
+              </Spanner>
             <Note>
               <pitch>47</pitch>
               <tpc>19</tpc>
@@ -2104,6 +2153,13 @@
           <Chord>
             <dots>1</dots>
             <durationType>half</durationType>
+            <Spanner type="Slur">
+              <prev>
+                <location>
+                  <fractions>-1/8</fractions>
+                  </location>
+                </prev>
+              </Spanner>
             <Note>
               <pitch>50</pitch>
               <tpc>16</tpc>
