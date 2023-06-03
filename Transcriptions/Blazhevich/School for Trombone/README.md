@@ -25,7 +25,7 @@ In the second section, studies continue in all 7 positions, starting in the key 
 ### Reference Table
 
 | #   | Key    | Time | Voxman<br />Mapping |
-|----:|-------:|-----:|---------------:|
+|----:|-------:|-----:|:---------------|
 | 35  | C Maj  | 4/4  |                |
 | 36  | C Maj  | 8/8  |                |
 | 37  | C Maj  | 3/4  |                |
