@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.00">
-  <programVersion>4.0.1</programVersion>
-  <programRevision>9b70a8c</programRevision>
+  <programVersion>4.0.2</programVersion>
+  <programRevision>dbe7c6d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -16,11 +16,15 @@
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate"></metaTag>
     <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">4.00</metaTag>
     <metaTag name="platform"></metaTag>
+    <metaTag name="poet"></metaTag>
     <metaTag name="source">IMSLP298931-PMLP484251-Blaz_tr_sch</metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">School for Trombone, Number 56</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
@@ -193,7 +197,7 @@
             </TimeSig>
           <Tempo>
             <tempo>0.875</tempo>
-            <text>Lento <sym>metNoteQuarterUp</sym><font face="Edwin"/> = <sym>metNoteQuarterUp</sym></text>
+            <text>Lento <sym>metNoteQuarterUp</sym><font face="Edwin"></font> = <sym>metNoteQuarterUp</sym></text>
             </Tempo>
           <Dynamic>
             <subtype>p</subtype>
@@ -1565,7 +1569,7 @@
             <size>10</size>
             <bold>0</bold>
             <italic>1</italic>
-            <text><b></b><i><font size="10"/>tempo</i></text>
+            <text><b></b><i><font size="10"></font>tempo</i></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -3995,7 +3999,7 @@
             <size>10</size>
             <bold>0</bold>
             <italic>1</italic>
-            <text><b></b><i><font size="10"/>tempo</i></text>
+            <text><b></b><i><font size="10"></font>tempo</i></text>
             </Tempo>
           <Chord>
             <durationType>eighth</durationType>
@@ -4343,8 +4347,11 @@
                 </prev>
               </Spanner>
             <Note>
-              <pitch>63</pitch>
-              <tpc>11</tpc>
+              <Accidental>
+                <subtype>accidentalNatural</subtype>
+                </Accidental>
+              <pitch>64</pitch>
+              <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
