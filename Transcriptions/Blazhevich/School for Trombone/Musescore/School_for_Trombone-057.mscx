@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.00">
-  <programVersion>4.0.1</programVersion>
-  <programRevision>9b70a8c</programRevision>
+  <programVersion>4.0.2</programVersion>
+  <programRevision>dbe7c6d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -16,11 +16,15 @@
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate"></metaTag>
     <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">4.00</metaTag>
     <metaTag name="platform"></metaTag>
+    <metaTag name="poet"></metaTag>
     <metaTag name="source">IMSLP298931-PMLP484251-Blaz_tr_sch</metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">School for Trombone, Number 57</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
@@ -221,6 +225,7 @@
             <text>pesante</text>
             </StaffText>
           <Chord>
+            <offset x="0.5" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -229,6 +234,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
@@ -251,6 +257,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -269,6 +276,7 @@
       <Measure>
         <voice>
           <Chord>
+            <offset x="0.5" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -277,6 +285,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -293,6 +302,9 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>quarter</durationType>
             <Note>
@@ -315,6 +327,7 @@
       <Measure>
         <voice>
           <Chord>
+            <offset x="0.5" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -355,6 +368,7 @@
             <leadingSpace>0.5</leadingSpace>
             </Segment>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>60</pitch>
@@ -376,6 +390,7 @@
           </LayoutBreak>
         <voice>
           <Chord>
+            <offset x="0.5" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -384,6 +399,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -424,6 +440,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -446,6 +463,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -464,7 +482,7 @@
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Segment>
-            <leadingSpace>1</leadingSpace>
+            <leadingSpace>1.5</leadingSpace>
             </Segment>
           <BarLine>
             </BarLine>
@@ -476,6 +494,7 @@
       <Measure>
         <voice>
           <Chord>
+            <offset x="0.5" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -524,6 +543,7 @@
       <Measure>
         <voice>
           <Chord>
+            <offset x="0.5" y="0"/>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -545,6 +565,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -554,6 +577,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -570,9 +594,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -639,6 +660,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>65</pitch>
@@ -658,6 +680,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -668,6 +693,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -716,6 +742,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>53</pitch>
@@ -764,6 +791,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -786,6 +814,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -802,8 +831,10 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
+            <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
@@ -843,9 +874,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Rest>
             <durationType>eighth</durationType>
@@ -910,6 +938,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>1.1</stretch>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -1205,9 +1234,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -1268,7 +1294,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>1</leadingSpace>
+            <leadingSpace>2</leadingSpace>
             </Segment>
           <Chord>
             <durationType>16th</durationType>
@@ -1301,6 +1327,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -1344,12 +1373,15 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>1.5</leadingSpace>
+            </Segment>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Segment>
-            <leadingSpace>1</leadingSpace>
+            <leadingSpace>1.5</leadingSpace>
             </Segment>
           <Chord>
             <durationType>eighth</durationType>
@@ -1377,6 +1409,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>1.1</stretch>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -1465,6 +1498,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>1.1</stretch>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -1529,6 +1563,7 @@
             <leadingSpace>1</leadingSpace>
             </Segment>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -1545,9 +1580,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <offset x="1" y="0"/>
@@ -1560,6 +1592,9 @@
           <Rest>
             <durationType>eighth</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>1</leadingSpace>
+            </Segment>
           <Clef>
             <concertClefType>C3</concertClefType>
             <transposingClefType>C3</transposingClefType>
@@ -1650,6 +1685,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -1870,7 +1908,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>0.5</leadingSpace>
+            <leadingSpace>1</leadingSpace>
             </Segment>
           <Chord>
             <durationType>eighth</durationType>
@@ -2039,6 +2077,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <Accidental>
@@ -2049,6 +2088,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="0.5" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Note>
@@ -2115,6 +2155,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -2162,6 +2203,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>60</pitch>
@@ -2209,6 +2251,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -2225,6 +2268,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -2256,6 +2302,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -2284,9 +2331,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -2321,6 +2365,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -2347,6 +2392,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -2369,6 +2415,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -2395,6 +2442,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>60</pitch>
@@ -2417,6 +2465,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -2449,7 +2498,11 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
@@ -2472,6 +2525,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -2488,6 +2542,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -2498,6 +2555,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -2514,6 +2572,9 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <offset x="0.5" y="0"/>
             <durationType>quarter</durationType>
@@ -2545,6 +2606,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>53</pitch>
@@ -2567,6 +2629,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>60</pitch>
@@ -2583,9 +2646,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -2596,6 +2656,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -2637,6 +2698,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -2659,6 +2721,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>62</pitch>
@@ -2685,6 +2748,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>53</pitch>
@@ -2707,6 +2771,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>60</pitch>
@@ -2723,6 +2788,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -2733,6 +2801,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -2755,6 +2824,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -2857,6 +2927,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -2895,9 +2966,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <dots>1</dots>
@@ -2908,6 +2976,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>53</pitch>
@@ -2956,6 +3025,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>58</pitch>
@@ -2978,6 +3048,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -2994,6 +3065,10 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.8</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <offset x="1" y="0"/>
@@ -3060,8 +3135,11 @@
               <subtype>articStaccatoBelow</subtype>
               </Articulation>
             <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>54</pitch>
+              <tpc>20</tpc>
               </Note>
             </Chord>
           <Chord>
@@ -3221,9 +3299,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -3303,6 +3378,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -3571,9 +3649,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -3676,6 +3751,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -3799,12 +3877,15 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
           <Segment>
-            <leadingSpace>1</leadingSpace>
+            <leadingSpace>1.5</leadingSpace>
             </Segment>
           <Dynamic>
             <subtype>f</subtype>
@@ -3833,6 +3914,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
@@ -3855,6 +3937,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>57</pitch>
@@ -3881,6 +3964,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>55</pitch>
@@ -3897,6 +3981,9 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <offset x="0.5" y="0"/>
             <durationType>quarter</durationType>
@@ -3925,6 +4012,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>50</pitch>
@@ -3966,6 +4054,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>16th</durationType>
             <Note>
               <pitch>46</pitch>
