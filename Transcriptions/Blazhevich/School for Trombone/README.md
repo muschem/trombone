@@ -9,7 +9,7 @@ The method is generally divided into two main sections, the first of which inclu
 ### Reference Table
 
 | #     | Positions           |
-|------:|--------------------:|
+|------:|:--------------------|
 | 1-5   | 1                   |
 | 6-11  | 1, 2                |
 | 12-15 | 1, 2, 3             | 
