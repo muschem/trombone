@@ -107,6 +107,6 @@ In the second section, studies continue in all 7 positions, starting in the key 
 
 Note: Page number citations from Rubank Educational Library No. 159 - Selected Studies for Trombone by H. Voxman
 \
-\*\* Voxman transposed this from original key of Ab major to G major
+\* Voxman transposed this from original key of Ab major to G major
 \
-\*\*\* Voxman transposed this from the original key of G# minor to the enharmonic key of Ab minor 
+\*\* Voxman transposed this from the original key of G# minor to the enharmonic key of Ab minor 
