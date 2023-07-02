@@ -1,46 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.02">
-  <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+<museScore version="4.00">
+  <programVersion>4.0.2</programVersion>
+  <programRevision>dbe7c6d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
-    <Style>
-      <pageWidth>8.5</pageWidth>
-      <pageHeight>11</pageHeight>
-      <pagePrintableWidth>7.78</pagePrintableWidth>
-      <pageEvenLeftMargin>0.36</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.36</pageOddLeftMargin>
-      <pageEvenTopMargin>0.59</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.59</pageEvenBottomMargin>
-      <pageOddTopMargin>0.39</pageOddTopMargin>
-      <pageOddBottomMargin>0.39</pageOddBottomMargin>
-      <pageTwosided>0</pageTwosided>
-      <staffUpperBorder>5</staffUpperBorder>
-      <staffLowerBorder>0</staffLowerBorder>
-      <enableVerticalSpread>1</enableVerticalSpread>
-      <minSystemSpread>4.5</minSystemSpread>
-      <maxSpreadSpread>4.5</maxSpreadSpread>
-      <maxPageFillSpread>2</maxPageFillSpread>
-      <systemFrameDistance>-4</systemFrameDistance>
-      <frameSystemDistance>7.5</frameSystemDistance>
-      <minMeasureWidth>4</minMeasureWidth>
-      <showMeasureNumber>0</showMeasureNumber>
-      <genCourtesyTimesig>0</genCourtesyTimesig>
-      <firstSystemIndentationValue>7</firstSystemIndentationValue>
-      <keySigNaturals>1</keySigNaturals>
-      <subTitleFontSize>15</subTitleFontSize>
-      <composerFontSize>12</composerFontSize>
-      <composerFontStyle>1</composerFontStyle>
-      <measureNumberPosBelow x="0" y="1"/>
-      <footerAlign>center,center</footerAlign>
-      <Spatium>1.7526</Spatium>
-      </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="arranger">Shirley, Michael</metaTag>
     <metaTag name="composer">Bléger, Michel</metaTag>
     <metaTag name="copyright"></metaTag>
@@ -48,18 +18,19 @@
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
+    <metaTag name="mscVersion">4.00</metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">30 Brilliant Studies, Number 16</metaTag>
-    <Order id="orchestral" customized="1">
+    <Order id="orchestral">
       <name>Orchestral</name>
       <instrument id="trombone">
         <family id="trombones">Trombones</family>
         </instrument>
-      <section id="woodwind" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
+      <section id="woodwind" brackets="true" barLineSpan="true" thinBrackets="true">
         <family>flutes</family>
         <family>oboes</family>
         <family>clarinets</family>
@@ -67,7 +38,7 @@
         <family>bassoons</family>
         <unsorted group="woodwinds"/>
         </section>
-      <section id="brass" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+      <section id="brass" brackets="true" barLineSpan="true" thinBrackets="true">
         <family>horns</family>
         <family>trumpets</family>
         <family>cornets</family>
@@ -75,10 +46,10 @@
         <family>trombones</family>
         <family>tubas</family>
         </section>
-      <section id="timpani" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+      <section id="timpani" brackets="true" barLineSpan="true" thinBrackets="true">
         <family>timpani</family>
         </section>
-      <section id="percussion" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+      <section id="percussion" brackets="true" barLineSpan="true" thinBrackets="true">
         <family>keyboard-percussion</family>
         <family>drums</family>
         <family>unpitched-metal-percussion</family>
@@ -89,19 +60,19 @@
       <family>harps</family>
       <family>organs</family>
       <family>synths</family>
-      <section id="plucked-strings" brackets="true" showSystemMarkings="false" barLineSpan="true" thinBrackets="true">
+      <section id="plucked-strings" brackets="true" barLineSpan="true" thinBrackets="true">
         <family>plucked-strings</family>
         </section>
       <soloists/>
-      <section id="voices" brackets="true" showSystemMarkings="false" barLineSpan="false" thinBrackets="true">
+      <section id="voices" brackets="true" barLineSpan="false" thinBrackets="true">
         <family>voices</family>
         </section>
-      <section id="strings" brackets="true" showSystemMarkings="true" barLineSpan="true" thinBrackets="true">
+      <section id="strings" brackets="true" barLineSpan="true" thinBrackets="true">
         <family>orchestral-strings</family>
         </section>
       <unsorted/>
       </Order>
-    <Part>
+    <Part id="1">
       <Staff id="1">
         <StaffType group="pitched">
           <name>stdNormal</name>
@@ -178,30 +149,37 @@
     <Staff id="1">
       <VBox>
         <height>10</height>
+        <bottomGap>0</bottomGap>
         <Text>
-          <style>Title</style>
+          <style>title</style>
           <text>30 Brilliant Studies</text>
           </Text>
         <Text>
-          <style>Composer</style>
+          <style>composer</style>
           <bold>0</bold>
           <offset x="-0.824382" y="-5.05391"/>
           <text><b>Michel Bléger
 </b>(? - 1897) </text>
           </Text>
         <Text>
-          <style>Composer</style>
+          <style>composer</style>
           <size>10</size>
           <bold>0</bold>
           <offset x="0" y="-0.35052"/>
-          <text>Transcribed by Michael Shirley</text>
-          </Text>
-        <Text>
-          <style>Instrument Name (Part)</style>
-          <offset x="0.565517" y="0.30152"/>
-          <text>Trombone</text>
+          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
+      <TBox>
+        <height>1</height>
+        <topGap>0</topGap>
+        <Text>
+          <style>frame</style>
+          <size>20</size>
+          <bold>1</bold>
+          <align>center,top</align>
+          <text><b><font size="20"/>№ 16</b></text>
+          </Text>
+        </TBox>
       <Measure>
         <voice>
           <KeySig>
@@ -211,14 +189,8 @@
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
-          <StaffText>
-            <size>14</size>
-            <bold>1</bold>
-            <offset x="-15.3443" y="3.02523"/>
-            <text>16.</text>
-            </StaffText>
           <Tempo>
-            <tempo>2.3999999999999999</tempo>
+            <tempo>2.4</tempo>
             <offset x="0" y="-3.9"/>
             <text>Allegro</text>
             </Tempo>
@@ -232,7 +204,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -272,7 +244,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -316,7 +288,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -356,7 +328,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -403,7 +375,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -443,7 +415,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -487,7 +459,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -527,7 +499,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -565,13 +537,16 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -611,7 +586,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -649,16 +624,13 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -698,7 +670,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -736,6 +708,9 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>1</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -745,7 +720,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -785,7 +760,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -823,13 +798,14 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.8</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -865,6 +841,7 @@
             </Chord>
           <endTuplet/>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>48</pitch>
@@ -872,6 +849,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="0.5" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
@@ -883,7 +861,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -923,7 +901,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -950,6 +928,9 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -964,13 +945,16 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -997,6 +981,9 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1013,7 +1000,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1057,7 +1044,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1084,6 +1071,9 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1100,7 +1090,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1144,7 +1134,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1184,7 +1174,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1222,16 +1212,13 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1274,7 +1261,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1318,7 +1305,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1345,6 +1332,9 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1361,7 +1351,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1388,6 +1378,9 @@
               <tpc>23</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1408,7 +1401,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1448,7 +1441,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1492,13 +1485,17 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.8</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1552,7 +1549,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1579,6 +1576,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1595,7 +1595,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1639,7 +1639,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1666,6 +1666,9 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1682,7 +1685,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1726,7 +1729,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1753,6 +1756,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1769,7 +1775,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1807,16 +1813,13 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1843,6 +1846,9 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1859,7 +1865,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1906,7 +1912,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1949,7 +1955,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -1987,13 +1993,16 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2033,7 +2042,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2077,7 +2086,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2120,7 +2129,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2164,7 +2173,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2204,7 +2213,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2248,7 +2257,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2275,6 +2284,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -2291,7 +2303,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2335,7 +2347,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2362,6 +2374,9 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -2378,7 +2393,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2410,6 +2425,96 @@
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <Accidental>
+                <subtype>accidentalSharp</subtype>
+                </Accidental>
+              <pitch>49</pitch>
+              <tpc>21</tpc>
+              </Note>
+            </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoBelow</subtype>
+              </Articulation>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
+              </Note>
+            </Chord>
+          <endTuplet/>
+          <Tuplet>
+            <normalNotes>2</normalNotes>
+            <actualNotes>3</actualNotes>
+            <baseNote>eighth</baseNote>
+            <Number>
+              <style>tuplet</style>
+              <text>3</text>
+              </Number>
+            </Tuplet>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <Note>
+              <pitch>53</pitch>
+              <tpc>13</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <Note>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
+            <Note>
+              <pitch>50</pitch>
+              <tpc>16</tpc>
               </Note>
             </Chord>
           <endTuplet/>
@@ -2425,94 +2530,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <Accidental>
-                <subtype>accidentalSharp</subtype>
-                </Accidental>
-              <pitch>49</pitch>
-              <tpc>21</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoBelow</subtype>
-              </Articulation>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
-              <text>3</text>
-              </Number>
-            </Tuplet>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
-            <Note>
-              <pitch>53</pitch>
-              <tpc>13</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
-            <Note>
-              <pitch>52</pitch>
-              <tpc>18</tpc>
-              </Note>
-            </Chord>
-          <Chord>
-            <durationType>eighth</durationType>
-            <Articulation>
-              <subtype>articStaccatoAbove</subtype>
-              </Articulation>
-            <Note>
-              <pitch>50</pitch>
-              <tpc>16</tpc>
-              </Note>
-            </Chord>
-          <endTuplet/>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Tuplet>
-            <normalNotes>2</normalNotes>
-            <actualNotes>3</actualNotes>
-            <baseNote>eighth</baseNote>
-            <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2539,6 +2557,9 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -2555,7 +2576,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2599,7 +2620,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2639,7 +2660,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2656,6 +2677,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -2686,7 +2710,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2726,7 +2750,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2770,7 +2794,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2810,7 +2834,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2827,6 +2851,9 @@
               <tpc>21</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>1.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -2857,7 +2884,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2893,6 +2920,7 @@
             </Chord>
           <endTuplet/>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>62</pitch>
@@ -2911,7 +2939,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2949,12 +2977,15 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -2981,6 +3012,9 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -3004,7 +3038,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3040,6 +3074,7 @@
             </Chord>
           <endTuplet/>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
@@ -3058,7 +3093,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3086,6 +3121,9 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -3102,7 +3140,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3146,7 +3184,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3182,6 +3220,7 @@
             </Chord>
           <endTuplet/>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
@@ -3200,7 +3239,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3240,7 +3279,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3284,7 +3323,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3324,7 +3363,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3362,6 +3401,9 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -3371,7 +3413,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3411,7 +3453,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3449,16 +3491,22 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3498,7 +3546,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3542,7 +3590,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3582,7 +3630,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3620,16 +3668,13 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3665,6 +3710,7 @@
             </Chord>
           <endTuplet/>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
@@ -3683,7 +3729,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3723,7 +3769,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3767,7 +3813,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3803,6 +3849,7 @@
             </Chord>
           <endTuplet/>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
@@ -3821,7 +3868,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3862,12 +3909,15 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3905,16 +3955,22 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -3955,12 +4011,15 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4004,7 +4063,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4047,7 +4106,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4085,6 +4144,9 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -4094,7 +4156,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4145,16 +4207,13 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4194,7 +4253,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4238,7 +4297,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4278,7 +4337,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4316,6 +4375,9 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -4325,7 +4387,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4365,7 +4427,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4403,13 +4465,16 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4449,7 +4514,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4493,7 +4558,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4533,7 +4598,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4577,7 +4642,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4617,7 +4682,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4655,6 +4720,9 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -4664,7 +4732,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4704,7 +4772,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4742,16 +4810,13 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4802,14 +4867,13 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4849,7 +4913,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4887,14 +4951,16 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4934,7 +5000,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -4972,14 +5038,13 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5019,7 +5084,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5057,14 +5122,13 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5104,7 +5168,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5142,14 +5206,13 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5189,7 +5252,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5227,14 +5290,13 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5274,7 +5336,7 @@
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5312,14 +5374,13 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5357,12 +5418,15 @@
               </Note>
             </Chord>
           <endTuplet/>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5379,6 +5443,9 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -5403,14 +5470,13 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
-              <style>Tuplet</style>
+              <style>tuplet</style>
               <text>3</text>
               </Number>
             </Tuplet>
@@ -5446,6 +5512,7 @@
             </Chord>
           <endTuplet/>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
