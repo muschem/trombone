@@ -4,7 +4,7 @@ Michel Bléger was a prolific French composer, with a corpus of over 700 works f
 
 ## 30 Brilliant Studies
 
-Perhaps better known as "31 Studies" (the work was published as a group of 31 etudes, despite the title), after the edition published in 1962, edited by Allen Ostrander. Studies 21-29 contain very similar scale-based patterns repeated across 9 different keys. For transcriptions included here, we return to the original 1883 publication, available from the National Library of France. A scan of this edition is included for reference. Mr. Bléger was very sparing with dynamics in these etudes, and a comparison against later editions will provide guidance for shape of lines to make these studies sound less technical and more musical. 
+Perhaps better known as "31 Studies" (the work was published as a group of 31 etudes, despite the title), after the edition published in 1962, edited by Allen Ostrander. Studies 21-29 contain very similar scale-based patterns repeated across 9 different keys. For transcriptions included here, we return to the 1883 Margueritat edition, available from the National Library of France. A scan of this edition is included for reference. Mr. Bléger was very sparing with dynamics in these etudes, and a comparison against later editions will provide guidance for shape of lines to make these studies sound less technical and more musical. 
 
 ### Notes
 
