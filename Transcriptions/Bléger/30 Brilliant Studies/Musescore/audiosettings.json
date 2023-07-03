@@ -27,7 +27,11 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "1"
+            "partId": "1",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         },
         {
             "in": {
@@ -49,7 +53,11 @@
                 },
                 "volumeDb": 0
             },
-            "partId": "999"
+            "partId": "999",
+            "soloMuteState": {
+                "mute": false,
+                "solo": false
+            }
         }
     ]
 }

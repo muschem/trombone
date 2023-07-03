@@ -14,16 +14,13 @@
     <metaTag name="arranger">Shirley, Michael</metaTag>
     <metaTag name="composer">Bléger, Michel</metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate">1883</metaTag>
+    <metaTag name="creationDate"></metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">4.00</metaTag>
     <metaTag name="platform"></metaTag>
-    <metaTag name="poet"></metaTag>
-    <metaTag name="source"></metaTag>
+    <metaTag name="source">https://gallica.bnf.fr/ark:/12148/bpt6k1505355x</metaTag>
+    <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">30 Brilliant Studies, Number 13</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
@@ -166,7 +163,7 @@
           <size>10</size>
           <bold>0</bold>
           <offset x="0" y="-0.35052"/>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <TBox>
@@ -177,7 +174,7 @@
           <size>20</size>
           <bold>1</bold>
           <align>center,top</align>
-          <text><b><font size="20"/>№ 13</b></text>
+          <text><b><font size="20"></font>№ 13</b></text>
           </Text>
         </TBox>
       <Measure>
