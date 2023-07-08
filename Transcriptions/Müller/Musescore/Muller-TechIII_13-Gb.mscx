@@ -1,62 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.02">
-  <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+<museScore version="4.00">
+  <programVersion>4.0.2</programVersion>
+  <programRevision>dbe7c6d</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
     <Division>480</Division>
-    <Style>
-      <pageWidth>8.5</pageWidth>
-      <pageHeight>11</pageHeight>
-      <pagePrintableWidth>7.78</pagePrintableWidth>
-      <pageEvenLeftMargin>0.36</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.36</pageOddLeftMargin>
-      <pageEvenTopMargin>0.59</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.59</pageEvenBottomMargin>
-      <pageOddTopMargin>0.39</pageOddTopMargin>
-      <pageOddBottomMargin>0.39</pageOddBottomMargin>
-      <pageTwosided>0</pageTwosided>
-      <staffUpperBorder>8.5</staffUpperBorder>
-      <staffLowerBorder>0</staffLowerBorder>
-      <enableVerticalSpread>1</enableVerticalSpread>
-      <minSystemSpread>4.5</minSystemSpread>
-      <maxSpreadSpread>4.5</maxSpreadSpread>
-      <maxPageFillSpread>1.5</maxPageFillSpread>
-      <systemFrameDistance>-4</systemFrameDistance>
-      <frameSystemDistance>7.5</frameSystemDistance>
-      <minMeasureWidth>4</minMeasureWidth>
-      <showMeasureNumber>0</showMeasureNumber>
-      <genCourtesyTimesig>0</genCourtesyTimesig>
-      <firstSystemIndentationValue>8</firstSystemIndentationValue>
-      <keySigNaturals>1</keySigNaturals>
-      <titleFontSize>24</titleFontSize>
-      <subTitleFontSize>18</subTitleFontSize>
-      <subTitleFontStyle>2</subTitleFontStyle>
-      <composerFontSize>12</composerFontSize>
-      <composerFontStyle>1</composerFontStyle>
-      <measureNumberPosBelow x="0" y="1"/>
-      <footerAlign>center,center</footerAlign>
-      <Spatium>1.7526</Spatium>
-      </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="arranger">Shirley, Michael</metaTag>
-    <metaTag name="composer">Müller, Robert</metaTag>
+    <metaTag name="composer">Müller, Albert Robert</metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate">1902</metaTag>
+    <metaTag name="creationDate"></metaTag>
     <metaTag name="lyricist"></metaTag>
-    <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="mscVersion">4.00</metaTag>
     <metaTag name="platform"></metaTag>
-    <metaTag name="poet"></metaTag>
     <metaTag name="source">https://imslp.org/wiki/Technische_%C3%9Cbungen_(M%C3%BCller-Hartmann%2C_Robert)</metaTag>
+    <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
-    <metaTag name="workNumber">Book III</metaTag>
     <metaTag name="workTitle">Technical Studies, Number 13</metaTag>
-    <Part>
+    <Part id="1">
       <Staff id="1">
         <StaffType group="pitched">
           <name>stdNormal</name>
@@ -131,36 +97,40 @@
     <Staff id="1">
       <VBox>
         <height>12</height>
+        <bottomGap>0</bottomGap>
         <Text>
-          <style>Title</style>
+          <style>title</style>
           <text>Technical Studies</text>
           </Text>
         <Text>
-          <style>Composer</style>
+          <style>composer</style>
           <bold>0</bold>
-          <offset x="-0.824382" y="-4.70339"/>
-          <text><b>Albert Robert Müller 
+          <offset x="-0.82" y="-4.70339"/>
+          <text><b>Robert Müller 
 </b>(1849 - 1909) </text>
           </Text>
         <Text>
-          <style>Subtitle</style>
+          <style>subtitle</style>
           <text>Book III</text>
           </Text>
         <Text>
-          <style>Composer</style>
+          <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <offset x="0" y="-0.35052"/>
-          <text>Transcribed by Michael Shirley</text>
-          </Text>
-        <Text>
-          <style>Instrument Name (Part)</style>
-          <offset x="0.390257" y="-0.04898"/>
-          <text>Trombone</text>
+          <offset x="0" y="0.18"/>
+          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
+      <TBox>
+        <height>1</height>
+        <topGap>0</topGap>
+        <Text>
+          <style>frame</style>
+          <align>center,top</align>
+          <text><b><font size="20"/>№ 13</b></text>
+          </Text>
+        </TBox>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Clef>
             <concertClefType>F</concertClefType>
@@ -173,12 +143,6 @@
             <sigN>6</sigN>
             <sigD>8</sigD>
             </TimeSig>
-          <StaffText>
-            <size>13</size>
-            <bold>1</bold>
-            <offset x="-21.3008" y="3.02759"/>
-            <text>№ 13</text>
-            </StaffText>
           <Chord>
             <durationType>eighth</durationType>
             <Articulation>
@@ -250,7 +214,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -327,7 +290,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -407,9 +369,10 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
+            <offset x="1" y="0"/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -444,6 +407,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -457,7 +421,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -537,7 +500,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -614,7 +576,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -697,9 +658,10 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
+            <offset x="1" y="0"/>
             <durationType>quarter</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -721,6 +683,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="1" y="0"/>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -737,6 +700,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="1.5" y="0"/>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
             <Note>
@@ -745,12 +709,12 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -827,7 +791,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -904,7 +867,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -984,7 +946,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1061,7 +1022,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1138,7 +1098,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1218,7 +1177,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1295,7 +1253,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1369,7 +1326,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.2</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1449,6 +1405,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -1459,6 +1416,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="-1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
@@ -1878,7 +1836,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.1</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -1955,7 +1912,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.1</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2032,7 +1988,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.1</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2124,7 +2079,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.1</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2204,12 +2158,16 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.1</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
+            <Fragment>
+              <y1>-2</y1>
+              <y2>-1</y2>
+              </Fragment>
             </Beam>
           <Chord>
+            <offset x="0.5" y="0"/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
@@ -2281,7 +2239,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.1</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -2361,20 +2318,20 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.3</stretch>
+        <stretch>0.9</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
             <Fragment>
-              <y1>2.42254</y1>
-              <y2>0.635104</y2>
+              <y1>-2.76612</y1>
+              <y2>-1.46141</y2>
               </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
-              <subtype>articStaccatoAbove</subtype>
+              <subtype>articStaccatoBelow</subtype>
               </Articulation>
             <Note>
               <pitch>58</pitch>
@@ -2442,7 +2399,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.3</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2519,7 +2475,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.3</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2596,7 +2551,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.3</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2673,7 +2627,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.3</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -2733,7 +2686,7 @@
               </Note>
             </Chord>
           <StaffText>
-            <style>Expression</style>
+            <style>expression</style>
             <placement>below</placement>
             <offset x="-3.48079" y="2.30794"/>
             <text>rit.</text>
@@ -2766,10 +2719,10 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <StaffText>
-            <text><b>a tempo</b></text>
+            <italic>1</italic>
+            <text><i>a tempo</i></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -2846,7 +2799,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -2923,7 +2875,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3003,7 +2954,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3076,7 +3026,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -3156,7 +3105,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -3236,7 +3184,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -3316,7 +3263,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3386,7 +3332,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <voice>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -3463,7 +3408,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.4</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -3984,11 +3928,11 @@
         <bottomGap>4.5</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
-          <style>Frame</style>
+          <style>frame</style>
           <size>12</size>
           <bold>1</bold>
           <offset x="85.5751" y="14.2175"/>
-          <text>Variations:</text>
+          <text><b><font size="12"/>Variations:</b></text>
           </Text>
         </VBox>
       <Measure>
@@ -3996,7 +3940,7 @@
           <StaffText>
             <bold>1</bold>
             <offset x="0.0940753" y="-1.58457"/>
-            <text>1.</text>
+            <text><b>1.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4281,7 +4225,7 @@
           <StaffText>
             <bold>1</bold>
             <offset x="0" y="-1.7971"/>
-            <text>2.</text>
+            <text><b>2.</b></text>
             </StaffText>
           <Beam>
             <Fragment>
@@ -4338,6 +4282,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="-0.5" y="0"/>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             </Rest>
@@ -4376,7 +4321,7 @@
           <StaffText>
             <bold>1</bold>
             <offset x="0" y="-1.7971"/>
-            <text>3.</text>
+            <text><b>3.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4488,7 +4433,7 @@
           <StaffText>
             <bold>1</bold>
             <offset x="0" y="-1.39775"/>
-            <text>4.</text>
+            <text><b>4.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4600,7 +4545,7 @@
           <StaffText>
             <bold>1</bold>
             <offset x="0" y="-1.39775"/>
-            <text>5.</text>
+            <text><b>5.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4804,7 +4749,7 @@
           <StaffText>
             <bold>1</bold>
             <offset x="0" y="-1.39775"/>
-            <text>6.</text>
+            <text><b>6.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -4911,7 +4856,7 @@
           <StaffText>
             <bold>1</bold>
             <offset x="0" y="-1.39775"/>
-            <text>7.</text>
+            <text><b>7.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
