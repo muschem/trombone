@@ -16,11 +16,15 @@
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate"></metaTag>
     <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">4.00</metaTag>
     <metaTag name="platform"></metaTag>
+    <metaTag name="poet"></metaTag>
     <metaTag name="source">https://imslp.org/wiki/Technische_%C3%9Cbungen_(M%C3%BCller-Hartmann%2C_Robert)</metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Technical Studies, Number 9</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
@@ -163,7 +167,7 @@
           <size>10</size>
           <bold>0</bold>
           <offset x="0" y="0.18"/>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
           <style>subtitle</style>
@@ -175,8 +179,10 @@
         <topGap>0</topGap>
         <Text>
           <style>frame</style>
+          <size>20</size>
+          <bold>1</bold>
           <align>center,top</align>
-          <text><b><font size="20"/>№ 9</b></text>
+          <text><b><font size="20"></font>№ 9</b></text>
           </Text>
         </TBox>
       <Measure len="1/4">
@@ -1962,6 +1968,9 @@
           </voice>
         </Measure>
       <Measure len="2/4">
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <offset x="1" y="0"/>
@@ -2005,18 +2014,18 @@
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>10</height>
-        <bottomGap>4</bottomGap>
+      <TBox>
+        <height>1</height>
+        <topGap>8</topGap>
+        <bottomGap>5</bottomGap>
         <Text>
-          <style>subtitle</style>
+          <style>frame</style>
           <size>12</size>
           <bold>1</bold>
-          <italic>0</italic>
-          <offset x="0" y="13.6805"/>
-          <text><i><b></b></i><b><font size="12"/>Variations:</b></text>
+          <align>center,top</align>
+          <text><b><font size="12"/>Variations:</b></text>
           </Text>
-        </VBox>
+        </TBox>
       <Measure len="1/4">
         <voice>
           <TimeSig>
@@ -2102,8 +2111,8 @@
               <lineWidth>0.132975</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="2.1" y="-0.87233"/>
-                <off2 x="-8.44261" y="0"/>
+                <offset x="3" y="-1"/>
+                <off2 x="-8.5" y="0"/>
                 </Segment>
               </TextLine>
             <next>
@@ -2182,8 +2191,8 @@
               <lineWidth>0.132975</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="1.8" y="-0.890377"/>
-                <off2 x="-8.25069" y="0"/>
+                <offset x="2" y="-1"/>
+                <off2 x="-8.5" y="0"/>
                 </Segment>
               </TextLine>
             <next>
@@ -2522,8 +2531,8 @@
               <lineWidth>0.132975</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="1.9" y="-0.886487"/>
-                <off2 x="-7.56856" y="0"/>
+                <offset x="1.5" y="-1"/>
+                <off2 x="-7.5" y="0"/>
                 </Segment>
               </TextLine>
             <next>
@@ -2763,9 +2772,8 @@
               <lineWidth>0.132975</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="2.8" y="-0.8"/>
-                <off2 x="-8.07863" y="0"/>
-                <minDistance>0.678512</minDistance>
+                <offset x="3" y="-1"/>
+                <off2 x="-6.5" y="0"/>
                 </Segment>
               </TextLine>
             <next>
@@ -2907,8 +2915,8 @@
               <lineWidth>0.132975</lineWidth>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="2.2" y="-1.08649"/>
-                <off2 x="-8.69045" y="0"/>
+                <offset x="2" y="-1"/>
+                <off2 x="-7" y="0"/>
                 </Segment>
               </TextLine>
             <next>
