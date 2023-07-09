@@ -16,11 +16,15 @@
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate"></metaTag>
     <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">4.00</metaTag>
     <metaTag name="platform"></metaTag>
+    <metaTag name="poet"></metaTag>
     <metaTag name="source">https://imslp.org/wiki/Technische_%C3%9Cbungen_(M%C3%BCller-Hartmann%2C_Robert)</metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">Technical Studies, Number 13</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -118,7 +122,7 @@
           <size>10</size>
           <bold>0</bold>
           <offset x="0" y="0.18"/>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <TBox>
@@ -126,8 +130,10 @@
         <topGap>0</topGap>
         <Text>
           <style>frame</style>
+          <size>20</size>
+          <bold>1</bold>
           <align>center,top</align>
-          <text><b><font size="20"/>№ 13</b></text>
+          <text><b><font size="20"></font>№ 13</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -3923,18 +3929,18 @@
             </BarLine>
           </voice>
         </Measure>
-      <VBox>
-        <height>10.2395</height>
-        <bottomGap>4.5</bottomGap>
-        <boxAutoSize>0</boxAutoSize>
+      <TBox>
+        <height>1</height>
+        <topGap>8</topGap>
+        <bottomGap>5</bottomGap>
         <Text>
           <style>frame</style>
           <size>12</size>
           <bold>1</bold>
-          <offset x="85.5751" y="14.2175"/>
+          <align>center,top</align>
           <text><b><font size="12"/>Variations:</b></text>
           </Text>
-        </VBox>
+        </TBox>
       <Measure>
         <voice>
           <StaffText>
@@ -4282,6 +4288,7 @@
               </Note>
             </Chord>
           <Rest>
+            <offset x="-0.5" y="0"/>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             </Rest>
