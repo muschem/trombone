@@ -4751,6 +4751,9 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <BarLine>
+            <subtype>end</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <TBox>
@@ -4762,7 +4765,7 @@
           <size>12</size>
           <bold>1</bold>
           <align>center,top</align>
-          <text><b><font size="12"/>Variations:</b></text>
+          <text><b><font size="12"></font>Variations:</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -5123,6 +5126,9 @@
               <tpc>22</tpc>
               </Note>
             </Chord>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       </Staff>
