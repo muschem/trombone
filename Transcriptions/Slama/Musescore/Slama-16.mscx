@@ -119,7 +119,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <TBox>
@@ -127,7 +127,9 @@
         <topGap>0</topGap>
         <Text>
           <style>frame</style>
-          <text><b><font size="20"/>№ 16</b></text>
+          <size>20</size>
+          <bold>1</bold>
+          <text><b><font size="20"></font>№ 16</b></text>
           </Text>
         </TBox>
       <Measure>
