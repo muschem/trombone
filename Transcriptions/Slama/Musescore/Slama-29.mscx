@@ -1,47 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="3.02">
-  <programVersion>3.6.2</programVersion>
-  <programRevision>3224f34</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.0</programVersion>
+  <programRevision>2e3a93a</programRevision>
   <Score>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
-    <Style>
-      <pageWidth>8.5</pageWidth>
-      <pageHeight>11</pageHeight>
-      <pagePrintableWidth>7.78</pagePrintableWidth>
-      <pageEvenLeftMargin>0.36</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.36</pageOddLeftMargin>
-      <pageEvenTopMargin>0.59</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.59</pageEvenBottomMargin>
-      <pageOddTopMargin>0.39</pageOddTopMargin>
-      <pageOddBottomMargin>0.39</pageOddBottomMargin>
-      <pageTwosided>0</pageTwosided>
-      <staffUpperBorder>8.5</staffUpperBorder>
-      <staffLowerBorder>0</staffLowerBorder>
-      <enableVerticalSpread>1</enableVerticalSpread>
-      <minSystemSpread>4.5</minSystemSpread>
-      <maxSpreadSpread>4.5</maxSpreadSpread>
-      <maxPageFillSpread>1.5</maxPageFillSpread>
-      <systemFrameDistance>-4</systemFrameDistance>
-      <frameSystemDistance>7.5</frameSystemDistance>
-      <minMeasureWidth>4</minMeasureWidth>
-      <showMeasureNumber>0</showMeasureNumber>
-      <genCourtesyTimesig>0</genCourtesyTimesig>
-      <firstSystemIndentationValue>8</firstSystemIndentationValue>
-      <keySigNaturals>1</keySigNaturals>
-      <titleFontSize>24</titleFontSize>
-      <subTitleFontStyle>2</subTitleFontStyle>
-      <composerFontSize>12</composerFontSize>
-      <composerFontStyle>1</composerFontStyle>
-      <measureNumberPosBelow x="0" y="1"/>
-      <footerAlign>center,center</footerAlign>
-      <Spatium>1.7526</Spatium>
-      </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
+    <open>1</open>
     <metaTag name="arranger">Shirley, Michael</metaTag>
     <metaTag name="composer">Slama, Anton</metaTag>
     <metaTag name="copyright"></metaTag>
@@ -49,13 +16,15 @@
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle"></metaTag>
+    <metaTag name="mscVersion">4.10</metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source">https://archive.org/details/66etudesinallmaj00slam/page/n5/mode/2up</metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">66 Etudes, Number 29</metaTag>
-    <Part>
+    <Part id="1">
       <Staff id="1">
         <StaffType group="pitched">
           <name>stdNormal</name>
@@ -130,48 +99,53 @@
     <Staff id="1">
       <VBox>
         <height>12</height>
+        <bottomGap>0</bottomGap>
         <Text>
-          <style>Title</style>
+          <style>title</style>
           <text>66 Etudes</text>
           </Text>
         <Text>
-          <style>Subtitle</style>
+          <style>subtitle</style>
           <text>in All Major and Minor Keys</text>
           </Text>
         <Text>
-          <style>Composer</style>
+          <style>composer</style>
+          <bold>0</bold>
           <offset x="-0.824382" y="-4.52813"/>
           <text><b>Anton Slama
 </b>(1804 - 1881) </text>
           </Text>
         <Text>
-          <style>Composer</style>
+          <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <offset x="0" y="-0.35052"/>
-          <text>Transcribed by Michael Shirley</text>
-          </Text>
-        <Text>
-          <style>Instrument Name (Part)</style>
-          <offset x="0.390257" y="-0.04898"/>
-          <text>Trombone</text>
+          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
+      <TBox>
+        <height>1</height>
+        <topGap>0</topGap>
+        <Text>
+          <style>frame</style>
+          <text><b><font size="20"/>№ 29</b></text>
+          </Text>
+        </TBox>
       <Measure>
         <voice>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
+            <isHeader>1</isHeader>
             </Clef>
           <KeySig>
-            <accidental>-5</accidental>
+            <concertKey>-5</concertKey>
             </KeySig>
           <TimeSig>
             <sigN>12</sigN>
             <sigD>8</sigD>
             </TimeSig>
           <Tempo>
-            <tempo>1.5333300000000001</tempo>
+            <tempo>1.53333</tempo>
             <offset x="0" y="-4"/>
             <text>Andante</text>
             </Tempo>
@@ -190,6 +164,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>46</pitch>
@@ -197,6 +172,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>61</pitch>
@@ -231,19 +207,20 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
-          <StaffText>
-            <size>13</size>
-            <bold>1</bold>
-            <offset x="-40.2388" y="3.05974"/>
-            <text>№ 29</text>
-            </StaffText>
           <Chord>
+            <offset x="-0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Beam>
+            <Fragment>
+              <y1>2.25</y1>
+              <y2>2.75</y2>
+              </Fragment>
+            </Beam>
           <Chord>
             <dots>1</dots>
             <durationType>eighth</durationType>
@@ -266,6 +243,9 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -300,6 +280,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
@@ -348,6 +331,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>begin</BeamMode>
             <dots>1</dots>
@@ -373,6 +359,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -393,6 +382,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>46</pitch>
               <tpc>12</tpc>
@@ -401,6 +393,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>49</pitch>
               <tpc>9</tpc>
@@ -409,6 +404,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -424,6 +422,9 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -464,6 +465,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>48</pitch>
               <tpc>14</tpc>
@@ -472,6 +476,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -480,6 +487,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -498,6 +508,9 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -514,6 +527,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -542,6 +558,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>49</pitch>
               <tpc>9</tpc>
@@ -550,6 +569,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -558,6 +580,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>58</pitch>
               <tpc>12</tpc>
@@ -573,6 +598,9 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>61</pitch>
               <tpc>9</tpc>
@@ -613,6 +641,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>51</pitch>
               <tpc>11</tpc>
@@ -621,6 +652,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>54</pitch>
               <tpc>8</tpc>
@@ -629,6 +663,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -644,6 +681,9 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>63</pitch>
               <tpc>11</tpc>
@@ -688,6 +728,9 @@
                   </location>
                 </next>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>53</pitch>
               <tpc>13</tpc>
@@ -696,6 +739,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
@@ -707,6 +753,9 @@
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>60</pitch>
               <tpc>14</tpc>
@@ -722,6 +771,9 @@
                   </location>
                 </prev>
               </Spanner>
+            <Articulation>
+              <subtype>articStaccatoAbove</subtype>
+              </Articulation>
             <Note>
               <pitch>65</pitch>
               <tpc>13</tpc>
@@ -2471,7 +2523,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -2575,7 +2626,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
         <voice>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -2680,7 +2730,7 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
+        <stretch>1.1</stretch>
         <voice>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -2891,9 +2941,10 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0</stretch>
+        <stretch>0.7</stretch>
         <voice>
           <Chord>
+            <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>whole</durationType>
             <Spanner type="Slur">
