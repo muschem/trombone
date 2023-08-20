@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.2</programVersion>
-  <programRevision>dbe7c6d</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -22,6 +20,7 @@
     <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source">https://archive.org/details/66etudesinallmaj00slam/page/n5/mode/2up</metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">66 Etudes, Number 5</metaTag>
@@ -120,7 +119,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <TBox>
@@ -128,8 +127,10 @@
         <topGap>0</topGap>
         <Text>
           <style>frame</style>
+          <size>20</size>
+          <bold>1</bold>
           <align>center,top</align>
-          <text><b><font size="20"/>№ 5</b></text>
+          <text><b><font size="20"></font>№ 5</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -138,6 +139,7 @@
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
+            <isHeader>1</isHeader>
             </Clef>
           <TimeSig>
             <subtype>2</subtype>
@@ -197,7 +199,7 @@
         <stretch>1.1</stretch>
         <voice>
           <Rest>
-            <offset x="1" y="-0.29"/>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
           <Chord>
