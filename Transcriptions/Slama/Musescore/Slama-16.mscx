@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.10">
-  <programVersion>4.1.0</programVersion>
-  <programRevision>2e3a93a</programRevision>
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -129,6 +129,7 @@
           <style>frame</style>
           <size>20</size>
           <bold>1</bold>
+          <align>center,top</align>
           <text><b><font size="20"></font>№ 16</b></text>
           </Text>
         </TBox>
