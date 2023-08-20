@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.10">
-  <programVersion>4.1.0</programVersion>
-  <programRevision>2e3a93a</programRevision>
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -119,7 +119,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <TBox>
@@ -129,7 +129,8 @@
           <style>frame</style>
           <size>20</size>
           <bold>1</bold>
-          <text><b><font size="20"></font>№ 8</b></text>
+          <align>center,top</align>
+          <text><b><font size="20"/>№ 8</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -149,15 +150,15 @@
           <Dynamic>
             <subtype>p</subtype>
             <velocity>50</velocity>
-            <offset x="2" y="4.2"/>
+            <offset x="2.5" y="4.2"/>
             </Dynamic>
           <Tempo>
             <tempo>1.53333</tempo>
-            <offset x="0" y="-5.8"/>
+            <offset x="0" y="-4.5"/>
             <text>Andante</text>
             </Tempo>
           <Chord>
-            <offset x="2" y="0"/>
+            <offset x="2.5" y="0"/>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -175,7 +176,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>0.5</leadingSpace>
+            <leadingSpace>1</leadingSpace>
             </Segment>
           <Beam>
             <StemDirection>up</StemDirection>
@@ -195,6 +196,9 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -211,9 +215,9 @@
               <Slur>
                 <SlurSegment no="0">
                   <o1 x="0.0746676" y="-0.327991"/>
-                  <o2 x="-1.7878e-17" y="0.5"/>
-                  <o3 x="-1.7878e-17" y="0.5"/>
-                  <o4 x="0" y="1.14419e-15"/>
+                  <o2 x="-1.7878e-17" y="1"/>
+                  <o3 x="-1.7878e-17" y="1"/>
+                  <o4 x="0" y="-0.5"/>
                   </SlurSegment>
                 <up>down</up>
                 </Slur>
@@ -376,6 +380,9 @@
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-2.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -488,6 +495,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-1.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -595,7 +605,6 @@
       <Measure>
         <voice>
           <Chord>
-            <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <Articulation>
@@ -615,6 +624,10 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="8.93899e-18" y="-0.5"/>
+                  <o3 x="8.93899e-18" y="-0.5"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -628,6 +641,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -733,6 +749,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-1.5</leadingSpace>
+            </Segment>
           <Chord>
             <offset x="-1.5" y="0"/>
             <BeamMode>mid</BeamMode>
@@ -880,6 +899,9 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-3.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -938,7 +960,6 @@
       <Measure>
         <voice>
           <Chord>
-            <offset x="1" y="0"/>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -984,11 +1005,18 @@
               <tpc>12</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-3</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="-1.7878e-17" y="-1"/>
+                  <o3 x="-1.7878e-17" y="-1"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1108,6 +1136,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-2.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -1216,6 +1247,9 @@
               <tpc>17</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-1.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -1302,7 +1336,6 @@
         <stretch>1.1</stretch>
         <voice>
           <Chord>
-            <offset x="1" y="0"/>
             <durationType>quarter</durationType>
             <Articulation>
               <subtype>articAccentAbove</subtype>
@@ -1337,11 +1370,19 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="-8.93899e-18" y="-1"/>
+                  <o3 x="-8.93899e-18" y="-1"/>
+                  <offset x="0" y="-0.5"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1432,6 +1473,10 @@
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <SlurSegment no="0">
+                  <o2 x="0" y="-0.5"/>
+                  <o3 x="0" y="-0.5"/>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1445,6 +1490,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-1</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -1535,6 +1583,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-1</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Note>
