@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.10">
-  <programVersion>4.1.0</programVersion>
-  <programRevision>2e3a93a</programRevision>
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -120,7 +120,7 @@
           <size>10</size>
           <bold>0</bold>
           <offset x="0" y="-0.35052"/>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <TBox>
@@ -128,7 +128,10 @@
         <topGap>0</topGap>
         <Text>
           <style>frame</style>
-          <text><b><font size="20"/>№ 15</b></text>
+          <size>20</size>
+          <bold>1</bold>
+          <align>center,top</align>
+          <text><b><font size="20"></font>№ 15</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -152,7 +155,7 @@
             <text>Moderato</text>
             </Tempo>
           <Chord>
-            <offset x="2" y="0"/>
+            <offset x="3" y="0"/>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
             <Note>
@@ -170,6 +173,9 @@
               <tpc>15</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>1</leadingSpace>
+            </Segment>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -328,6 +334,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <offset x="1" y="0"/>
@@ -518,9 +527,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -554,7 +560,7 @@
               </Number>
             </Tuplet>
           <Chord>
-            <offset x="-1.5" y="0"/>
+            <offset x="-1" y="0"/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Note>
@@ -569,6 +575,9 @@
               <tpc>11</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           <Chord>
             <offset x="-1.5" y="0"/>
             <BeamMode>mid</BeamMode>
@@ -715,6 +724,9 @@
         </Measure>
       <Measure>
         <stretch>0.9</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -1157,6 +1169,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>1.1</stretch>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -1306,6 +1319,10 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>1.1</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -1597,6 +1614,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -1751,9 +1771,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
@@ -1902,6 +1919,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Tuplet>
             <normalNotes>2</normalNotes>
