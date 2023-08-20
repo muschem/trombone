@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="4.10">
-  <programVersion>4.1.0</programVersion>
-  <programRevision>2e3a93a</programRevision>
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -119,7 +119,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <TBox>
@@ -127,7 +127,10 @@
         <topGap>0</topGap>
         <Text>
           <style>frame</style>
-          <text><b><font size="20"/>№ 18</b></text>
+          <size>20</size>
+          <bold>1</bold>
+          <align>center,top</align>
+          <text><b><font size="20"></font>№ 18</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -192,7 +195,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>0.5</leadingSpace>
+            <leadingSpace>1</leadingSpace>
             </Segment>
           <Chord>
             <offset x="1.5" y="0"/>
@@ -351,6 +354,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -375,7 +379,7 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1" y="0"/>
+            <offset x="1.5" y="0"/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Note>
@@ -384,7 +388,7 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1" y="0"/>
+            <offset x="1.5" y="0"/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -400,7 +404,7 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1.5" y="0"/>
+            <offset x="2.5" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -525,6 +529,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -603,6 +608,10 @@
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>2.5</y1>
+              <y2>2.5</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -705,6 +714,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
@@ -731,6 +741,9 @@
               <tpc>19</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <offset x="1" y="0"/>
             <BeamMode>mid</BeamMode>
@@ -741,7 +754,7 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1" y="0"/>
+            <offset x="1.5" y="0"/>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
@@ -760,7 +773,7 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1.5" y="0"/>
+            <offset x="2" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -786,6 +799,10 @@
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>2.25</y1>
+              <y2>2.25</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -888,6 +905,10 @@
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>4.25</y1>
+              <y2>3.25</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
@@ -1416,7 +1437,7 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>1.1</stretch>
+        <stretch>1.2</stretch>
         <LayoutBreak>
           <subtype>line</subtype>
           </LayoutBreak>
@@ -1688,8 +1709,13 @@
         <voice>
           <Beam>
             <StemDirection>down</StemDirection>
+            <Fragment>
+              <y1>6</y1>
+              <y2>5</y2>
+              </Fragment>
             </Beam>
           <Chord>
+            <offset x="1" y="0"/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
@@ -1792,6 +1818,9 @@
               <tpc>20</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
@@ -1834,6 +1863,7 @@
             <StemDirection>up</StemDirection>
             </Beam>
           <Chord>
+            <offset x="1" y="0"/>
             <BeamMode>begin</BeamMode>
             <durationType>eighth</durationType>
             <Articulation>
@@ -2309,7 +2339,7 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.8</stretch>
+        <stretch>0.6</stretch>
         <voice>
           <Chord>
             <offset x="1" y="0"/>
