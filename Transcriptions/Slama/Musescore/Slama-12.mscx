@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
-  <programVersion>4.0.2</programVersion>
-  <programRevision>dbe7c6d</programRevision>
+<museScore version="4.10">
+  <programVersion>4.1.1</programVersion>
+  <programRevision>e4d1ddf</programRevision>
   <Score>
-    <LayerTag id="0" tag="default"></LayerTag>
-    <currentLayer>0</currentLayer>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -22,6 +20,7 @@
     <metaTag name="platform"></metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source">https://archive.org/details/66etudesinallmaj00slam/page/n5/mode/2up</metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">66 Etudes, Number 12</metaTag>
@@ -120,7 +119,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <TBox>
@@ -131,7 +130,7 @@
           <size>20</size>
           <bold>1</bold>
           <align>center,top</align>
-          <text><b><font size="20"/>№ 12</b></text>
+          <text><b><font size="20"></font>№ 12</b></text>
           </Text>
         </TBox>
       <Measure>
@@ -139,9 +138,10 @@
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
+            <isHeader>1</isHeader>
             </Clef>
           <KeySig>
-            <accidental>-2</accidental>
+            <concertKey>-2</concertKey>
             </KeySig>
           <TimeSig>
             <sigN>3</sigN>
@@ -257,9 +257,9 @@
             <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
               <subtype>ornamentTrill</subtype>
-              </Articulation>
+              </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>58</pitch>
@@ -630,9 +630,9 @@
           <Chord>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
               <subtype>ornamentTrill</subtype>
-              </Articulation>
+              </Ornament>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>46</pitch>
@@ -728,9 +728,9 @@
             <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
               <subtype>ornamentTrill</subtype>
-              </Articulation>
+              </Ornament>
             <StemDirection>up</StemDirection>
             <Note>
               <pitch>48</pitch>
@@ -826,9 +826,9 @@
             <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
               <subtype>ornamentTrill</subtype>
-              </Articulation>
+              </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>50</pitch>
@@ -927,9 +927,14 @@
             <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
+              <Accidental>
+                <role>1</role>
+                <subtype>accidentalNatural</subtype>
+                <placement>above</placement>
+                </Accidental>
               <subtype>ornamentTrill</subtype>
-              </Articulation>
+              </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
               <Accidental>
@@ -1026,9 +1031,9 @@
             <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
               <subtype>ornamentTrill</subtype>
-              </Articulation>
+              </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>62</pitch>
@@ -1151,9 +1156,9 @@
             <offset x="1" y="0"/>
             <dots>1</dots>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
               <subtype>ornamentTrill</subtype>
-              </Articulation>
+              </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
               <pitch>60</pitch>
@@ -1272,10 +1277,9 @@
           <Chord>
             <offset x="1" y="0"/>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
               <subtype>ornamentTrill</subtype>
-              <offset x="0" y="-0.5"/>
-              </Articulation>
+              </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
@@ -1423,10 +1427,9 @@
           <Chord>
             <offset x="1" y="0"/>
             <durationType>quarter</durationType>
-            <Articulation>
+            <Ornament>
               <subtype>ornamentTrill</subtype>
-              <offset x="0" y="-0.5"/>
-              </Articulation>
+              </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
               <Spanner type="Tie">
