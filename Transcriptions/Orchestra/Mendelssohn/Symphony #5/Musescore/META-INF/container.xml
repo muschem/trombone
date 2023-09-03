@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="5.mscx"/>
+    <rootfile full-path="Excerpts/Alto Trombone/Alto Trombone.mss"/>
+    <rootfile full-path="Excerpts/Alto Trombone/Alto Trombone.mscx"/>
+    <rootfile full-path="Excerpts/Tenor Trombone/Tenor Trombone.mss"/>
+    <rootfile full-path="Excerpts/Tenor Trombone/Tenor Trombone.mscx"/>
+    <rootfile full-path="Excerpts/Bass Trombone/Bass Trombone.mss"/>
+    <rootfile full-path="Excerpts/Bass Trombone/Bass Trombone.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/Alto Trombone/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Tenor Trombone/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Bass Trombone/viewsettings.json"/>
+    </rootfiles>
+  </container>
