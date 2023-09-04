@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.00">
+<museScore version="4.10">
   <Style>
     <pageWidth>8.5</pageWidth>
     <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.68</pagePrintableWidth>
+    <pagePrintableWidth>7.69</pagePrintableWidth>
     <pageEvenLeftMargin>0.41</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.41</pageOddLeftMargin>
+    <pageOddLeftMargin>0.4</pageOddLeftMargin>
     <pageEvenTopMargin>0.59</pageEvenTopMargin>
     <pageEvenBottomMargin>0.59</pageEvenBottomMargin>
-    <pageOddTopMargin>0.44</pageOddTopMargin>
-    <pageOddBottomMargin>0.44</pageOddBottomMargin>
+    <pageOddTopMargin>0.4</pageOddTopMargin>
+    <pageOddBottomMargin>0.4</pageOddBottomMargin>
     <pageTwosided>0</pageTwosided>
     <staffUpperBorder>5</staffUpperBorder>
     <staffLowerBorder>0</staffLowerBorder>
@@ -126,8 +126,6 @@
     <stemLengthSmall>2.25</stemLengthSmall>
     <shortStemStartLocation>1</shortStemStartLocation>
     <shortestStem>2.25</shortestStem>
-    <minStaffSizeForAutoStems>4</minStaffSizeForAutoStems>
-    <smallStaffStemDirection>1</smallStaffStemDirection>
     <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
     <minNoteDistance>0</minNoteDistance>
     <barNoteDistance>1.3</barNoteDistance>
@@ -169,6 +167,8 @@
     <articulationAnchorDefault>2</articulationAnchorDefault>
     <articulationAnchorLuteFingering>4</articulationAnchorLuteFingering>
     <articulationAnchorOther>0</articulationAnchorOther>
+    <articulationStemHAlign>2</articulationStemHAlign>
+    <articulationKeepTogether>1</articulationKeepTogether>
     <lastSystemFillLimit>0.3</lastSystemFillLimit>
     <hairpinPlacement>1</hairpinPlacement>
     <hairpinPosAbove x="0" y="-2"/>
@@ -206,7 +206,7 @@
     <pedalPosAbove x="0" y="-1"/>
     <pedalPosBelow x="0" y="2.5"/>
     <pedalLineWidth>0.11</pedalLineWidth>
-    <pedalListStyle>solid</pedalListStyle>
+    <pedalLineStyle>solid</pedalLineStyle>
     <pedalDashLineLen>4</pedalDashLineLen>
     <pedalDashGapLen>4</pedalDashGapLen>
     <pedalHookHeight>-1.2</pedalHookHeight>
@@ -223,6 +223,9 @@
     <pedalFrameRound>0</pedalFrameRound>
     <pedalFrameFgColor r="0" g="0" b="0" a="255"/>
     <pedalFrameBgColor r="255" g="255" b="255" a="0"/>
+    <pedalText></pedalText>
+    <pedalContinueText></pedalContinueText>
+    <pedalEndText></pedalEndText>
     <trillPlacement>0</trillPlacement>
     <trillPosAbove x="0" y="-0.5"/>
     <trillPosBelow x="0" y="2"/>
@@ -354,6 +357,7 @@
     <chordModifierMag>1</chordModifierMag>
     <chordModifierAdjust>0</chordModifierAdjust>
     <concertPitch>0</concertPitch>
+    <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>2</minEmptyMeasures>
     <minMMRestWidth>4</minMMRestWidth>
@@ -387,6 +391,8 @@
     <slurMidWidth>0.21</slurMidWidth>
     <slurDottedWidth>0.1</slurDottedWidth>
     <minTieLength>1</minTieLength>
+    <minStraightGlissandoLength>1.2</minStraightGlissandoLength>
+    <minWigglyGlissandoLength>2</minWigglyGlissandoLength>
     <slurMinDistance>0.5</slurMinDistance>
     <headerSlurTieDistance>1</headerSlurTieDistance>
     <sectionPause>3</sectionPause>
@@ -528,9 +534,15 @@
     <minVerticalDistance>0.5</minVerticalDistance>
     <ornamentStyle>0</ornamentStyle>
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
+    <dynamicsOverrideFont>0</dynamicsOverrideFont>
+    <dynamicsFont>Leland</dynamicsFont>
+    <dynamicsSize>1</dynamicsSize>
     <dynamicsPlacement>1</dynamicsPlacement>
     <dynamicsPosAbove x="0" y="-1.5"/>
     <dynamicsPosBelow x="0" y="2.5"/>
+    <avoidBarLines>1</avoidBarLines>
+    <snapToDynamics>1</snapToDynamics>
+    <centerOnNotehead>1</centerOnNotehead>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
     <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
     <textLinePlacement>0</textLinePlacement>
@@ -687,6 +699,43 @@
     <stringNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <stringNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <stringNumberOffset x="0" y="0"/>
+    <preferSameStringForTranspose>0</preferSameStringForTranspose>
+    <harpPedalDiagramFontFace>Edwin</harpPedalDiagramFontFace>
+    <harpPedalDiagramFontSize>10</harpPedalDiagramFontSize>
+    <harpPedalDiagramLineSpacing>1</harpPedalDiagramLineSpacing>
+    <harpPedalDiagramFontSpatiumDependent>1</harpPedalDiagramFontSpatiumDependent>
+    <harpPedalDiagramFontStyle>0</harpPedalDiagramFontStyle>
+    <harpPedalDiagramColor r="0" g="0" b="0" a="255"/>
+    <harpPedalDiagramAlign>center,center</harpPedalDiagramAlign>
+    <harpPedalDiagramFrameType>0</harpPedalDiagramFrameType>
+    <harpPedalDiagramFramePadding>0.2</harpPedalDiagramFramePadding>
+    <harpPedalDiagramFrameWidth>0.1</harpPedalDiagramFrameWidth>
+    <harpPedalDiagramFrameRound>0</harpPedalDiagramFrameRound>
+    <harpPedalDiagramFrameFgColor r="0" g="0" b="0" a="255"/>
+    <harpPedalDiagramFrameBgColor r="255" g="255" b="255" a="0"/>
+    <harpPedalDiagramOffset x="0" y="0"/>
+    <harpPedalDiagramPlacement>0</harpPedalDiagramPlacement>
+    <harpPedalDiagramPosAbove x="0" y="-1"/>
+    <harpPedalDiagramPosBelow x="0" y="2.5"/>
+    <harpPedalDiagramMinDistance>0.5</harpPedalDiagramMinDistance>
+    <harpPedalTextDiagramFontFace>Edwin</harpPedalTextDiagramFontFace>
+    <harpPedalTextDiagramFontSize>8</harpPedalTextDiagramFontSize>
+    <harpPedalTextDiagramLineSpacing>1</harpPedalTextDiagramLineSpacing>
+    <harpPedalTextDiagramFontSpatiumDependent>1</harpPedalTextDiagramFontSpatiumDependent>
+    <harpPedalTextDiagramFontStyle>0</harpPedalTextDiagramFontStyle>
+    <harpPedalTextDiagramColor r="0" g="0" b="0" a="255"/>
+    <harpPedalTextDiagramAlign>left,baseline</harpPedalTextDiagramAlign>
+    <harpPedalTextDiagramFrameType>0</harpPedalTextDiagramFrameType>
+    <harpPedalTextDiagramFramePadding>0.2</harpPedalTextDiagramFramePadding>
+    <harpPedalTextDiagramFrameWidth>0.1</harpPedalTextDiagramFrameWidth>
+    <harpPedalTextDiagramFrameRound>0</harpPedalTextDiagramFrameRound>
+    <harpPedalTextDiagramFrameFgColor r="0" g="0" b="0" a="255"/>
+    <harpPedalTextDiagramFrameBgColor r="255" g="255" b="255" a="0"/>
+    <harpPedalTextDiagramOffset x="0" y="0"/>
+    <harpPedalTextDiagramPlacement>1</harpPedalTextDiagramPlacement>
+    <harpPedalTextDiagramPosAbove x="0" y="-1.5"/>
+    <harpPedalTextDiagramPosBelow x="0" y="2.5"/>
+    <harpPedalTextDiagramMinDistance>0.5</harpPedalTextDiagramMinDistance>
     <longInstrumentFontFace>Edwin</longInstrumentFontFace>
     <longInstrumentFontSize>10</longInstrumentFontSize>
     <longInstrumentLineSpacing>1</longInstrumentLineSpacing>
@@ -751,12 +800,15 @@
     <expressionAlign>left,baseline</expressionAlign>
     <expressionPlacement>1</expressionPlacement>
     <expressionOffset x="0" y="2.5"/>
+    <expressionPosAbove x="0" y="-1.5"/>
+    <expressionPosBelow x="0" y="2.5"/>
     <expressionFrameType>0</expressionFrameType>
     <expressionFramePadding>0.2</expressionFramePadding>
     <expressionFrameWidth>0.1</expressionFrameWidth>
     <expressionFrameRound>0</expressionFrameRound>
     <expressionFrameFgColor r="0" g="0" b="0" a="255"/>
     <expressionFrameBgColor r="255" g="255" b="255" a="0"/>
+    <expressionMinDistance>0.5</expressionMinDistance>
     <tempoFontFace>Edwin</tempoFontFace>
     <tempoFontSize>12</tempoFontSize>
     <tempoLineSpacing>1</tempoLineSpacing>
@@ -775,6 +827,24 @@
     <tempoFrameRound>0</tempoFrameRound>
     <tempoFrameFgColor r="0" g="0" b="0" a="255"/>
     <tempoFrameBgColor r="255" g="255" b="255" a="0"/>
+    <tempoChangeFontFace>Edwin</tempoChangeFontFace>
+    <tempoChangeFontSize>12</tempoChangeFontSize>
+    <tempoChangeLineSpacing>1</tempoChangeLineSpacing>
+    <tempoChangeFontSpatiumDependent>1</tempoChangeFontSpatiumDependent>
+    <tempoChangeFontStyle>1</tempoChangeFontStyle>
+    <tempoChangeColor r="0" g="0" b="0" a="255"/>
+    <tempoChangeAlign>left,baseline</tempoChangeAlign>
+    <tempoChangeSystemFlag>1</tempoChangeSystemFlag>
+    <tempoChangePlacement>0</tempoChangePlacement>
+    <tempoChangePosAbove x="0" y="-2"/>
+    <tempoChangePosBelow x="0" y="3"/>
+    <tempoChangeMinDistance>0.5</tempoChangeMinDistance>
+    <tempoChangeFrameType>0</tempoChangeFrameType>
+    <tempoChangeFramePadding>0.2</tempoChangeFramePadding>
+    <tempoChangeFrameWidth>0.1</tempoChangeFrameWidth>
+    <tempoChangeFrameRound>0</tempoChangeFrameRound>
+    <tempoChangeFrameFgColor r="0" g="0" b="0" a="255"/>
+    <tempoChangeFrameBgColor r="255" g="255" b="255" a="0"/>
     <tempoChangeLineWidth>0.15</tempoChangeLineWidth>
     <tempoChangeLineStyle>dashed</tempoChangeLineStyle>
     <tempoChangeDashLineLen>6</tempoChangeDashLineLen>
@@ -1342,7 +1412,7 @@
     <wahShowTabCommon>1</wahShowTabCommon>
     <golpeShowTabSimple>1</golpeShowTabSimple>
     <golpeShowTabCommon>1</golpeShowTabCommon>
-    <chordlineThickness>0.006</chordlineThickness>
+    <chordlineThickness>0.16</chordlineThickness>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>302</defaultsVersion>
     <Spatium>1.7526</Spatium>
