@@ -133,7 +133,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
           </Text>
         </VBox>
       <VBox>
@@ -142,10 +142,8 @@
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>frame</style>
-          <size>20</size>
-          <bold>1</bold>
           <align>center,top</align>
-          <text><b><font size="20"></font>№ 1</b></text>
+          <text>№ 1</text>
           </Text>
         </VBox>
       <Measure>
