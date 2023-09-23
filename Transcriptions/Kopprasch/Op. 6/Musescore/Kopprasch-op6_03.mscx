@@ -118,7 +118,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
           <style>subtitle</style>
@@ -127,7 +127,7 @@
         </VBox>
       <TBox>
         <height>1</height>
-        <topGap>0</topGap>
+        <topGap>3</topGap>
         <Text>
           <style>frame</style>
           <align>center,top</align>
@@ -865,6 +865,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -965,6 +968,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -1039,6 +1045,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -1121,9 +1130,16 @@
           <Rest>
             <durationType>quarter</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-1</leadingSpace>
+            </Segment>
           <Rest>
+            <offset x="1" y="0"/>
             <durationType>quarter</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-2.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -1349,6 +1365,9 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
             <durationType>eighth</durationType>
@@ -2295,7 +2314,7 @@
         </Measure>
       <TBox>
         <height>1</height>
-        <topGap>30</topGap>
+        <topGap>25</topGap>
         <bottomGap>5</bottomGap>
         <Text>
           <style>frame</style>
