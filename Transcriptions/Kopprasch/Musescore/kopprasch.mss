@@ -997,10 +997,10 @@
     <repeatRightFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatRightFrameBgColor r="255" g="255" b="255" a="0"/>
     <frameFontFace>Edwin</frameFontFace>
-    <frameFontSize>10</frameFontSize>
+    <frameFontSize>20</frameFontSize>
     <frameLineSpacing>1</frameLineSpacing>
     <frameFontSpatiumDependent>0</frameFontSpatiumDependent>
-    <frameFontStyle>0</frameFontStyle>
+    <frameFontStyle>1</frameFontStyle>
     <frameColor r="0" g="0" b="0" a="255"/>
     <frameAlign>left,top</frameAlign>
     <frameOffset x="0" y="0"/>
