@@ -14,11 +14,16 @@
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate"></metaTag>
     <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">4.10</metaTag>
     <metaTag name="platform"></metaTag>
+    <metaTag name="poet"></metaTag>
     <metaTag name="source">IMSLP12700, IMSLP283787-PMLP460734</metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
     <metaTag name="workTitle">60 Studies, Number 3</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -113,7 +118,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
           <style>subtitle</style>
@@ -2295,9 +2300,8 @@
         <Text>
           <style>frame</style>
           <size>14</size>
-          <bold>0</bold>
           <align>center,top</align>
-          <text><b></b><font size="14"/>Variations:</text>
+          <text><font size="14"/>Variations:</text>
           </Text>
         </TBox>
       <Measure>
@@ -2308,17 +2312,19 @@
             </TimeSig>
           <StaffText>
             <bold>1</bold>
+            <offset x="0" y="-1.5"/>
             <text><b>1.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
             <Fragment>
-              <y1>-1</y1>
-              <y2>-1.5</y2>
+              <y1>-0.5</y1>
+              <y2>-1</y2>
               </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -2336,6 +2342,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Note>
               <pitch>48</pitch>
@@ -2344,6 +2351,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2359,6 +2367,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2370,6 +2379,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2381,6 +2391,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2397,12 +2408,13 @@
           <Beam>
             <StemDirection>up</StemDirection>
             <Fragment>
-              <y1>-1.25</y1>
-              <y2>0.25</y2>
+              <y1>-0.75</y1>
+              <y2>0.75</y2>
               </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -2420,6 +2432,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Note>
               <pitch>48</pitch>
@@ -2428,6 +2441,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2443,6 +2457,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2454,6 +2469,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2465,6 +2481,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2481,23 +2498,28 @@
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <concertKey>-2</concertKey>
+            </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <bold>1</bold>
+            <offset x="0" y="-1.5"/>
             <text><b>2.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
             <Fragment>
-              <y1>-1</y1>
-              <y2>-1.5</y2>
+              <y1>-0.5</y1>
+              <y2>-1</y2>
               </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2509,6 +2531,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2520,6 +2543,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2531,6 +2555,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -2548,6 +2573,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Note>
               <pitch>53</pitch>
@@ -2556,6 +2582,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2576,12 +2603,13 @@
           <Beam>
             <StemDirection>up</StemDirection>
             <Fragment>
-              <y1>-1.25</y1>
-              <y2>0.25</y2>
+              <y1>-0.75</y1>
+              <y2>0.75</y2>
               </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2593,6 +2621,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2604,6 +2633,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Articulation>
               <subtype>articStaccatoBelow</subtype>
@@ -2615,6 +2645,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <Slur>
@@ -2632,6 +2663,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Note>
               <pitch>43</pitch>
@@ -2640,6 +2672,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>eighth</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2660,23 +2693,28 @@
         </Measure>
       <Measure>
         <voice>
+          <KeySig>
+            <concertKey>-2</concertKey>
+            </KeySig>
           <TimeSig>
             <sigN>3</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
             <bold>1</bold>
+            <offset x="0" y="-1.5"/>
             <text><b>3.</b></text>
             </StaffText>
           <Beam>
             <StemDirection>up</StemDirection>
             <Fragment>
-              <y1>-1</y1>
-              <y2>-1.5</y2>
+              <y1>-0.5</y1>
+              <y2>-1</y2>
               </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <small>1</small>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -2687,6 +2725,7 @@
           <Chord>
             <offset x="-0.5" y="0"/>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>16th</durationType>
             <Note>
               <pitch>48</pitch>
@@ -2695,6 +2734,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -2705,6 +2745,7 @@
           <Chord>
             <offset x="-0.5" y="0"/>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>16th</durationType>
             <Note>
               <pitch>51</pitch>
@@ -2713,6 +2754,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -2725,6 +2767,7 @@
             </Segment>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>16th</durationType>
             <Note>
               <pitch>51</pitch>
@@ -2738,12 +2781,13 @@
           <Beam>
             <StemDirection>up</StemDirection>
             <Fragment>
-              <y1>-1.25</y1>
-              <y2>0.25</y2>
+              <y1>-0.75</y1>
+              <y2>0.75</y2>
               </Fragment>
             </Beam>
           <Chord>
             <BeamMode>begin</BeamMode>
+            <small>1</small>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -2754,6 +2798,7 @@
           <Chord>
             <offset x="-0.5" y="0"/>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>16th</durationType>
             <Note>
               <pitch>48</pitch>
@@ -2762,6 +2807,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -2772,6 +2818,7 @@
           <Chord>
             <offset x="-0.5" y="0"/>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>16th</durationType>
             <Note>
               <pitch>45</pitch>
@@ -2780,6 +2827,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <dots>1</dots>
             <durationType>eighth</durationType>
             <Note>
@@ -2789,6 +2837,7 @@
             </Chord>
           <Chord>
             <BeamMode>mid</BeamMode>
+            <small>1</small>
             <durationType>16th</durationType>
             <Note>
               <pitch>41</pitch>
