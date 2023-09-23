@@ -5,3 +5,11 @@ Georg Kopprasch (1800-1850) was a German composer and horn player, and the son o
 ## Opus 6
 
 Of the two sets of 60 studies, opus 6 is by far the more well known and used. The studies are typically used by students at the advanced high school or collegiate levels. Transcriptions for trombone have included a number of modifications, from altered notes/lines to avoid the low trigger range, to removing entire measures. In these transcriptions, we endeavor to include both the original studies as well as the modifications present in the Carl Fischer (public domain) edition. 
+
+## Opus 5
+
+While Op. 6 studies are more familiar, a great Brass Urtext edition of the opus 5 studies was produced by Benny Sluchin, and [described by Doug Yeo](https://yeodoug.com/kopprasch.html) with links to download the bass trombone adaptations: 
+
+* [Kopprasch, Op.5 - Part A (Etudes 1-20)](https://yeodoug.com/publications/kopprasch/Kopp_op5_BB_partA.pdf)
+* [Kopprasch, Op.5 - Part B (Etudes 21-39)](https://yeodoug.com/publications/kopprasch/Kopp_op5_BB_partB.pdf)
+* [Kopprasch, Op.5 - Part C (Etudes 40-60)](https://yeodoug.com/publications/kopprasch/Kopp_op5_BB_partC.pdf)
