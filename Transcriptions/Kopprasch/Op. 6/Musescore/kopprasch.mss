@@ -88,7 +88,7 @@
     <doubleBarDistance>0.37</doubleBarDistance>
     <endBarDistance>0.335</endBarDistance>
     <repeatBarlineDotSeparation>0.400692</repeatBarlineDotSeparation>
-    <repeatBarTips>0</repeatBarTips>
+    <repeatBarTips>1</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <bracketWidth>0.44</bracketWidth>
