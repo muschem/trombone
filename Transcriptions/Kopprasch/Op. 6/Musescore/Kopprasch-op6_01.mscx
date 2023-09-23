@@ -111,6 +111,7 @@
     <Staff id="1">
       <VBox>
         <height>12</height>
+        <topGap>0</topGap>
         <bottomGap>0</bottomGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
@@ -137,7 +138,7 @@
         </VBox>
       <VBox>
         <height>3</height>
-        <topGap>0</topGap>
+        <topGap>3</topGap>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>frame</style>
