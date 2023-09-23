@@ -118,7 +118,7 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
           <style>subtitle</style>
@@ -2320,7 +2320,7 @@
           <style>frame</style>
           <size>14</size>
           <align>center,top</align>
-          <text><font size="14"/>Variations:</text>
+          <text><font size="14"></font>Variations:</text>
           </Text>
         </TBox>
       <Measure>
