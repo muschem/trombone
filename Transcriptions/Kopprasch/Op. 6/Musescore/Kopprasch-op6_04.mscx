@@ -12,13 +12,17 @@
     <metaTag name="arranger">Shirley, Michael</metaTag>
     <metaTag name="composer">Kopprasch, George</metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate"></metaTag>
+    <metaTag name="creationDate">1832</metaTag>
     <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">4.10</metaTag>
-    <metaTag name="platform"></metaTag>
+    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="poet"></metaTag>
     <metaTag name="source">IMSLP12700, IMSLP283787-PMLP460734</metaTag>
-    <metaTag name="subtitle"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber">Opus 6</metaTag>
     <metaTag name="workTitle">60 Studies, Number 4</metaTag>
     <Part id="1">
       <Staff id="1">
@@ -290,8 +294,8 @@
           <Beam>
             <StemDirection>down</StemDirection>
             <Fragment>
-              <y1>4.25</y1>
-              <y2>4.5</y2>
+              <y1>4.2</y1>
+              <y2>4.44706</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -391,6 +395,7 @@
         <voice>
           <StaffText>
             <italic>1</italic>
+            <offset x="0" y="-1.785"/>
             <text><i>sempre staccato</i></text>
             </StaffText>
           <Spanner type="HairPin">
@@ -637,8 +642,8 @@
           <Beam>
             <StemDirection>down</StemDirection>
             <Fragment>
-              <y1>3.5</y1>
-              <y2>3.25</y2>
+              <y1>3.45882</y1>
+              <y2>3.21176</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -699,8 +704,8 @@
           <Beam>
             <StemDirection>down</StemDirection>
             <Fragment>
-              <y1>3.25</y1>
-              <y2>3.5</y2>
+              <y1>3.21176</y1>
+              <y2>3.45882</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -1073,8 +1078,8 @@
           <Beam>
             <StemDirection>down</StemDirection>
             <Fragment>
-              <y1>2.75</y1>
-              <y2>3</y2>
+              <y1>2.71765</y1>
+              <y2>2.96471</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -1369,8 +1374,8 @@
           <Beam>
             <StemDirection>down</StemDirection>
             <Fragment>
-              <y1>7.5</y1>
-              <y2>6</y2>
+              <y1>7.41176</y1>
+              <y2>5.92941</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -1904,8 +1909,8 @@
           <Beam>
             <StemDirection>down</StemDirection>
             <Fragment>
-              <y1>4.5</y1>
-              <y2>5</y2>
+              <y1>4.44706</y1>
+              <y2>4.94118</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -2223,8 +2228,8 @@
             </Spanner>
           <Beam>
             <Fragment>
-              <y1>2.25</y1>
-              <y2>2.5</y2>
+              <y1>2.22353</y1>
+              <y2>2.47059</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -2253,8 +2258,8 @@
             </Chord>
           <Beam>
             <Fragment>
-              <y1>4.25</y1>
-              <y2>4.5</y2>
+              <y1>4.2</y1>
+              <y2>4.44706</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -2497,8 +2502,8 @@
             </Chord>
           <Beam>
             <Fragment>
-              <y1>2.5</y1>
-              <y2>2.25</y2>
+              <y1>2.47059</y1>
+              <y2>2.22353</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -2557,8 +2562,8 @@
             </Segment>
           <Beam>
             <Fragment>
-              <y1>2.25</y1>
-              <y2>2.5</y2>
+              <y1>2.22353</y1>
+              <y2>2.47059</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -2584,8 +2589,8 @@
             </Chord>
           <Beam>
             <Fragment>
-              <y1>3.75</y1>
-              <y2>4</y2>
+              <y1>3.70588</y1>
+              <y2>3.95294</y2>
               </Fragment>
             </Beam>
           <Chord>
@@ -2618,8 +2623,8 @@
             </Chord>
           <Beam>
             <Fragment>
-              <y1>5.25</y1>
-              <y2>5.5</y2>
+              <y1>5.18824</y1>
+              <y2>5.43529</y2>
               </Fragment>
             </Beam>
           <Chord>
