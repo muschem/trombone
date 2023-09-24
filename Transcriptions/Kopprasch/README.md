@@ -8,8 +8,12 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 
 ### Errata
 
-* Study #5, which is a preparatory study for trills, from the horn edition is skipped in the trombone edition. So, #5 in the trombone edition aligns with #6 from the original, and this misalignment continues through #11, when some other shifts are made.
-* Study #9 - the Gumbert editions for both horn and trombone omit measure #28 from the first edition. Without a compelling reason to carry the omission forward, the measure has been included with this transcription. 
+* Study #5, which is a preparatory study for trills, from the horn edition is skipped in the trombone edition. So, #5 in the trombone edition aligns with #6 from the original, and this off-by-one misalignment continues through #11, where other shifts are made.
+* Study #9 - the Gumbert editions for both horn and trombone omit measure #28 from the first edition. Without a compelling reason to carry the omission forward, the measure has been included with this transcription.
+
+### Notes
+
+* In the trombone source edition, study #10 modifies the original horn study by replacing trills with turns. 
 
 ## Opus 5
 
