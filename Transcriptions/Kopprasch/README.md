@@ -6,6 +6,11 @@ Georg Kopprasch (1800-1850) was a German composer and horn player, and the son o
 
 Of the two sets of 60 studies, opus 6 is by far the more well known and used. The studies are typically used by students at the advanced high school or collegiate levels. Transcriptions for trombone have included a number of modifications, from altered notes/lines to avoid the low trigger range, to removing entire measures. In these transcriptions, we endeavor to include both the original studies as well as the modifications present in the Carl Fischer (public domain) edition. 
 
+### Errata
+
+* Study #5, which is a preparatory study for trills, from the horn edition is skipped in the trombone edition. So, #5 in the trombone edition aligns with #6 from the original, and this misalignment continues through #11, when some other shifts are made.
+* Study #9 - the Gumbert editions for both horn and trombone omit measure #28 from the first edition. Without a compelling reason to carry the omission forward, the measure has been included with this transcription. 
+
 ## Opus 5
 
 While Op. 6 studies are more familiar, a great Brass Urtext edition of the opus 5 studies was produced by Benny Sluchin, and [described by Doug Yeo](https://yeodoug.com/kopprasch.html) with links to download the bass trombone adaptations: 
