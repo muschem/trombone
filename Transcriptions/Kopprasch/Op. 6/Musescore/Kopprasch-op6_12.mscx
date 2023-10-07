@@ -12,13 +12,17 @@
     <metaTag name="arranger">Shirley, Michael</metaTag>
     <metaTag name="composer">Kopprasch, Georg</metaTag>
     <metaTag name="copyright"></metaTag>
-    <metaTag name="creationDate"></metaTag>
+    <metaTag name="creationDate">1832</metaTag>
     <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
     <metaTag name="mscVersion">4.10</metaTag>
-    <metaTag name="platform"></metaTag>
+    <metaTag name="platform">Microsoft Windows</metaTag>
+    <metaTag name="poet"></metaTag>
     <metaTag name="source">IMSLP12700, IMSLP283787-PMLP460734</metaTag>
-    <metaTag name="subtitle"></metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber">Opus 6</metaTag>
     <metaTag name="workTitle">60 Studies, Number 12</metaTag>
     <Order id="orchestral">
       <name>Orchestral</name>
@@ -163,7 +167,7 @@
           <size>10</size>
           <bold>0</bold>
           <offset x="0" y="-0.35052"/>
-          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
           <style>subtitle</style>
@@ -192,6 +196,7 @@
             </TimeSig>
           <Tempo>
             <tempo>1.9</tempo>
+            <offset x="0" y="-4.5"/>
             <text>Allegro Moderato</text>
             </Tempo>
           <Dynamic>
@@ -213,6 +218,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Beam>
             <Fragment>
@@ -602,6 +608,7 @@
               </Note>
             </Chord>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>eighth</durationType>
             <Note>
               <pitch>55</pitch>
@@ -850,14 +857,20 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>1.1</stretch>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.83513"/>
+                <off2 x="0.690351" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
-                <fractions>3/4</fractions>
+                <fractions>1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -969,6 +982,13 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <fractions>-1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <offset x="0.95" y="0"/>
             <durationType>quarter</durationType>
@@ -977,32 +997,30 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-3/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
+          <Segment>
+            <leadingSpace>-0.5</leadingSpace>
+            </Segment>
           <Rest>
-            <offset x="2.375" y="0"/>
+            <offset x="3" y="0"/>
             <durationType>quarter</durationType>
             </Rest>
           <Segment>
-            <leadingSpace>-3.5</leadingSpace>
+            <leadingSpace>-5</leadingSpace>
             </Segment>
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <offset x="0" y="3.2"/>
             </Dynamic>
           <Beam>
+            <Fragment>
+              <y1>4.5</y1>
+              <y2>4.5</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <durationType>16th</durationType>
@@ -1443,6 +1461,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -1464,7 +1485,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Segment>
-            <leadingSpace>-1.5</leadingSpace>
+            <leadingSpace>-2</leadingSpace>
             </Segment>
           <Dynamic>
             <subtype>p</subtype>
@@ -1472,6 +1493,10 @@
             <offset x="0" y="3.6"/>
             </Dynamic>
           <Beam>
+            <Fragment>
+              <y1>5.25</y1>
+              <y2>5</y2>
+              </Fragment>
             </Beam>
           <Chord>
             <durationType>16th</durationType>
@@ -1528,14 +1553,14 @@
               <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.83518"/>
+                <offset x="0" y="2.83508"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-3/8</fractions>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -1653,10 +1678,15 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -1664,20 +1694,12 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <offset x="0.475" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
           <Segment>
-            <leadingSpace>-1</leadingSpace>
+            <leadingSpace>-1.5</leadingSpace>
             </Segment>
           <Dynamic>
             <subtype>f</subtype>
@@ -1858,6 +1880,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             </Beam>
@@ -1977,6 +2002,16 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <Segment>
+                <subtype>1</subtype>
+                <offset x="0" y="2"/>
+                <off2 x="0" y="0"/>
+                </Segment>
+              <Segment>
+                <subtype>3</subtype>
+                <offset x="-1.89644" y="2"/>
+                <off2 x="1.89644" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2092,6 +2127,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>1.1</stretch>
         <voice>
           <Chord>
             <durationType>eighth</durationType>
@@ -2113,7 +2149,7 @@
             <durationType>eighth</durationType>
             </Rest>
           <Segment>
-            <leadingSpace>-0.5</leadingSpace>
+            <leadingSpace>-1</leadingSpace>
             </Segment>
           <Dynamic>
             <subtype>p</subtype>
@@ -2179,7 +2215,7 @@
               <subtype>0</subtype>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2.5"/>
+                <offset x="0" y="2.58578"/>
                 <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
@@ -2314,7 +2350,6 @@
           </voice>
         </Measure>
       <Measure>
-        <stretch>0.9</stretch>
         <voice>
           <Dynamic>
             <subtype>f</subtype>
@@ -2358,7 +2393,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>-1.5</leadingSpace>
+            <leadingSpace>-2</leadingSpace>
             </Segment>
           <Chord>
             <durationType>16th</durationType>
@@ -2398,7 +2433,7 @@
               </Note>
             </Chord>
           <Chord>
-            <offset x="1.5" y="0"/>
+            <offset x="2.5" y="0"/>
             <durationType>quarter</durationType>
             <Note>
               <pitch>55</pitch>
@@ -2406,7 +2441,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>-1</leadingSpace>
+            <leadingSpace>-2</leadingSpace>
             </Segment>
           <Beam>
             </Beam>
@@ -2462,14 +2497,24 @@
             </Chord>
           </voice>
         </Measure>
-      <Measure>
+      <Measure len="7/8">
         <endRepeat>2</endRepeat>
-        <stretch>0.8</stretch>
-        <LayoutBreak>
-          <subtype>line</subtype>
-          </LayoutBreak>
+        <stretch>0.9</stretch>
         <voice>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>1.</beginText>
+              <endings>1</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
           <Chord>
+            <offset x="0.5" y="0"/>
             <durationType>half</durationType>
             <Note>
               <pitch>48</pitch>
@@ -2478,11 +2523,60 @@
             </Chord>
           <Rest>
             <offset x="3.5" y="0"/>
-            <durationType>half</durationType>
+            <durationType>quarter</durationType>
             </Rest>
           <Segment>
             <leadingSpace>-7</leadingSpace>
             </Segment>
+          <Rest>
+            <offset x="1" y="0"/>
+            <durationType>eighth</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <stretch>0.7</stretch>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
+        <voice>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
+          <Spanner type="Volta">
+            <Volta>
+              <endHookType>1</endHookType>
+              <beginText>2.</beginText>
+              <endings>2</endings>
+              </Volta>
+            <next>
+              <location>
+                <measures>1</measures>
+                </location>
+              </next>
+            </Spanner>
+          <Chord>
+            <offset x="1" y="0"/>
+            <durationType>half</durationType>
+            <Note>
+              <pitch>48</pitch>
+              <tpc>14</tpc>
+              </Note>
+            </Chord>
+          <Rest>
+            <offset x="2.5" y="0"/>
+            <durationType>half</durationType>
+            </Rest>
+          <Segment>
+            <leadingSpace>-4.5</leadingSpace>
+            </Segment>
+          <BarLine>
+            <subtype>double</subtype>
+            </BarLine>
           </voice>
         </Measure>
       <Measure>
@@ -2491,7 +2585,15 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <offset x="0" y="3.1"/>
             </Dynamic>
+          <Spanner type="Volta">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                </location>
+              </prev>
+            </Spanner>
           <Beam>
             </Beam>
           <Chord>
@@ -2510,6 +2612,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>1</leadingSpace>
+            </Segment>
           <Chord>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -2750,6 +2855,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             </Beam>
@@ -3268,9 +3376,8 @@
                 </Segment>
               <Segment>
                 <subtype>3</subtype>
-                <offset x="0" y="2.79469"/>
-                <off2 x="-0.475769" y="0"/>
-                <minDistance>-2</minDistance>
+                <offset x="0" y="3"/>
+                <off2 x="0" y="0"/>
                 </Segment>
               </HairPin>
             <next>
@@ -3532,6 +3639,8 @@
             </Chord>
           <Breath>
             <symbol>breathMarkComma</symbol>
+            <autoplace>0</autoplace>
+            <offset x="-3" y="0"/>
             </Breath>
           <Dynamic>
             <subtype>f</subtype>
@@ -3568,7 +3677,7 @@
               </Note>
             </Chord>
           <Segment>
-            <leadingSpace>-2.5</leadingSpace>
+            <leadingSpace>-1</leadingSpace>
             </Segment>
           <Chord>
             <durationType>16th</durationType>
@@ -3695,6 +3804,7 @@
           </voice>
         </Measure>
       <Measure>
+        <stretch>0.9</stretch>
         <voice>
           <Chord>
             <durationType>quarter</durationType>
@@ -3726,6 +3836,7 @@
           <Dynamic>
             <subtype>mf</subtype>
             <velocity>80</velocity>
+            <offset x="0" y="2.7"/>
             </Dynamic>
           <Chord>
             <durationType>16th</durationType>
@@ -3734,6 +3845,9 @@
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>-0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -4190,6 +4304,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <prev>
@@ -4557,6 +4674,9 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Beam>
             <Fragment>
@@ -4669,11 +4789,16 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.33508"/>
+                <off2 x="0" y="0"/>
+                </Segment>
               </HairPin>
             <next>
               <location>
                 <measures>1</measures>
-                <fractions>-3/8</fractions>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -4789,6 +4914,14 @@
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Chord>
             <durationType>eighth</durationType>
             <Note>
@@ -4796,14 +4929,6 @@
               <tpc>13</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-1</measures>
-                <fractions>3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Rest>
             <offset x="1" y="0"/>
             <durationType>eighth</durationType>
@@ -4840,11 +4965,6 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="-2.03698" y="2.5"/>
-                <off2 x="2.03698" y="0"/>
-                </Segment>
               </HairPin>
             <next>
               <location>
@@ -5163,13 +5283,13 @@
         </Measure>
       <TBox>
         <height>1</height>
-        <topGap>5</topGap>
+        <topGap>120</topGap>
         <bottomGap>6</bottomGap>
         <Text>
           <style>frame</style>
           <size>14</size>
           <align>center,top</align>
-          <text><font size="14"></font>Variations:</text>
+          <text><font size="14"/>Variations:</text>
           </Text>
         </TBox>
       <Measure len="1/8">
