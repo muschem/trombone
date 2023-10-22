@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container>
+  <rootfiles>
+    <rootfile full-path="score_style.mss"/>
+    <rootfile full-path="3 Equals.mscx"/>
+    <rootfile full-path="Excerpts/Trombone I/Trombone I.mss"/>
+    <rootfile full-path="Excerpts/Trombone I/Trombone I.mscx"/>
+    <rootfile full-path="Excerpts/Trombone II/Trombone II.mss"/>
+    <rootfile full-path="Excerpts/Trombone II/Trombone II.mscx"/>
+    <rootfile full-path="Excerpts/Trombone III/Trombone III.mss"/>
+    <rootfile full-path="Excerpts/Trombone III/Trombone III.mscx"/>
+    <rootfile full-path="Excerpts/Trombone IV/Trombone IV.mss"/>
+    <rootfile full-path="Excerpts/Trombone IV/Trombone IV.mscx"/>
+    <rootfile full-path="Thumbnails/thumbnail.png"/>
+    <rootfile full-path="audiosettings.json"/>
+    <rootfile full-path="viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone I/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone II/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone III/viewsettings.json"/>
+    <rootfile full-path="Excerpts/Trombone IV/viewsettings.json"/>
+    </rootfiles>
+  </container>
