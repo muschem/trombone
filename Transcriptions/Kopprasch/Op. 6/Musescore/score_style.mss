@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.10">
+<museScore version="4.20">
   <Style>
     <pageWidth>8.5</pageWidth>
     <pageHeight>11</pageHeight>
     <pagePrintableWidth>7.7</pagePrintableWidth>
-    <pageEvenLeftMargin>0.36</pageEvenLeftMargin>
+    <pageEvenLeftMargin>0.46</pageEvenLeftMargin>
     <pageOddLeftMargin>0.4</pageOddLeftMargin>
     <pageEvenTopMargin>0.59</pageEvenTopMargin>
     <pageEvenBottomMargin>0.59</pageEvenBottomMargin>
     <pageOddTopMargin>0.4</pageOddTopMargin>
     <pageOddBottomMargin>0.4</pageOddBottomMargin>
     <pageTwosided>0</pageTwosided>
-    <staffUpperBorder>8.5</staffUpperBorder>
+    <staffUpperBorder>10</staffUpperBorder>
     <staffLowerBorder>0</staffLowerBorder>
     <staffHeaderFooterPadding>1</staffHeaderFooterPadding>
     <staffDistance>6.5</staffDistance>
@@ -24,12 +24,12 @@
     <spreadSystem>2</spreadSystem>
     <spreadSquareBracket>1.2</spreadSquareBracket>
     <spreadCurlyBracket>1.1</spreadCurlyBracket>
-    <minSystemSpread>8.5</minSystemSpread>
+    <minSystemSpread>5</minSystemSpread>
     <maxSystemSpread>32</maxSystemSpread>
     <minSpreadSpread>3.5</minSpreadSpread>
     <maxSpreadSpread>4.5</maxSpreadSpread>
     <maxAkkoladeDistance>6.5</maxAkkoladeDistance>
-    <maxPageFillSpread>0.5</maxPageFillSpread>
+    <maxPageFillSpread>1</maxPageFillSpread>
     <lyricsPlacement>1</lyricsPlacement>
     <lyricsPosAbove x="0" y="-2"/>
     <lyricsPosBelow x="0" y="3"/>
@@ -79,8 +79,8 @@
     <figuredBassLineHeight>1</figuredBassLineHeight>
     <figuredBassAlignment>0</figuredBassAlignment>
     <figuredBassStyle>0</figuredBassStyle>
-    <systemFrameDistance>-4</systemFrameDistance>
-    <frameSystemDistance>7.5</frameSystemDistance>
+    <systemFrameDistance>0</systemFrameDistance>
+    <frameSystemDistance>10</frameSystemDistance>
     <minMeasureWidth>4</minMeasureWidth>
     <barWidth>0.18</barWidth>
     <doubleBarWidth>0.18</doubleBarWidth>
@@ -88,7 +88,7 @@
     <doubleBarDistance>0.37</doubleBarDistance>
     <endBarDistance>0.335</endBarDistance>
     <repeatBarlineDotSeparation>0.400692</repeatBarlineDotSeparation>
-    <repeatBarTips>0</repeatBarTips>
+    <repeatBarTips>1</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <bracketWidth>0.44</bracketWidth>
@@ -129,7 +129,7 @@
     <beginRepeatLeftMargin>1</beginRepeatLeftMargin>
     <minNoteDistance>0.2</minNoteDistance>
     <barNoteDistance>1.3</barNoteDistance>
-    <barAccidentalDistance>0.65</barAccidentalDistance>
+    <barAccidentalDistance>1.05</barAccidentalDistance>
     <noteBarDistance>1.5</noteBarDistance>
     <measureSpacing>1.5</measureSpacing>
     <measureRepeatNumberPos>-0.5</measureRepeatNumberPos>
@@ -144,14 +144,14 @@
     <stemSlashPosition>2</stemSlashPosition>
     <stemSlashAngle>40</stemSlashAngle>
     <stemSlashThickness>0.125</stemSlashThickness>
-    <accidentalDistance>0.22</accidentalDistance>
-    <accidentalNoteDistance>0.25</accidentalNoteDistance>
+    <accidentalDistance>0.25</accidentalDistance>
+    <accidentalNoteDistance>0.35</accidentalNoteDistance>
     <bracketedAccidentalPadding>0.175</bracketedAccidentalPadding>
     <alignAccidentalsLeft>0</alignAccidentalsLeft>
     <keysigAccidentalDistance>0.3</keysigAccidentalDistance>
     <keysigNaturalDistance>0.4</keysigNaturalDistance>
     <beamWidth>0.5</beamWidth>
-    <useWideBeams>0</useWideBeams>
+    <useWideBeams>1</useWideBeams>
     <beamMinLen>1.3</beamMinLen>
     <beamNoSlope>0</beamNoSlope>
     <snapCustomBeamsToGrid>1</snapCustomBeamsToGrid>
@@ -224,8 +224,11 @@
     <pedalFrameFgColor r="0" g="0" b="0" a="255"/>
     <pedalFrameBgColor r="255" g="255" b="255" a="0"/>
     <pedalText></pedalText>
+    <pedalHookText></pedalHookText>
     <pedalContinueText></pedalContinueText>
+    <pedalContinueHookText></pedalContinueHookText>
     <pedalEndText></pedalEndText>
+    <pedalRosetteEndText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</pedalRosetteEndText>
     <trillPlacement>0</trillPlacement>
     <trillPosAbove x="0" y="-0.5"/>
     <trillPosBelow x="0" y="2"/>
@@ -322,7 +325,7 @@
     <showPageNumber>1</showPageNumber>
     <showPageNumberOne>0</showPageNumberOne>
     <pageNumberOddEven>1</pageNumberOddEven>
-    <showMeasureNumber>0</showMeasureNumber>
+    <showMeasureNumber>1</showMeasureNumber>
     <showMeasureNumberOne>0</showMeasureNumberOne>
     <measureNumberInterval>5</measureNumberInterval>
     <measureNumberSystem>1</measureNumberSystem>
@@ -373,7 +376,7 @@
     <hideEmptyStaves>1</hideEmptyStaves>
     <dontHideStavesInFirstSystem>0</dontHideStavesInFirstSystem>
     <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
-    <firstSystemIndentationValue>5</firstSystemIndentationValue>
+    <firstSystemIndentationValue>4</firstSystemIndentationValue>
     <alwaysShowBracketsWhenEmptyStavesAreHidden>0</alwaysShowBracketsWhenEmptyStavesAreHidden>
     <alwaysShowSquareBracketsWhenEmptyStavesAreHidden>0</alwaysShowSquareBracketsWhenEmptyStavesAreHidden>
     <hideInstrumentNameIfOneInstrument>1</hideInstrumentNameIfOneInstrument>
@@ -395,6 +398,10 @@
     <minWigglyGlissandoLength>2</minWigglyGlissandoLength>
     <slurMinDistance>0.5</slurMinDistance>
     <headerSlurTieDistance>1</headerSlurTieDistance>
+    <tiePlacementSingleNote>outside</tiePlacementSingleNote>
+    <tiePlacementChord>inside</tiePlacementChord>
+    <tieMinShoulderHeight>0.3</tieMinShoulderHeight>
+    <tieMaxShoulderHeight>2</tieMaxShoulderHeight>
     <sectionPause>3</sectionPause>
     <musicalSymbolFont>Leland</musicalSymbolFont>
     <musicalTextFont>Leland Text</musicalTextFont>
@@ -407,7 +414,7 @@
     <oddHeaderL></oddHeaderL>
     <oddHeaderC></oddHeaderC>
     <oddHeaderR>$p</oddHeaderR>
-    <showFooter>1</showFooter>
+    <showFooter>0</showFooter>
     <footerFirstPage>1</footerFirstPage>
     <footerOddEven>1</footerOddEven>
     <evenFooterL></evenFooterL>
@@ -530,7 +537,7 @@
     <tupletFrameBgColor r="255" g="255" b="255" a="0"/>
     <barreLineWidth>1</barreLineWidth>
     <scaleBarlines>1</scaleBarlines>
-    <barGraceDistance>1</barGraceDistance>
+    <barGraceDistance>1.4</barGraceDistance>
     <minVerticalDistance>0.5</minVerticalDistance>
     <ornamentStyle>0</ornamentStyle>
     <autoplaceHairpinDynamicsDistance>0.5</autoplaceHairpinDynamicsDistance>
@@ -599,10 +606,10 @@
     <titleFrameFgColor r="0" g="0" b="0" a="255"/>
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
     <subTitleFontFace>Edwin</subTitleFontFace>
-    <subTitleFontSize>18</subTitleFontSize>
+    <subTitleFontSize>15</subTitleFontSize>
     <subTitleLineSpacing>1</subTitleLineSpacing>
     <subTitleFontSpatiumDependent>0</subTitleFontSpatiumDependent>
-    <subTitleFontStyle>2</subTitleFontStyle>
+    <subTitleFontStyle>0</subTitleFontStyle>
     <subTitleColor r="0" g="0" b="0" a="255"/>
     <subTitleAlign>center,top</subTitleAlign>
     <subTitleOffset x="0" y="10"/>
@@ -700,6 +707,7 @@
     <stringNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <stringNumberOffset x="0" y="0"/>
     <preferSameStringForTranspose>0</preferSameStringForTranspose>
+    <stringTuningsFontSize>9</stringTuningsFontSize>
     <harpPedalDiagramFontFace>Edwin</harpPedalDiagramFontFace>
     <harpPedalDiagramFontSize>10</harpPedalDiagramFontSize>
     <harpPedalDiagramLineSpacing>1</harpPedalDiagramLineSpacing>
@@ -997,12 +1005,12 @@
     <repeatRightFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatRightFrameBgColor r="255" g="255" b="255" a="0"/>
     <frameFontFace>Edwin</frameFontFace>
-    <frameFontSize>10</frameFontSize>
+    <frameFontSize>21</frameFontSize>
     <frameLineSpacing>1</frameLineSpacing>
     <frameFontSpatiumDependent>0</frameFontSpatiumDependent>
-    <frameFontStyle>0</frameFontStyle>
+    <frameFontStyle>1</frameFontStyle>
     <frameColor r="0" g="0" b="0" a="255"/>
-    <frameAlign>left,top</frameAlign>
+    <frameAlign>center,top</frameAlign>
     <frameOffset x="0" y="0"/>
     <frameFrameType>0</frameFrameType>
     <frameFramePadding>0.2</frameFramePadding>
@@ -1041,6 +1049,8 @@
     <glissandoFrameBgColor r="255" g="255" b="255" a="0"/>
     <glissandoLineWidth>0.15</glissandoLineWidth>
     <glissandoText>gliss.</glissandoText>
+    <glissandoStyle>0</glissandoStyle>
+    <glissandoStyleHarp>3</glissandoStyleHarp>
     <bendFontFace>Edwin</bendFontFace>
     <bendFontSize>8</bendFontSize>
     <bendLineSpacing>1</bendLineSpacing>
@@ -1057,6 +1067,14 @@
     <bendFrameBgColor r="255" g="255" b="255" a="0"/>
     <bendLineWidth>0.15</bendLineWidth>
     <bendArrowWidth>0.5</bendArrowWidth>
+    <guitarBendLineWidth>0.13</guitarBendLineWidth>
+    <guitarBendLineWidthTab>0.15</guitarBendLineWidthTab>
+    <guitarBendHeightAboveTABStaff>1.5</guitarBendHeightAboveTABStaff>
+    <guitarBendPartialBendHeight>1.5</guitarBendPartialBendHeight>
+    <guitarBendUseFull>0</guitarBendUseFull>
+    <guitarBendArrowWidth>1</guitarBendArrowWidth>
+    <guitarBendArrowHeight>1</guitarBendArrowHeight>
+    <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
     <headerFontFace>Edwin</headerFontFace>
     <headerFontSize>11</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>

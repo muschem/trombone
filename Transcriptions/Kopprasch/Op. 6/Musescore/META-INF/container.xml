@@ -2,7 +2,7 @@
 <container>
   <rootfiles>
     <rootfile full-path="score_style.mss"/>
-    <rootfile full-path="1.mscx"/>
+    <rootfile full-path="01.mscx"/>
     <rootfile full-path="Thumbnails/thumbnail.png"/>
     <rootfile full-path="audiosettings.json"/>
     <rootfile full-path="viewsettings.json"/>
