@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.10">
-  <programVersion>4.1.1</programVersion>
-  <programRevision>e4d1ddf</programRevision>
+<museScore version="4.20">
+  <programVersion>4.2.1</programVersion>
+  <programRevision>d757433</programRevision>
+  <LastEID>718</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -10,6 +11,7 @@
     <showMargins>0</showMargins>
     <open>1</open>
     <metaTag name="arranger">Shirley, Michael</metaTag>
+    <metaTag name="audioComUrl"></metaTag>
     <metaTag name="composer">Kopprasch, Georg</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">1832</metaTag>
@@ -98,71 +100,76 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>12</height>
-        <topGap>0</topGap>
-        <bottomGap>0</bottomGap>
+        <height>11</height>
+        <eid>4294967418</eid>
         <Text>
-          <style>title</style>
-          <text>60 Studies</text>
-          </Text>
-        <Text>
+          <eid>8589934598</eid>
           <style>composer</style>
           <bold>0</bold>
-          <offset x="-0.824382" y="-4.70339"/>
+          <offset x="-0.824382" y="-4.5"/>
           <text><b>Georg Kopprasch
 </b>(1800 - 1850) </text>
           </Text>
         <Text>
+          <eid>12884901894</eid>
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <text><b></b><font size="10"/>Transcribed by Michael Shirley</text>
+          <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
-          <style>subtitle</style>
-          <text>Op. 6</text>
+          <eid>17179869190</eid>
+          <style>title</style>
+          <text><b>60 Études</b>, Op. 6</text>
+          </Text>
+        <Text>
+          <eid>21474836486</eid>
+          <style>frame</style>
+          <bold>0</bold>
+          <offset x="0" y="14"/>
+          <text><b></b>№ 7</text>
           </Text>
         </VBox>
-      <TBox>
-        <height>1</height>
-        <topGap>3</topGap>
-        <Text>
-          <style>frame</style>
-          <align>center,top</align>
-          <text>№ 7</text>
-          </Text>
-        </TBox>
       <Measure>
         <voice>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             <isHeader>1</isHeader>
+            <eid>25769803797</eid>
             </Clef>
           <KeySig>
+            <eid>30064771094</eid>
             <concertKey>-3</concertKey>
             </KeySig>
           <TimeSig>
+            <eid>34359738392</eid>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <Dynamic>
             <subtype>p</subtype>
             <velocity>50</velocity>
+            <eid>38654705699</eid>
+            <offset x="0" y="3.5"/>
             </Dynamic>
           <Tempo>
             <tempo>2.4</tempo>
+            <eid>42949673007</eid>
             <offset x="0" y="-3"/>
             <text>Allegro</text>
             </Tempo>
           <Beam>
+            <eid>47244640293</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>51539607667</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>55834574964</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -172,11 +179,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>60129542164</eid>
               <pitch>51</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>64424509555</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -187,15 +196,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>68719476756</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>73014444147</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>77309411444</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -205,11 +217,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>81604378644</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>85899346035</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -220,6 +234,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>90194313236</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -227,6 +242,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
+              <eid>94489280606</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>98784247872</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -236,13 +258,16 @@
               </next>
             </Spanner>
           <Beam>
+            <eid>103079215141</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>107374182515</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>111669149812</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -252,11 +277,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>115964117012</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>120259084403</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -267,15 +294,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>124554051604</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>128849018995</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>133143986292</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -285,11 +315,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>137438953492</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>141733920883</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -300,6 +332,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>146028888084</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -319,6 +352,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <eid>150323855454</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>154618822720</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -327,13 +367,16 @@
               </next>
             </Spanner>
           <Beam>
+            <eid>158913789989</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>163208757363</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>167503724660</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -343,11 +386,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>171798691860</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>176093659251</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -358,15 +403,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>180388626452</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>184683593843</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>188978561140</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -376,11 +424,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>193273528340</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>197568495731</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -391,6 +441,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>201863462932</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -403,17 +454,24 @@
               </prev>
             </Spanner>
           <Chord>
+            <eid>206158430323</eid>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <eid>210453397524</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Rest>
+            <eid>214748364825</eid>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -421,15 +479,20 @@
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
+            <eid>219043332131</eid>
+            <offset x="0" y="3"/>
             </Dynamic>
           <Beam>
+            <eid>223338299429</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>227633266803</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>231928234100</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -439,11 +502,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>236223201300</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>240518168691</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -454,15 +519,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>244813135892</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>249108103283</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>253403070580</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -472,11 +540,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>257698037780</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>261993005171</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -487,6 +557,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>266287972372</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -494,6 +565,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
+              <eid>270582939742</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3036541878336</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -503,13 +581,16 @@
               </next>
             </Spanner>
           <Beam>
+            <eid>274877906981</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>279172874355</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>283467841652</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -519,11 +600,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>287762808852</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>292057776243</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -534,15 +617,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>296352743444</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>300647710835</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>304942678132</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -552,11 +638,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>309237645332</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>313532612723</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -567,6 +655,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>317827579924</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -575,6 +664,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <eid>322122547280</eid>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
@@ -589,6 +679,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <eid>326417514590</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3040836845632</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -597,13 +694,16 @@
               </next>
             </Spanner>
           <Beam>
+            <eid>330712481829</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>335007449203</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>339302416500</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -613,11 +713,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>343597383700</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>347892351091</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -628,15 +730,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>352187318292</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>356482285683</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>360777252980</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -646,11 +751,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>365072220180</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>369367187571</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -661,6 +768,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>373662154772</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
@@ -673,17 +781,24 @@
               </prev>
             </Spanner>
           <Chord>
+            <eid>377957122163</eid>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <eid>382252089364</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Rest>
+            <eid>386547056665</eid>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -691,16 +806,20 @@
           <Dynamic>
             <subtype>f</subtype>
             <velocity>90</velocity>
-            <offset x="0" y="3.6"/>
+            <eid>390842023971</eid>
+            <offset x="0" y="4"/>
             </Dynamic>
           <Beam>
+            <eid>395136991269</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>399431958643</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>403726925940</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -710,11 +829,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>408021893140</eid>
               <pitch>51</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>412316860531</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -725,15 +846,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>416611827732</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>420906795123</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>425201762420</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -743,11 +867,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>429496729620</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>433791697011</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -758,18 +884,22 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>438086664212</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Beam>
+            <eid>442381631525</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>446676598899</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>450971566196</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -779,11 +909,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>455266533396</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>459561500787</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -794,15 +926,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>463856467988</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>468151435379</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>472446402676</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -812,11 +947,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>476741369876</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>481036337267</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -827,6 +964,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>485331304468</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -836,13 +974,16 @@
       <Measure>
         <voice>
           <Beam>
+            <eid>489626271781</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>493921239155</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>498216206452</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -852,11 +993,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>502511173652</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>506806141043</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -867,15 +1010,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>511101108244</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>515396075635</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>519691042932</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -885,11 +1031,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>523986010132</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>528280977523</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -900,18 +1048,22 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>532575944724</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Beam>
+            <eid>536870912037</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>541165879411</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>545460846708</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -921,11 +1073,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>549755813908</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>554050781299</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -936,15 +1090,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>558345748500</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>562640715891</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>566935683188</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -954,11 +1111,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>571230650388</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>575525617779</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -969,6 +1128,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>579820584980</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -978,13 +1138,16 @@
       <Measure>
         <voice>
           <Beam>
+            <eid>584115552293</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>588410519667</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>592705486964</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -994,11 +1157,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>597000454164</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>601295421555</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1009,15 +1174,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>605590388756</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>609885356147</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>614180323444</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1027,11 +1195,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>618475290644</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>622770258035</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1042,18 +1212,22 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>627065225236</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Beam>
+            <eid>631360192549</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>635655159923</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>639950127220</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1063,11 +1237,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>644245094420</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>648540061811</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1078,18 +1254,22 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>652835029012</eid>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
+                <eid>657129996305</eid>
                 </Accidental>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>661424963699</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>665719930996</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1099,11 +1279,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>670014898196</eid>
               <pitch>57</pitch>
               <tpc>17</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>674309865587</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1114,6 +1296,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>678604832788</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -1123,17 +1306,21 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
+          <eid>682899800144</eid>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Beam>
+            <eid>687194767397</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>691489734771</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>695784702068</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1143,11 +1330,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>700079669268</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>704374636659</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1158,15 +1347,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>708669603860</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>712964571251</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>717259538548</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1176,11 +1368,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>721554505748</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>725849473139</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1191,22 +1385,30 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>730144440340</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>734439407731</eid>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <eid>738734374932</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Rest>
+            <eid>743029342233</eid>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -1215,15 +1417,20 @@
           <Dynamic>
             <subtype>p</subtype>
             <velocity>50</velocity>
+            <eid>747324309539</eid>
+            <offset x="0" y="3"/>
             </Dynamic>
           <Beam>
+            <eid>751619276837</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>755914244211</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>760209211508</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1233,11 +1440,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>764504178708</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>768799146099</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1248,15 +1457,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>773094113300</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>777389080691</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>781684047988</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1266,11 +1478,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>785979015188</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>790273982579</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1281,6 +1495,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>794568949780</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -1288,6 +1503,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
+              <eid>798863917150</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3045131812928</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1297,13 +1519,16 @@
               </next>
             </Spanner>
           <Beam>
+            <eid>803158884389</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>807453851763</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>811748819060</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1313,11 +1538,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>816043786260</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>820338753651</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1328,15 +1555,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>824633720852</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>828928688243</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>833223655540</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1346,11 +1576,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>837518622740</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>841813590131</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1361,6 +1593,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>846108557332</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -1380,6 +1613,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <eid>850403524702</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3049426780224</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1388,13 +1628,16 @@
               </next>
             </Spanner>
           <Beam>
+            <eid>854698491941</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>858993459315</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>863288426612</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1404,11 +1647,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>867583393812</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>871878361203</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1419,15 +1664,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>876173328404</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>880468295795</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>884763263092</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1437,11 +1685,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>889058230292</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>893353197683</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1452,6 +1702,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>897648164884</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
@@ -1464,13 +1715,16 @@
               </prev>
             </Spanner>
           <Beam>
+            <eid>901943132197</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>906238099571</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>910533066868</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1480,11 +1734,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>914828034068</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>919123001459</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1495,15 +1751,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>923417968660</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>927712936051</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>932007903348</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1513,11 +1772,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>936302870548</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>940597837939</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1528,6 +1789,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>944892805140</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
@@ -1539,15 +1801,20 @@
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
+            <eid>949187772451</eid>
+            <offset x="0" y="3"/>
             </Dynamic>
           <Beam>
+            <eid>953482739749</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>957777707123</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>962072674420</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1557,11 +1824,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>966367641620</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>970662609011</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1572,15 +1841,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>974957576212</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>979252543603</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>983547510900</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1590,11 +1862,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>987842478100</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>992137445491</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1605,6 +1879,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>996432412692</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -1612,6 +1887,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
+              <eid>1000727380062</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3053721747520</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1621,13 +1903,16 @@
               </next>
             </Spanner>
           <Beam>
+            <eid>1005022347301</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>1009317314675</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1013612281972</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1637,11 +1922,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1017907249172</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1022202216563</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1652,15 +1939,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1026497183764</eid>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1030792151155</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1035087118452</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1670,11 +1960,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1039382085652</eid>
               <pitch>70</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1043677053043</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1685,6 +1977,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1047972020244</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
@@ -1693,6 +1986,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <eid>1052266987600</eid>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
@@ -1707,6 +2001,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <eid>1056561954910</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3058016714816</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1715,13 +2016,16 @@
               </next>
             </Spanner>
           <Beam>
+            <eid>1060856922149</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>1065151889523</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1069446856820</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1731,11 +2035,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1073741824020</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1078036791411</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1746,15 +2052,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1082331758612</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1086626726003</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1090921693300</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1764,11 +2073,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1095216660500</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1099511627891</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1779,6 +2090,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1103806595092</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -1791,13 +2103,16 @@
               </prev>
             </Spanner>
           <Beam>
+            <eid>1108101562405</eid>
             <StemDirection>down</StemDirection>
             </Beam>
           <Chord>
+            <eid>1112396529779</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1116691497076</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1807,11 +2122,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1120986464276</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1125281431667</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1822,18 +2139,22 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1129576398868</eid>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
+                <eid>1133871366161</eid>
                 </Accidental>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1138166333555</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1142461300852</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1843,11 +2164,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1146756268052</eid>
               <pitch>64</pitch>
               <tpc>18</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1151051235443</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1858,6 +2181,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1155346202644</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -1869,12 +2193,16 @@
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
+            <eid>1159641169955</eid>
+            <offset x="0" y="3"/>
             </Dynamic>
           <Chord>
+            <eid>1163936137331</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1168231104628</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1884,11 +2212,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1172526071828</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1176821039219</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1899,15 +2229,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1181116006420</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1185410973811</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1189705941108</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1917,11 +2250,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1194000908308</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1198295875699</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1932,15 +2267,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1202590842900</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1206885810291</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1211180777588</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1950,11 +2288,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1215475744788</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1219770712179</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -1965,20 +2305,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1224065679380</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1228360646771</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.248565" y="1.58094"/>
-                  <o3 x="-0.251435" y="2.08094"/>
-                  <offset x="0" y="0.667623"/>
-                  </SlurSegment>
+                <eid>1232655614068</eid>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1988,11 +2326,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1236950581268</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1241245548659</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -2003,13 +2343,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1245540515860</eid>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
+                <eid>1249835483153</eid>
                 </Accidental>
               <pitch>59</pitch>
               <tpc>7</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -2017,6 +2362,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <eid>1254130450526</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3062311682112</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -2025,10 +2377,12 @@
               </next>
             </Spanner>
           <Chord>
+            <eid>1258425417843</eid>
             <BeamMode>begin</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1262720385140</eid>
                 </Slur>
               <next>
                 <location>
@@ -2037,14 +2391,17 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1267015352340</eid>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
+                <eid>1271310319633</eid>
                 </Accidental>
               <pitch>59</pitch>
               <tpc>7</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1275605287027</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -2055,15 +2412,18 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1279900254228</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1284195221619</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1288490188916</eid>
                 </Slur>
               <next>
                 <location>
@@ -2072,11 +2432,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1292785156116</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1297080123507</eid>
             <BeamMode>mid</BeamMode>
             <durationType>16th</durationType>
             <Spanner type="Slur">
@@ -2087,8 +2449,10 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1301375090708</eid>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
+                <eid>1305670058001</eid>
                 </Accidental>
               <pitch>57</pitch>
               <tpc>17</tpc>
@@ -2102,17 +2466,24 @@
               </prev>
             </Spanner>
           <Chord>
+            <eid>1309965025395</eid>
             <BeamMode>no</BeamMode>
             <durationType>eighth</durationType>
             <StemDirection>down</StemDirection>
             <Note>
+              <eid>1314259992596</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Rest>
+            <eid>1318554959897</eid>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -2120,11 +2491,15 @@
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
+            <eid>1322849927203</eid>
+            <offset x="0" y="3"/>
             </Dynamic>
           <Chord>
+            <eid>1327144894579</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1331439861876</eid>
                 </Slur>
               <next>
                 <location>
@@ -2133,11 +2508,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1335734829076</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1340029796467</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2147,18 +2524,25 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1344324763668</eid>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalNatural</subtype>
+                <eid>1348619730961</eid>
                 </Accidental>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
+            <eid>1352914698355</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1357209665652</eid>
                 </Slur>
               <next>
                 <location>
@@ -2167,11 +2551,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1361504632852</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1365799600243</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2181,14 +2567,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1370094567444</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1374389534835</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1378684502132</eid>
                 </Slur>
               <next>
                 <location>
@@ -2197,11 +2586,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1382979469332</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1387274436723</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2211,14 +2602,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1391569403924</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1395864371315</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1400159338612</eid>
                 </Slur>
               <next>
                 <location>
@@ -2227,11 +2621,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1404454305812</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1408749273203</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2241,6 +2637,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1413044240404</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -2249,16 +2646,19 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <eid>1417339207760</eid>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>2</subtype>
+              <eid>1421634175070</eid>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="-0.149335" y="2.50665"/>
-                <off2 x="-0.232279" y="0"/>
+                <offset x="0" y="3"/>
+                <off2 x="0" y="0"/>
+                <eid>3066606649408</eid>
                 </Segment>
               </HairPin>
             <next>
@@ -2268,9 +2668,11 @@
               </next>
             </Spanner>
           <Chord>
+            <eid>1425929142387</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1430224109684</eid>
                 </Slur>
               <next>
                 <location>
@@ -2279,11 +2681,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1434519076884</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1438814044275</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2293,14 +2697,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1443109011476</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1447403978867</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1451698946164</eid>
                 </Slur>
               <next>
                 <location>
@@ -2309,11 +2716,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1455993913364</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1460288880755</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2323,14 +2732,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1464583847956</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1468878815347</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1473173782644</eid>
                 </Slur>
               <next>
                 <location>
@@ -2339,11 +2751,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1477468749844</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1481763717235</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2353,14 +2767,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1486058684436</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1490353651827</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1494648619124</eid>
                 </Slur>
               <next>
                 <location>
@@ -2369,11 +2786,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1498943586324</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1503238553715</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2383,6 +2802,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1507533520916</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
@@ -2394,7 +2814,8 @@
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0" y="3"/>
+            <eid>1511828488227</eid>
+            <offset x="0" y="3.5"/>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -2404,13 +2825,11 @@
               </prev>
             </Spanner>
           <Chord>
+            <eid>1516123455603</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.5" y="0"/>
-                  <o3 x="0.5" y="-0.5"/>
-                  </SlurSegment>
+                <eid>1520418422900</eid>
                 </Slur>
               <next>
                 <location>
@@ -2419,11 +2838,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1524713390100</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1529008357491</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2433,14 +2854,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1533303324692</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1537598292083</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1541893259380</eid>
                 </Slur>
               <next>
                 <location>
@@ -2449,11 +2873,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1546188226580</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1550483193971</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2463,17 +2889,21 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1554778161172</eid>
               <Accidental>
                 <subtype>accidentalNatural</subtype>
+                <eid>1559073128465</eid>
                 </Accidental>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1563368095859</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1567663063156</eid>
                 </Slur>
               <next>
                 <location>
@@ -2482,11 +2912,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1571958030356</eid>
               <pitch>59</pitch>
               <tpc>19</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1576252997747</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2496,14 +2928,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1580547964948</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1584842932339</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1589137899636</eid>
                 </Slur>
               <next>
                 <location>
@@ -2512,11 +2947,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1593432866836</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1597727834227</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2526,6 +2963,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1602022801428</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2535,13 +2973,11 @@
       <Measure>
         <voice>
           <Chord>
+            <eid>1606317768819</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.5" y="0"/>
-                  <o3 x="0.5" y="-0.5"/>
-                  </SlurSegment>
+                <eid>1610612736116</eid>
                 </Slur>
               <next>
                 <location>
@@ -2550,11 +2986,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1614907703316</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1619202670707</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2564,14 +3002,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1623497637908</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1627792605299</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1632087572596</eid>
                 </Slur>
               <next>
                 <location>
@@ -2580,11 +3021,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1636382539796</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1640677507187</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2594,14 +3037,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1644972474388</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1649267441779</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1653562409076</eid>
                 </Slur>
               <next>
                 <location>
@@ -2610,11 +3056,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1657857376276</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1662152343667</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2624,14 +3072,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1666447310868</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1670742278259</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1675037245556</eid>
                 </Slur>
               <next>
                 <location>
@@ -2640,11 +3091,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1679332212756</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1683627180147</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2654,6 +3107,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1687922147348</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -2663,9 +3117,11 @@
       <Measure>
         <voice>
           <Chord>
+            <eid>1692217114739</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1696512082036</eid>
                 </Slur>
               <next>
                 <location>
@@ -2674,11 +3130,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1700807049236</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1705102016627</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2688,14 +3146,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1709396983828</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1713691951219</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1717986918516</eid>
                 </Slur>
               <next>
                 <location>
@@ -2704,11 +3165,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1722281885716</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1726576853107</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2718,14 +3181,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1730871820308</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1735166787699</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1739461754996</eid>
                 </Slur>
               <next>
                 <location>
@@ -2734,11 +3200,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1743756722196</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1748051689587</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2748,14 +3216,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1752346656788</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1756641624179</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1760936591476</eid>
                 </Slur>
               <next>
                 <location>
@@ -2764,11 +3235,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1765231558676</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1769526526067</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2778,6 +3251,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1773821493268</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -2786,12 +3260,14 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <eid>1778116460624</eid>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <eid>1782411427934</eid>
               </HairPin>
             <next>
               <location>
@@ -2800,9 +3276,11 @@
               </next>
             </Spanner>
           <Chord>
+            <eid>1786706395251</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1791001362548</eid>
                 </Slur>
               <next>
                 <location>
@@ -2811,11 +3289,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1795296329748</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1799591297139</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2825,14 +3305,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1803886264340</eid>
               <pitch>56</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1808181231731</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1812476199028</eid>
                 </Slur>
               <next>
                 <location>
@@ -2841,11 +3324,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1816771166228</eid>
               <pitch>56</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1821066133619</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2855,14 +3340,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1825361100820</eid>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1829656068211</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1833951035508</eid>
                 </Slur>
               <next>
                 <location>
@@ -2871,11 +3359,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1838246002708</eid>
               <pitch>53</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1842540970099</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2885,14 +3375,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1846835937300</eid>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1851130904691</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1855425871988</eid>
                 </Slur>
               <next>
                 <location>
@@ -2901,11 +3394,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1859720839188</eid>
               <pitch>50</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1864015806579</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2915,6 +3410,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1868310773780</eid>
               <pitch>46</pitch>
               <tpc>12</tpc>
               </Note>
@@ -2926,6 +3422,8 @@
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
+            <eid>1872605741091</eid>
+            <offset x="0" y="3.5"/>
             </Dynamic>
           <Spanner type="HairPin">
             <prev>
@@ -2935,9 +3433,11 @@
               </prev>
             </Spanner>
           <Chord>
+            <eid>1876900708467</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1881195675764</eid>
                 </Slur>
               <next>
                 <location>
@@ -2946,11 +3446,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1885490642964</eid>
               <pitch>51</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1889785610355</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2960,14 +3462,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1894080577556</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1898375544947</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1902670512244</eid>
                 </Slur>
               <next>
                 <location>
@@ -2976,11 +3481,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1906965479444</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1911260446835</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -2990,6 +3497,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1915555414036</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -2997,10 +3505,12 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
+              <eid>1919850381406</eid>
               <Segment>
                 <subtype>0</subtype>
-                <offset x="0" y="2"/>
+                <offset x="0" y="2.5"/>
                 <off2 x="0" y="0"/>
+                <eid>3070901616704</eid>
                 </Segment>
               </HairPin>
             <next>
@@ -3011,9 +3521,11 @@
               </next>
             </Spanner>
           <Chord>
+            <eid>1924145348723</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1928440316020</eid>
                 </Slur>
               <next>
                 <location>
@@ -3022,11 +3534,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1932735283220</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1937030250611</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3036,14 +3550,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1941325217812</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1945620185203</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1949915152500</eid>
                 </Slur>
               <next>
                 <location>
@@ -3052,11 +3569,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1954210119700</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1958505087091</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3066,6 +3585,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1962800054292</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -3085,6 +3605,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <eid>1967095021662</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3075196584000</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3093,9 +3620,11 @@
               </next>
             </Spanner>
           <Chord>
+            <eid>1971389988979</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1975684956276</eid>
                 </Slur>
               <next>
                 <location>
@@ -3104,11 +3633,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>1979979923476</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1984274890867</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3118,14 +3649,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>1988569858068</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>1992864825459</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>1997159792756</eid>
                 </Slur>
               <next>
                 <location>
@@ -3134,11 +3668,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2001454759956</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2005749727347</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3148,6 +3684,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2010044694548</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -3160,15 +3697,22 @@
               </prev>
             </Spanner>
           <Chord>
+            <eid>2014339661939</eid>
             <durationType>eighth</durationType>
             <Note>
+              <eid>2018634629140</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Rest>
+            <eid>2022929596441</eid>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -3176,11 +3720,15 @@
           <Dynamic>
             <subtype>p</subtype>
             <velocity>49</velocity>
+            <eid>2027224563747</eid>
+            <offset x="0" y="3"/>
             </Dynamic>
           <Chord>
+            <eid>2031519531123</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2035814498420</eid>
                 </Slur>
               <next>
                 <location>
@@ -3189,11 +3737,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2040109465620</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2044404433011</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3203,14 +3753,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2048699400212</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2052994367603</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2057289334900</eid>
                 </Slur>
               <next>
                 <location>
@@ -3219,11 +3772,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2061584302100</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2065879269491</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3233,6 +3788,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2070174236692</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
@@ -3240,6 +3796,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>0</subtype>
+              <eid>2074469204062</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3079491551296</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3249,9 +3812,11 @@
               </next>
             </Spanner>
           <Chord>
+            <eid>2078764171379</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2083059138676</eid>
                 </Slur>
               <next>
                 <location>
@@ -3260,11 +3825,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2087354105876</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2091649073267</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3274,14 +3841,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2095944040468</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2100239007859</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2104533975156</eid>
                 </Slur>
               <next>
                 <location>
@@ -3290,11 +3860,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2108828942356</eid>
               <pitch>68</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2113123909747</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3304,6 +3876,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2117418876948</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
@@ -3312,6 +3885,7 @@
         </Measure>
       <Measure>
         <LayoutBreak>
+          <eid>2121713844304</eid>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
@@ -3326,6 +3900,13 @@
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
+              <eid>2126008811614</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="2.5"/>
+                <off2 x="0" y="0"/>
+                <eid>3083786518592</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -3334,9 +3915,11 @@
               </next>
             </Spanner>
           <Chord>
+            <eid>2130303778931</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2134598746228</eid>
                 </Slur>
               <next>
                 <location>
@@ -3345,11 +3928,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2138893713428</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2143188680819</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3359,14 +3944,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2147483648020</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2151778615411</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2156073582708</eid>
                 </Slur>
               <next>
                 <location>
@@ -3375,11 +3963,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2160368549908</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2164663517299</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3389,6 +3979,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2168958484500</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
@@ -3401,15 +3992,22 @@
               </prev>
             </Spanner>
           <Chord>
+            <eid>2173253451891</eid>
             <durationType>eighth</durationType>
             <Note>
+              <eid>2177548419092</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Rest>
+            <eid>2181843386393</eid>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <Measure>
@@ -3417,12 +4015,15 @@
           <Dynamic>
             <subtype>f</subtype>
             <velocity>96</velocity>
-            <offset x="0" y="3.5"/>
+            <eid>2186138353699</eid>
+            <offset x="0" y="4"/>
             </Dynamic>
           <Chord>
+            <eid>2190433321075</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2194728288372</eid>
                 </Slur>
               <next>
                 <location>
@@ -3431,11 +4032,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2199023255572</eid>
               <pitch>51</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2203318222963</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3445,14 +4048,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2207613190164</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2211908157555</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2216203124852</eid>
                 </Slur>
               <next>
                 <location>
@@ -3461,11 +4067,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2220498092052</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2224793059443</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3475,19 +4083,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2229088026644</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2233382994035</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
-                <SlurSegment no="0">
-                  <o2 x="0.026399" y="1.57762"/>
-                  <o3 x="0.026399" y="2.57762"/>
-                  <offset x="0" y="1"/>
-                  </SlurSegment>
+                <eid>2237677961332</eid>
                 </Slur>
               <next>
                 <location>
@@ -3496,11 +4102,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2241972928532</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2246267895923</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3510,17 +4118,24 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2250562863124</eid>
               <Accidental>
                 <subtype>accidentalFlat</subtype>
+                <eid>2254857830417</eid>
                 </Accidental>
               <pitch>61</pitch>
               <tpc>9</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
+            <eid>2259152797811</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2263447765108</eid>
                 </Slur>
               <next>
                 <location>
@@ -3529,11 +4144,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2267742732308</eid>
               <pitch>61</pitch>
               <tpc>9</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2272037699699</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3543,6 +4160,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2276332666900</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
@@ -3552,9 +4170,11 @@
       <Measure>
         <voice>
           <Chord>
+            <eid>2280627634291</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2284922601588</eid>
                 </Slur>
               <next>
                 <location>
@@ -3563,11 +4183,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2289217568788</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2293512536179</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3577,14 +4199,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2297807503380</eid>
               <pitch>56</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2302102470771</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2306397438068</eid>
                 </Slur>
               <next>
                 <location>
@@ -3593,11 +4218,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2310692405268</eid>
               <pitch>56</pitch>
               <tpc>10</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2314987372659</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3607,14 +4234,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2319282339860</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2323577307251</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2327872274548</eid>
                 </Slur>
               <next>
                 <location>
@@ -3623,11 +4253,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2332167241748</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2336462209139</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3637,14 +4269,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2340757176340</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2345052143731</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2349347111028</eid>
                 </Slur>
               <next>
                 <location>
@@ -3653,11 +4288,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2353642078228</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2357937045619</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3667,6 +4304,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2362232012820</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
@@ -3676,9 +4314,11 @@
       <Measure>
         <voice>
           <Chord>
+            <eid>2366526980211</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2370821947508</eid>
                 </Slur>
               <next>
                 <location>
@@ -3687,11 +4327,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2375116914708</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2379411882099</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3701,14 +4343,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2383706849300</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2388001816691</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2392296783988</eid>
                 </Slur>
               <next>
                 <location>
@@ -3717,11 +4362,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2396591751188</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2400886718579</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3731,18 +4378,25 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2405181685780</eid>
               <Accidental>
                 <role>1</role>
                 <subtype>accidentalNatural</subtype>
+                <eid>2409476653073</eid>
                 </Accidental>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
+          <Segment>
+            <leadingSpace>0.5</leadingSpace>
+            </Segment>
           <Chord>
+            <eid>2413771620467</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2418066587764</eid>
                 </Slur>
               <next>
                 <location>
@@ -3751,11 +4405,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2422361554964</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2426656522355</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3765,14 +4421,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2430951489556</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2435246456947</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2439541424244</eid>
                 </Slur>
               <next>
                 <location>
@@ -3781,11 +4440,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2443836391444</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2448131358835</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3795,6 +4456,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2452426326036</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               </Note>
@@ -3804,13 +4466,16 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <LayoutBreak>
+          <eid>2456721293392</eid>
           <subtype>line</subtype>
           </LayoutBreak>
         <voice>
           <Chord>
+            <eid>2461016260723</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2465311228020</eid>
                 </Slur>
               <next>
                 <location>
@@ -3819,11 +4484,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2469606195220</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2473901162611</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3833,14 +4500,17 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2478196129812</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2482491097203</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2486786064500</eid>
                 </Slur>
               <next>
                 <location>
@@ -3849,11 +4519,13 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2491081031700</eid>
               <pitch>65</pitch>
               <tpc>13</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2495375999091</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3863,45 +4535,62 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2499670966292</eid>
               <pitch>67</pitch>
               <tpc>15</tpc>
               </Note>
             </Chord>
           <Chord>
+            <eid>2503965933683</eid>
             <durationType>eighth</durationType>
             <Note>
+              <eid>2508260900884</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               </Note>
             </Chord>
           <Rest>
+            <eid>2512555868185</eid>
+            <offset x="1" y="0"/>
             <durationType>eighth</durationType>
             </Rest>
+          <Segment>
+            <leadingSpace>-2</leadingSpace>
+            </Segment>
           </voice>
         </Measure>
       <TBox>
         <height>1</height>
         <topGap>20</topGap>
+        <bottomGap>7.5</bottomGap>
+        <eid>2516850835579</eid>
         <Text>
+          <eid>2521145802758</eid>
           <style>frame</style>
           <size>14</size>
-          <align>center,top</align>
-          <text><font size="14"/>Variations:</text>
+          <text><font size="14"></font>Variations:</text>
           </Text>
         </TBox>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <TimeSig>
+            <eid>2525440770072</eid>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <text>1.</text>
+            <eid>2529735737392</eid>
+            <bold>1</bold>
+            <offset x="0" y="-2"/>
+            <text><b>1.</b></text>
             </StaffText>
           <Chord>
+            <eid>2534030704755</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2538325672052</eid>
                 </Slur>
               <next>
                 <location>
@@ -3910,12 +4599,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2542620639252</eid>
               <pitch>51</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2546915606643</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3925,37 +4616,46 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2551210573844</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2555505541235</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2559800508447</eid>
               </Articulation>
             <Note>
+              <eid>2564095475732</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2568390443123</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2572685410335</eid>
               </Articulation>
             <Note>
+              <eid>2576980377620</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2581275345011</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2585570312308</eid>
                 </Slur>
               <next>
                 <location>
@@ -3964,12 +4664,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2589865279508</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2594160246899</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -3979,28 +4681,35 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2598455214100</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2602750181491</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2607045148703</eid>
               </Articulation>
             <Note>
+              <eid>2611340115988</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2615635083379</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2619930050591</eid>
               </Articulation>
             <Note>
+              <eid>2624225017876</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <small>1</small>
@@ -4009,11 +4718,14 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Chord>
+            <eid>2628519985267</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2632814952564</eid>
                 </Slur>
               <next>
                 <location>
@@ -4022,12 +4734,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2637109919764</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2641404887155</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -4037,87 +4751,112 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2645699854356</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2649994821747</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2654289788959</eid>
               </Articulation>
             <Note>
+              <eid>2658584756244</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2662879723635</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2667174690847</eid>
               </Articulation>
             <Note>
+              <eid>2671469658132</eid>
               <pitch>56</pitch>
               <tpc>10</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2675764625523</eid>
             <durationType>eighth</durationType>
             <Note>
+              <eid>2680059592724</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Rest>
+            <eid>2684354560025</eid>
             <durationType>eighth</durationType>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <eid>2688649527308</eid>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <KeySig>
+            <eid>2692944494614</eid>
             <concertKey>-3</concertKey>
             </KeySig>
           <TimeSig>
+            <eid>2697239461912</eid>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <text>2.</text>
+            <eid>2701534429232</eid>
+            <bold>1</bold>
+            <offset x="0" y="-2"/>
+            <text><b>2.</b></text>
             </StaffText>
           <Chord>
+            <eid>2705829396595</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2710124363807</eid>
               </Articulation>
             <Note>
+              <eid>2714419331092</eid>
               <pitch>51</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2718714298483</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2723009265695</eid>
               </Articulation>
             <Note>
+              <eid>2727304232980</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2731599200371</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2735894167668</eid>
                 </Slur>
               <next>
                 <location>
@@ -4126,12 +4865,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2740189134868</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2744484102259</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -4141,37 +4882,46 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2748779069460</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2753074036851</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2757369004063</eid>
               </Articulation>
             <Note>
+              <eid>2761663971348</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2765958938739</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2770253905951</eid>
               </Articulation>
             <Note>
+              <eid>2774548873236</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2778843840627</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2783138807924</eid>
                 </Slur>
               <next>
                 <location>
@@ -4180,12 +4930,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2787433775124</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2791728742515</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -4195,6 +4947,7 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2796023709716</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <small>1</small>
@@ -4203,33 +4956,42 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Chord>
+            <eid>2800318677107</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2804613644319</eid>
               </Articulation>
             <Note>
+              <eid>2808908611604</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2813203578995</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2817498546207</eid>
               </Articulation>
             <Note>
+              <eid>2821793513492</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2826088480883</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2830383448180</eid>
                 </Slur>
               <next>
                 <location>
@@ -4238,12 +5000,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2834678415380</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2838973382771</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -4253,54 +5017,70 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2843268349972</eid>
               <pitch>56</pitch>
               <tpc>10</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2847563317363</eid>
             <durationType>eighth</durationType>
             <Note>
+              <eid>2851858284564</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Rest>
+            <eid>2856153251865</eid>
             <durationType>eighth</durationType>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <eid>2860448219148</eid>
             </BarLine>
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <KeySig>
+            <eid>2864743186454</eid>
             <concertKey>-3</concertKey>
             </KeySig>
           <TimeSig>
+            <eid>2869038153752</eid>
             <sigN>2</sigN>
             <sigD>4</sigD>
             </TimeSig>
           <StaffText>
-            <text>3.</text>
+            <eid>2873333121072</eid>
+            <bold>1</bold>
+            <offset x="0" y="-2"/>
+            <text><b>3.</b></text>
             </StaffText>
           <Chord>
+            <eid>2877628088435</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2881923055647</eid>
               </Articulation>
             <Note>
+              <eid>2886218022932</eid>
               <pitch>51</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2890512990323</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2894807957620</eid>
                 </Slur>
               <next>
                 <location>
@@ -4309,12 +5089,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2899102924820</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2903397892211</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -4324,37 +5106,46 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2907692859412</eid>
               <pitch>55</pitch>
               <tpc>15</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2911987826803</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2916282794015</eid>
               </Articulation>
             <Note>
+              <eid>2920577761300</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2924872728691</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2929167695903</eid>
               </Articulation>
             <Note>
+              <eid>2933462663188</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2937757630579</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2942052597876</eid>
                 </Slur>
               <next>
                 <location>
@@ -4363,12 +5154,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2946347565076</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2950642532467</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -4378,17 +5171,21 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>2954937499668</eid>
               <pitch>63</pitch>
               <tpc>11</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2959232467059</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2963527434271</eid>
               </Articulation>
             <Note>
+              <eid>2967822401556</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <small>1</small>
@@ -4397,22 +5194,28 @@
           </voice>
         </Measure>
       <Measure>
+        <irregular>1</irregular>
         <voice>
           <Chord>
+            <eid>2972117368947</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>2976412336159</eid>
               </Articulation>
             <Note>
+              <eid>2980707303444</eid>
               <pitch>62</pitch>
               <tpc>16</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2985002270835</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <Slur>
+                <eid>2989297238132</eid>
                 </Slur>
               <next>
                 <location>
@@ -4421,12 +5224,14 @@
                 </next>
               </Spanner>
             <Note>
+              <eid>2993592205332</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>2997887172723</eid>
             <durationType>16th</durationType>
             <Spanner type="Slur">
               <prev>
@@ -4436,35 +5241,43 @@
                 </prev>
               </Spanner>
             <Note>
+              <eid>3002182139924</eid>
               <pitch>60</pitch>
               <tpc>14</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>3006477107315</eid>
             <durationType>16th</durationType>
             <Articulation>
               <subtype>articStaccatoAbove</subtype>
+              <eid>3010772074527</eid>
               </Articulation>
             <Note>
+              <eid>3015067041812</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Chord>
+            <eid>3019362009203</eid>
             <durationType>eighth</durationType>
             <Note>
+              <eid>3023656976404</eid>
               <pitch>58</pitch>
               <tpc>12</tpc>
               <small>1</small>
               </Note>
             </Chord>
           <Rest>
+            <eid>3027951943705</eid>
             <durationType>eighth</durationType>
             </Rest>
           <BarLine>
             <subtype>double</subtype>
+            <eid>3032246910988</eid>
             </BarLine>
           </voice>
         </Measure>
