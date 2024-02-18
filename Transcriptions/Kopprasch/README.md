@@ -1,10 +1,10 @@
 # Georg Kopprasch
 
-Georg Kopprasch (1800-1850) was a German composer and horn player, and the son of composer Wilhem Kopprasch (1750-1832). He is best known for his sets of 60 etudes -  opus 5 for [high horn (cor alto)](https://imslp.org/wiki/60_Etudes_for_High-Horn%2C_Op.5_(Kopprasch%2C_Georg)), and opus 6 for [low horn (cor basse)](https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2C_Georg)). Some publications of these works incorrectly list "C" rather than "G" as a first name abbreviation, including the Carl Fischer edition most familiar to trombonists.
+Georg Kopprasch (1800-1850) was a German composer and horn player, and the son of composer Wilhem Kopprasch (1750-1832). He is best known for his sets of 60 etudes -  opus 5 for [high horn (cor alto)](https://imslp.org/wiki/60_Etudes_for_High-Horn%2C_Op.5_(Kopprasch%2C_Georg)), and opus 6 for [low horn (cor basse)](https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2C_Georg)). Some publications of these works incorrectly list "C" rather than "G" as a first name abbreviation, including the Carl Fischer (arr. Friedrich Gumbert) editions most familiar to trombonists.
 
 ## Opus 6
 
-Of the two sets of 60 studies, opus 6 is by far the more well known and used. The studies are typically used by students at the advanced high school or collegiate levels. Transcriptions for trombone have included a number of modifications, from altered notes/lines to avoid the low trigger range, to removing entire measures. In these transcriptions, we endeavor to include both the original studies as well as the modifications present in the Carl Fischer (public domain) edition. 
+Of the two sets of 60 studies, opus 6 is by far the more well known and used. The studies are typically used by students at the advanced high school or collegiate levels. Transcriptions for trombone have included a number of modifications, from altered notes/lines to avoid the low trigger range, to removing entire measures. In these transcriptions, we endeavor to blend elements of the first edition with modifications present in the later Gumbert arrangements. "First edition" refers to the Breitkopf und Härtel publication dating from 1833. 
 
 ### Errata
 
@@ -12,6 +12,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 * Study #9 in the Gumbert editions for both horn and trombone omit measure #28 from the first edition. Without a compelling reason to carry the omission forward, the measure has been included with this transcription.
 * Study #11 (#13 in the horn editions) in the Gumbert editions for both horn and trombone omit measures 35 and 36 from the 1st edition. In measure 34 of the Gumbert editions, the first two eighth notes were transcribed down a third vs. the same notes in the 1st edition - F and A in the Gumbert horn edition, compared to A and C# in the 1st edition. Here, we combine the editor's dynamic and articulation markings from the Gumbert editions with the missing measures and changed notes from the 1st edition. 
 * Study #13 in the Gumbert trombone edition is #16 in both the Gumbert horn edition and the first edition. 
+* Study #14 in the Gumbert trombone edition is #19 in both the Gumbert horn edition and the first edition. In bar #21, the Gumbert editions add a second repeat terminating at the final bar, which does not exist in the first edition. Various dynamic and articulation markings differ between the Gumbert and first editions.
 
 ### Notes
 
