@@ -2,7 +2,7 @@
 <museScore version="4.20">
   <programVersion>4.2.1</programVersion>
   <programRevision>d757433</programRevision>
-  <LastEID>290</LastEID>
+  <LastEID>318</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -170,6 +170,7 @@
             <subtype>f</subtype>
             <velocity>96</velocity>
             <eid>42949672995</eid>
+            <offset x="0" y="4"/>
             </Dynamic>
           <Chord>
             <eid>47244640371</eid>
@@ -203,6 +204,12 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>64424509556</eid>
+                <SlurSegment no="0">
+                  <o2 x="-0.873338" y="-0.149335"/>
+                  <o3 x="0.798671" y="-0.224003"/>
+                  <o4 x="-0.149335" y="0.298671"/>
+                  <eid>1258425417738</eid>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -215,7 +222,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>68719476768</eid>
-              <offset x="3.56114" y="1.43742"/>
+              <offset x="4.5" y="1.43742"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -298,13 +305,19 @@
           <StaffText>
             <eid>120259084336</eid>
             <minDistance>-999</minDistance>
-            <offset x="2.56138" y="2.28671"/>
+            <offset x="3.75" y="2.28671"/>
             <text>♮</text>
             </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <eid>124554051678</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
+                <eid>1305670058048</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -320,6 +333,11 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>133143986292</eid>
+                <SlurSegment no="0">
+                  <o2 x="-0.5" y="-0.5"/>
+                  <o3 x="0.5" y="-0.5"/>
+                  <eid>1262720385034</eid>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -331,7 +349,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>137438953504</eid>
-              <offset x="3.33038" y="0.44071"/>
+              <offset x="4.5" y="0.34071"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -393,6 +411,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1309965025360</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>176093659251</eid>
@@ -418,6 +440,12 @@
             <HairPin>
               <subtype>1</subtype>
               <eid>193273528414</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
+                <eid>1314259992640</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -433,6 +461,11 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>201863463028</eid>
+                <SlurSegment no="0">
+                  <o2 x="-0.350665" y="-0.201329"/>
+                  <o3 x="0.649335" y="-0.201329"/>
+                  <eid>1267015352330</eid>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -444,7 +477,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>206158430240</eid>
-              <offset x="3.38671" y="0.370544"/>
+              <offset x="4.5" y="0.370544"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -513,10 +546,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>249108103248</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>253403070579</eid>
@@ -532,6 +561,12 @@
             <HairPin>
               <subtype>1</subtype>
               <eid>261993005150</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4.5"/>
+                <off2 x="0" y="0"/>
+                <eid>1318554959936</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -547,6 +582,11 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>270582939764</eid>
+                <SlurSegment no="0">
+                  <o2 x="-0.5" y="0"/>
+                  <o3 x="0.5" y="0"/>
+                  <eid>1288490188810</eid>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -559,7 +599,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>274877906976</eid>
-              <offset x="3.43628" y="0.843182"/>
+              <offset x="5" y="0.843182"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -641,13 +681,19 @@
           <StaffText>
             <eid>326417514544</eid>
             <minDistance>-999</minDistance>
-            <offset x="2.53655" y="0.733576"/>
+            <offset x="4.25" y="0.733576"/>
             <text>♮</text>
             </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <eid>330712481886</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3"/>
+                <off2 x="0" y="0"/>
+                <eid>1322849927232</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -663,6 +709,11 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>339302416500</eid>
+                <SlurSegment no="0">
+                  <o2 x="-0.5" y="0"/>
+                  <o3 x="0.5" y="0"/>
+                  <eid>1365799600138</eid>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -674,7 +725,7 @@
             <Ornament>
               <subtype>ornamentTurn</subtype>
               <eid>343597383712</eid>
-              <offset x="3.10103" y="0.620839"/>
+              <offset x="5" y="0.620839"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -740,6 +791,10 @@
       <Measure>
         <endRepeat>2</endRepeat>
         <stretch>0.9</stretch>
+        <LayoutBreak>
+          <eid>1327144894544</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>382252089459</eid>
@@ -795,13 +850,19 @@
           <StaffText>
             <eid>416611827760</eid>
             <minDistance>-999</minDistance>
-            <offset x="2" y="0.373812"/>
+            <offset x="2.25" y="0.273812"/>
             <text>♯</text>
             </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <eid>420906795102</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
+                <eid>1331439861824</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -817,6 +878,11 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>429496729716</eid>
+                <SlurSegment no="0">
+                  <o2 x="-0.5" y="-0.282226"/>
+                  <o3 x="0.5" y="-0.282226"/>
+                  <eid>1335734829066</eid>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -828,7 +894,7 @@
             <Ornament>
               <subtype>ornamentTurn</subtype>
               <eid>433791696928</eid>
-              <offset x="3.10103" y="0.676627"/>
+              <offset x="3.5" y="0.676627"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -915,13 +981,19 @@
           <StaffText>
             <eid>489626271792</eid>
             <minDistance>-999</minDistance>
-            <offset x="2" y="0.668076"/>
+            <offset x="2.25" y="0.668076"/>
             <text>♮</text>
             </StaffText>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
               <eid>493921239134</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
+                <eid>1340029796416</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -948,7 +1020,7 @@
             <Ornament>
               <subtype>ornamentTurn</subtype>
               <eid>506806140960</eid>
-              <offset x="3.03702" y="0.330156"/>
+              <offset x="3.5" y="0.330156"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1015,10 +1087,6 @@
           </voice>
         </Measure>
       <Measure>
-        <LayoutBreak>
-          <eid>549755813968</eid>
-          <subtype>line</subtype>
-          </LayoutBreak>
         <voice>
           <Chord>
             <eid>554050781299</eid>
@@ -1040,6 +1108,12 @@
             <HairPin>
               <subtype>1</subtype>
               <eid>566935683166</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
+                <eid>1344324763712</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1055,6 +1129,11 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>575525617780</eid>
+                <SlurSegment no="0">
+                  <o2 x="0.0940753" y="-0.376301"/>
+                  <o3 x="0.594075" y="-0.376301"/>
+                  <eid>1348619730954</eid>
+                  </SlurSegment>
                 <up>up</up>
                 </Slur>
               <next>
@@ -1067,7 +1146,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>579820584992</eid>
-              <offset x="3.13604" y="0.921972"/>
+              <offset x="3.5" y="0.821972"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1128,6 +1207,10 @@
           </voice>
         </Measure>
       <Measure>
+        <LayoutBreak>
+          <eid>1352914698320</eid>
+          <subtype>line</subtype>
+          </LayoutBreak>
         <voice>
           <Chord>
             <eid>618475290739</eid>
@@ -1149,6 +1232,12 @@
             <HairPin>
               <subtype>1</subtype>
               <eid>631360192606</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="4"/>
+                <off2 x="0" y="0"/>
+                <eid>1357209665600</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1164,6 +1253,11 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>639950127220</eid>
+                <SlurSegment no="0">
+                  <o2 x="0.0746676" y="-0.522673"/>
+                  <o3 x="0.746676" y="-0.298671"/>
+                  <eid>1297080123402</eid>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1175,7 +1269,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>644245094432</eid>
-              <offset x="3.06137" y="0.61934"/>
+              <offset x="3.5" y="0.41934"/>
               </Ornament>
             <StemDirection>down</StemDirection>
             <Note>
@@ -1243,7 +1337,7 @@
           <StaffText>
             <eid>682899800112</eid>
             <minDistance>-999</minDistance>
-            <offset x="8.0641" y="2.21071"/>
+            <offset x="10.25" y="2.21071"/>
             <text>♮</text>
             </StaffText>
           <Chord>
@@ -1265,6 +1359,12 @@
             <HairPin>
               <subtype>1</subtype>
               <eid>700079669342</eid>
+              <Segment>
+                <subtype>0</subtype>
+                <offset x="0" y="3.5"/>
+                <off2 x="0" y="0"/>
+                <eid>1361504632896</eid>
+                </Segment>
               </HairPin>
             <next>
               <location>
@@ -1280,6 +1380,12 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>708669603956</eid>
+                <SlurSegment no="0">
+                  <o2 x="-0.350665" y="-0.948006"/>
+                  <o3 x="0.948006" y="-0.724003"/>
+                  <o4 x="0" y="-0.2"/>
+                  <eid>1301375090698</eid>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1291,7 +1397,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>712964571168</eid>
-              <offset x="3.06137" y="0.528615"/>
+              <offset x="3.75" y="0.328615"/>
               </Ornament>
             <Note>
               <eid>717259538452</eid>
@@ -1383,6 +1489,12 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>773094113396</eid>
+                <SlurSegment no="0">
+                  <o2 x="-0.5" y="-0.5"/>
+                  <o3 x="0.5" y="-0.5"/>
+                  <eid>1284195221514</eid>
+                  <offset x="0" y="-0.5"/>
+                  </SlurSegment>
                 </Slur>
               <next>
                 <location>
@@ -1394,7 +1506,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>777389080608</eid>
-              <offset x="3.13604" y="1.61302"/>
+              <offset x="3.75" y="1.51302"/>
               </Ornament>
             <Note>
               <eid>781684047892</eid>
@@ -1445,7 +1557,7 @@
           <StaffText>
             <eid>811748818992</eid>
             <minDistance>-999</minDistance>
-            <offset x="7.8401" y="4.0774"/>
+            <offset x="10.25" y="4.1774"/>
             <text>♮</text>
             </StaffText>
           <Chord>
@@ -1471,7 +1583,7 @@
             <Spanner type="Slur">
               <Slur>
                 <eid>833223655540</eid>
-                <up>up</up>
+                <up>down</up>
                 </Slur>
               <next>
                 <location>
@@ -1483,7 +1595,7 @@
               <subtype>ornamentTurn</subtype>
               <minDistance>-999</minDistance>
               <eid>837518622752</eid>
-              <offset x="2.91204" y="2.93737"/>
+              <offset x="3.75" y="2.93737"/>
               </Ornament>
             <Note>
               <eid>841813590036</eid>
@@ -1605,7 +1717,7 @@
           <eid>919123001350</eid>
           <style>frame</style>
           <size>14</size>
-          <text><font size="14"></font>Gruppetto / Turn Execution</text>
+          <text><font size="14"></font>Gruppetto (Turn)</text>
           </Text>
         </TBox>
       <Measure>
@@ -1652,6 +1764,12 @@
             <sigN>3</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <StaffText>
+            <eid>1249835483184</eid>
+            <autoplace>0</autoplace>
+            <offset x="-20" y="2.5"/>
+            <text>Written:</text>
+            </StaffText>
           <Chord>
             <eid>953482739827</eid>
             <offset x="1" y="0"/>
@@ -1971,6 +2089,12 @@
             <sigN>3</sigN>
             <sigD>2</sigD>
             </TimeSig>
+          <StaffText>
+            <eid>1254130450480</eid>
+            <autoplace>0</autoplace>
+            <offset x="-20" y="2.5"/>
+            <text>Played:</text>
+            </StaffText>
           <Chord>
             <eid>1133871366259</eid>
             <offset x="1" y="0"/>
