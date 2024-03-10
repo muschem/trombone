@@ -15,6 +15,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 * Study #14 in the Gumbert trombone edition is #19 in both the Gumbert horn edition and the first edition. In bar #21, the Gumbert editions add a second repeat terminating at the final bar, which does not exist in the first edition. Various dynamic and articulation markings differ between the Gumbert and first editions.
 * Study #16 in the Gumbert trommbone edition is #14 in both the Gumbert horn edition and the first edition. Throughout the Gumbert arrangements, the tuplets with leading grace notes are marked with contrasting articulations of three staccato notes vs. the slur-two, staccato-one pattern for the non-ornamented tuplets. This differs from the first edition, where the ornamented tuplets retain articulation patterns consistent with the non-ornamented tuplets. In the trombone edition, the tuplet pickup to bar 17 omits a grace note, which is present in both the Gumbert horn and first editions. Measure 25 appears twice in the Gumbert editions, while only once in the 1st edition. 
 * Study #17 in the Gumbert trombone edition is #24 in both the Gumbert horn edition and the first edition. 
+* Study #19 in the Gumbert trombone edition is #22 in both the Gumbert horn edition and the first edition. The trombone edition expands (explicitly writes out) the turns and omits the trills compared to the horn editions. Bar 12 in the trombone edition is missing a sharp for the first note of the measure. 
 
 ### Notes
 
