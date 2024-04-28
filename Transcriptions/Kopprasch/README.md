@@ -19,6 +19,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 * Study #20 in the Gumbert trombone edition is #17 in both the Gumbert horn edition and the first edition. In bar 8, the Gumbert editions swap the 2nd and 3rd eighth notes in the first tuplet compared to the straight descending arpeggio in the first edition. 
 * Study #21 in the Gumbert trombone edition is #20 in both the Gumbert horn edition and the first edition.
 * Study #22 in the Gumbert trombone edition is #27 in both the Gumbert horn edition and the first edition. In bar 23 (third measure of the second section after the 1st/2nd endings), the 1st edition has articulation markings reversed as compared to the Gumbert editions - that is, in the first edition, the pattern is marked two staccato + two slur, vs. two slur + two staccato. At first glance, the 1st edition marking may seem less consistent without the context of the following measures, which also reverse an earlier articulation pattern (slur 3 + staccato 1 becomes staccato 1 + slur 3). 
+* Study #23 in the Gumbert trombone edition is #31 in both the Gumbert horn edition and the first edition. Measure 14 from the 1st edition is omitted in the Gumbert editions. The Gumbert editions also contain an extra 5 bars (measure 45 through 49), which do not exist in the original edition. The Gumbert editions change the original articulation in the next-to-last bar from groups of slur 2 + staccato 2 to slur 4. 
 
 ### Notes
 
