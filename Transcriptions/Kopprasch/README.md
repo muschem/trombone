@@ -23,6 +23,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 * Study #24 in the Gumbert trombone edition is #30 in both the Gumbert horn edition and the first edition. Articulation patterns vary throughout both Gumbert editions as compared to the 1st edition. In bar 5, the last triplet is comprised of descending 3rds in the 1st edition, whereas the same figure in the Gumbert edition descends by steps. This difference repeats in bar 26. The last triplet in the bar 27 ascends step-wise in the 1st edition, compared to a descending figure in the Gumbert editions. 
 * Study #25 in the Gumbert trombone edition is #23 in both the Gumbert horn edition and the first edition. Both Gumbert editions omit measure 12 from the 1st edition, and begin the following measure a whole-step lower than the 1st edition. 
 * Study #26 in the Gumbert trombone edition is #28 in both the Gumbert horn edition and the first edition.
+* Study #27 in the Gumbert trombone edition is #21 in both the Gumbert horn edition and the first edition. In the 1st edition, both sections are repeated, while in the Gumbert editions, only the first section is marked with a repeat. 
 
 ### Notes
 
