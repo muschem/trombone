@@ -2,7 +2,7 @@
 <museScore version="4.30">
   <programVersion>4.3.2</programVersion>
   <programRevision>22b46f2</programRevision>
-  <LastEID>561</LastEID>
+  <LastEID>558</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -106,7 +106,7 @@
           <eid>8589934598</eid>
           <style>composer</style>
           <bold>0</bold>
-          <offset x="-0.824382" y="-4.70339"/>
+          <offset x="-0.824382" y="-4.5"/>
           <text><b>Georg Kopprasch
 </b>(1800 - 1850) </text>
           </Text>
@@ -115,7 +115,6 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <offset x="0" y="-0.35052"/>
           <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
