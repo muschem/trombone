@@ -21,6 +21,7 @@
     <metaTag name="mscVersion">4.30</metaTag>
     <metaTag name="platform"></metaTag>
     <metaTag name="source">IMSLP12700, IMSLP283787-PMLP460734</metaTag>
+    <metaTag name="sourceRevisionId"></metaTag>
     <metaTag name="subtitle"></metaTag>
     <metaTag name="translator"></metaTag>
     <metaTag name="workNumber">Opus 6</metaTag>
@@ -105,7 +106,7 @@
           <eid>8589934598</eid>
           <style>composer</style>
           <bold>0</bold>
-          <offset x="-0.824382" y="-4.70339"/>
+          <offset x="-0.824382" y="-4.5"/>
           <text><b>Georg Kopprasch
 </b>(1800 - 1850) </text>
           </Text>
@@ -114,7 +115,6 @@
           <style>composer</style>
           <size>10</size>
           <bold>0</bold>
-          <offset x="0" y="-0.35052"/>
           <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
@@ -2862,24 +2862,6 @@
               <small>1</small>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <HairPin>
-              <subtype>2</subtype>
-              <eid>5123895984223</eid>
-              <Segment>
-                <subtype>0</subtype>
-                <offset x="0" y="4"/>
-                <off2 x="-0.680235" y="0"/>
-                <eid>5128190951489</eid>
-                </Segment>
-              </HairPin>
-            <next>
-              <location>
-                <measures>2</measures>
-                <fractions>-1/4</fractions>
-                </location>
-              </next>
-            </Spanner>
           <Chord>
             <eid>4677219385460</eid>
             <dots>1</dots>
@@ -3071,14 +3053,6 @@
             <eid>5085241278500</eid>
             <offset x="0" y="3.5"/>
             </Dynamic>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <measures>-2</measures>
-                <fractions>1/4</fractions>
-                </location>
-              </prev>
-            </Spanner>
           <Beam>
             <eid>5111011082278</eid>
             <Fragment>
