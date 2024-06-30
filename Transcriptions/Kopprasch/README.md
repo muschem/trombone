@@ -34,13 +34,14 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 | 22       | 19            |
 | 23       | 25            |
 | 24       | 17            |
-| 25       |               |
+| 25       | 28            |
 | 26       |               |
 | 27       | 22            |
 | 28       | 26            |
 | 29       |               |
 | 30       | 24            |
 | 31       | 23            |
+| 32       | 29            |
 
 
 ### Errata
@@ -56,6 +57,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 * Study #24 (#30 in the horn editions): Articulation patterns vary throughout both Gumbert editions as compared to the 1st edition. In bar #5, the last triplet is comprised of descending 3rds in the 1st edition, whereas the same figure in the Gumbert edition descends by steps. This difference repeats in bar #26. The last triplet in the bar #27 ascends step-wise in the 1st edition, compared to a descending figure in the Gumbert editions. 
 * Study #25 (#23 in the horn editions): Both Gumbert editions omit measure #12 from the 1st edition, and begin the following measure a whole-step lower than the 1st edition. 
 * Study #27 (#21 in the horn editions): In the 1st edition, both sections are repeated, while in the Gumbert editions, only the first section is marked with a repeat. 
+* Study #29 (#32 in the horn editions): The Gumbert editions expand this study significantly to 62 measures, compared to the 1st edition, which has only 34 measures. 
 
 ### Notes
 
