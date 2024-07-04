@@ -38,7 +38,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 | 26       |               |
 | 27       | 22            |
 | 28       | 26            |
-| 29       |               |
+| 29       | 30            |
 | 30       | 24            |
 | 31       | 23            |
 | 32       | 29            |
@@ -58,6 +58,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 * Study #25 (#23 in the horn editions): Both Gumbert editions omit measure #12 from the 1st edition, and begin the following measure a whole-step lower than the 1st edition. 
 * Study #27 (#21 in the horn editions): In the 1st edition, both sections are repeated, while in the Gumbert editions, only the first section is marked with a repeat. 
 * Study #29 (#32 in the horn editions): The Gumbert editions expand this study significantly to 62 measures, compared to the 1st edition, which has only 34 measures. 
+* Study #30 (#29 in the horn editions): The Gumbert trombone edition writes out the repeats in the section following Fine. 
 
 ### Notes
 
