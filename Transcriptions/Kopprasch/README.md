@@ -35,7 +35,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 | 23       | 25            |
 | 24       | 17            |
 | 25       | 28            |
-| 26       |               |
+| 26       | 31            |
 | 27       | 22            |
 | 28       | 26            |
 | 29       | 30            |
