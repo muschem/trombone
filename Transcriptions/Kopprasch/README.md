@@ -42,6 +42,7 @@ Of the two sets of 60 studies, opus 6 is by far the more well known and used. Th
 | 30       | 24            |
 | 31       | 23            |
 | 32       | 29            |
+| 33       | 32            |
 
 
 ### Errata
