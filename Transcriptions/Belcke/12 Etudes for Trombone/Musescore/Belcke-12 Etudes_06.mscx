@@ -2,7 +2,7 @@
 <museScore version="4.30">
   <programVersion>4.3.2</programVersion>
   <programRevision>22b46f2</programRevision>
-  <LastEID>11097</LastEID>
+  <LastEID>11098</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -2852,15 +2852,6 @@
           <Rest>
             <eid>47175920779290</eid>
             <durationType>quarter</durationType>
-            </Rest>
-          </voice>
-        </Measure>
-      <Measure>
-        <voice>
-          <Rest>
-            <eid>47665547051034</eid>
-            <durationType>measure</durationType>
-            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
