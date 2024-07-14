@@ -119,8 +119,7 @@
         <Text>
           <eid>17179869190</eid>
           <style>title</style>
-          <bold>1</bold>
-          <text><b>12 Études</b></text>
+          <text><b>12 Études</b>,<b> </b>Op. 43</text>
           </Text>
         <Text>
           <eid>21474836486</eid>
@@ -2853,6 +2852,15 @@
           <Rest>
             <eid>47175920779290</eid>
             <durationType>quarter</durationType>
+            </Rest>
+          </voice>
+        </Measure>
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>47665547051034</eid>
+            <durationType>measure</durationType>
+            <duration>3/4</duration>
             </Rest>
           </voice>
         </Measure>
