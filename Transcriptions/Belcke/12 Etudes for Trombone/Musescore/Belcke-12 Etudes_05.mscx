@@ -2,7 +2,7 @@
 <museScore version="4.30">
   <programVersion>4.3.2</programVersion>
   <programRevision>22b46f2</programRevision>
-  <LastEID>10589</LastEID>
+  <LastEID>10590</LastEID>
   <Score>
     <Division>480</Division>
     <showInvisible>1</showInvisible>
@@ -118,17 +118,16 @@
           <text><b></b><font size="10"></font>Transcribed by Michael Shirley</text>
           </Text>
         <Text>
-          <eid>17179869190</eid>
-          <style>title</style>
-          <bold>1</bold>
-          <text><b>12 Études</b></text>
-          </Text>
-        <Text>
           <eid>21474836486</eid>
           <style>frame</style>
           <bold>0</bold>
           <offset x="0" y="14"/>
           <text><b></b>№ 5</text>
+          </Text>
+        <Text>
+          <eid>45483703664646</eid>
+          <style>title</style>
+          <text><b>12 Études</b>,<b></b>Op. 43</text>
           </Text>
         </VBox>
       <Measure>
